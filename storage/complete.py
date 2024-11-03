@@ -6,7 +6,7 @@ from create import Create
 from datetime import datetime 
 import uuid 
 
-DATABASE_URL = 'mysql+pymysql://root:Sandwich$2021@localhost:3306/events'  
+DATABASE_URL = 'mysql+pymysql://suser:passpass@localhost:3306/events'  
 engine = create_engine(DATABASE_URL)
 Session = sessionmaker(bind=engine)
 

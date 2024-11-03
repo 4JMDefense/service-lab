@@ -1,6 +1,6 @@
 import mysql.connector
 
-
+# Connect as root to manage the database and users
 db_conn = mysql.connector.connect(
     host="localhost",
     user="root",
@@ -10,7 +10,25 @@ db_conn = mysql.connector.connect(
 
 db_cursor = db_conn.cursor()
 
+# Create the new user and grant privileges
+try:
+    db_cursor.execute("CREATE USER IF NOT EXISTS 'suser'@'%' IDENTIFIED BY 'passpass';")
+    db_cursor.execute("GRANT ALL PRIVILEGES ON storage.* TO 'suser'@'%';")
+    db_cursor.execute("FLUSH PRIVILEGES;")  # Refresh privileges to ensure they take effect
+    print("User 'suser' created with full privileges on 'storage' database.")
+except mysql.connector.Error as err:
+    print(f"Error creating user: {err}")
 
+
+db_conn = mysql.connector.connect(
+    host="localhost",
+    user="suser",
+    password="passpass",  
+    database="storage",           
+    port=3306
+)
+
+# Create the tasks table
 db_cursor.execute(''' 
     CREATE TABLE IF NOT EXISTS tasks (
         id INT NOT NULL AUTO_INCREMENT, 
@@ -25,7 +43,7 @@ db_cursor.execute('''
     )
 ''')
 
-
+# Create the completed_tasks table
 db_cursor.execute(''' 
     CREATE TABLE IF NOT EXISTS completed_tasks (
         id INT NOT NULL AUTO_INCREMENT, 

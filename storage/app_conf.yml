@@ -1,8 +1,8 @@
 version: 1
 
 datastore:
-  user: root
-  password: Sandwich$2021
+  user: suser
+  password: passpass
   hostname: localhost
   port: 3306
   db: storage
