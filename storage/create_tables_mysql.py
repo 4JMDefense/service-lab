@@ -2,7 +2,7 @@ import mysql.connector
 
 # Connect as root to manage the database and users
 db_conn = mysql.connector.connect(
-    host="localhost",
+    host="ec2-54-71-130-207.us-west-2.compute.amazonaws.com",
     user="root",
     password="Sandwich$2021",  
     database="storage"           

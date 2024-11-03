@@ -3,7 +3,7 @@ version: 1
 datastore:
   user: suser
   password: passpass
-  hostname: localhost
+  hostname: ec2-54-71-130-207.us-west-2.compute.amazonaws.com
   port: 3306
   db: storage
 
