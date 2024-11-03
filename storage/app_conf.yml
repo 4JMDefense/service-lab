@@ -1,0 +1,13 @@
+version: 1
+
+datastore:
+  user: root
+  password: Sandwich$2021
+  hostname: localhost
+  port: 3306
+  db: storage
+
+eventstore1:
+  url: http://localhost:8090/create
+eventstore2:
+  url: http://localhost:8090/complete

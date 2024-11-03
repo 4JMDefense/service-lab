@@ -1,0 +1,126 @@
+openapi: 3.0.0
+info:
+  version: "1.0.0"
+  title: 'Calendar Task Manager'
+  description: Calendar task creation, viewing, and completion
+  contact:
+    email: mmulder10@bcit.ca
+paths:
+  /tasks:
+    get:
+      description: Returns a list of tasks 
+      operationId: app.tasks
+      parameters:
+        - name: start_timestamp
+          in: query
+          required: false
+          description: Start timestamp for filtering tasks 
+          schema:
+            type: string
+            format: date-time
+        - name: end_timestamp
+          in: query
+          required: false
+          description: End timestamp for filtering tasks 
+          schema:
+            type: string
+            format: date-time
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    task_name:
+                      type: string
+                    due_date:
+                      type: string
+                      format: date-time
+                    task_description:
+                      type: string
+                    task_difficulty:
+                      type: integer
+                    uuid:
+                      type: string
+        '400':
+          description: Tasks not found
+
+  /completed_tasks:
+    get:
+      description: Returns a list of completed tasks 
+      operationId: app.completed_tasks
+      parameters:
+        - name: start_timestamp
+          in: query
+          required: false
+          description: Start timestamp for filtering completed tasks 
+          schema:
+            type: string
+            format: date-time
+        - name: end_timestamp
+          in: query
+          required: false
+          description: End timestamp for filtering completed tasks
+          schema:
+            type: string
+            format: date-time
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    task_name:
+                      type: string
+                    completed_by:
+                      type: string
+                    uuid:
+                      type: string
+        '400':
+          description: Tasks not found
+
+
+  /stats:
+    get:
+      summary: Gets the task statistics
+      operationId: app.get_stats
+      description: Retrieves statistics related to tasks
+      responses:
+        '200':
+          description: Successfully returned task statistics
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  num_tasks:
+                    type: integer
+                    example: 100
+                  completed_tasks:
+                    type: integer
+                    example: 75
+                  max_task_difficulty:
+                    type: integer
+                    example: 3
+                  avg_task_difficulty:
+                    type: number
+                    format: float
+                    example: 2.5
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Invalid request"

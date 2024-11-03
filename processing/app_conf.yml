@@ -1,0 +1,16 @@
+version: 1
+
+datastore:
+  user: root
+  password: Sandwich$2021
+  hostname: localhost
+  port: 3306
+  db: storage
+  filename: ./data.json  
+
+scheduler:
+  period_sec: 5
+
+eventstore:
+  url: localhost:8090
+

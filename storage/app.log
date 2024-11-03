@@ -1,0 +1,1972 @@
+2024-10-03 10:40:43,620 - basicLogger - INFO - Task created with trace ID: 3fa85f64-5717-4562-b3fc-2c963f66afa6
+2024-10-03 11:02:44,584 - basicLogger - INFO - Task created with trace ID: 833e2ef8-192d-4c2f-9286-8981ab8be090
+2024-10-03 11:06:44,900 - basicLogger - INFO - Task created with trace ID: c9962983-1d81-4256-b94f-21b60310b527
+2024-10-03 11:06:44,974 - basicLogger - INFO - Task created with trace ID: df9358fe-f67b-4e42-b2d1-0994bb364e35
+2024-10-03 11:06:45,103 - basicLogger - INFO - Task created with trace ID: b724b4b3-aada-42a7-bcc9-704da37a74cf
+2024-10-03 11:06:45,195 - basicLogger - INFO - Task created with trace ID: df4fbdcd-96e8-4789-a371-368c89cdbf93
+2024-10-03 11:06:45,322 - basicLogger - INFO - Task created with trace ID: e5c8d444-9563-4418-98dd-51a4b76036b6
+2024-10-03 11:06:45,400 - basicLogger - INFO - Task created with trace ID: 8ca9b8f8-bf64-42a9-af3f-f8675f832e87
+2024-10-03 11:06:45,478 - basicLogger - INFO - Task created with trace ID: 2d48995d-7d2e-489a-8997-146769a1674d
+2024-10-03 11:06:45,593 - basicLogger - INFO - Task created with trace ID: 4e6d706c-53e8-47dd-aebe-56ae9b0f5326
+2024-10-03 11:06:45,681 - basicLogger - INFO - Task created with trace ID: 8ffb1484-8194-48e1-8ab7-48e1a856c985
+2024-10-03 11:06:45,791 - basicLogger - INFO - Task created with trace ID: 981897a8-9dff-4dbc-9ce4-6f1d8f3fde27
+2024-10-03 11:06:46,917 - basicLogger - INFO - Task completed with trace ID: 6d15ac59-8e22-4118-a6c9-2105c8716f1f
+2024-10-03 11:06:47,003 - basicLogger - INFO - Task completed with trace ID: dc5b2bd4-cf98-48c8-9fa8-5aa598ee5e33
+2024-10-03 11:06:47,135 - basicLogger - INFO - Task completed with trace ID: 39923879-5d15-4bd0-81e3-d5be2df9e747
+2024-10-03 11:06:47,238 - basicLogger - INFO - Task completed with trace ID: 5dc05ce4-201b-4de6-a1fd-345c89cf15a1
+2024-10-03 11:06:47,366 - basicLogger - INFO - Task completed with trace ID: add04906-a136-4a4f-8f90-3a86c19d17a7
+2024-10-03 11:06:47,426 - basicLogger - INFO - Task completed with trace ID: 2edf3c93-4beb-41a1-8dc2-cbc5cdc2bce7
+2024-10-03 11:06:47,505 - basicLogger - INFO - Task completed with trace ID: e24aa386-d699-4b6d-b309-22ac4c3706bc
+2024-10-03 11:06:47,644 - basicLogger - INFO - Task completed with trace ID: 4d45cd4b-3223-48cf-88f0-dec4ff4917c9
+2024-10-03 11:06:47,708 - basicLogger - INFO - Task completed with trace ID: df3909fc-3cba-4a98-b8b4-321491d619c9
+2024-10-03 11:06:47,834 - basicLogger - INFO - Task completed with trace ID: 50989f53-ba30-45a2-820c-c29ff9b6a41c
+2024-10-03 11:06:48,973 - basicLogger - INFO - Task created with trace ID: 06feb722-6e9f-4b55-a54d-2edb33079547
+2024-10-03 11:06:49,051 - basicLogger - INFO - Task created with trace ID: a3b4ad1a-b59f-421c-b150-637c4bf6e1d7
+2024-10-03 11:06:49,191 - basicLogger - INFO - Task created with trace ID: 7ca8c1c9-b187-45b9-bc5b-23a5a850cf71
+2024-10-03 11:06:49,284 - basicLogger - INFO - Task created with trace ID: 0945a1c9-e558-4ba3-95f1-73342d50b43f
+2024-10-03 11:06:49,410 - basicLogger - INFO - Task created with trace ID: 14981e8b-a6ed-4932-82ac-f7b5a6ded03c
+2024-10-03 11:06:49,471 - basicLogger - INFO - Task created with trace ID: 269b662b-7d76-401b-a84e-50eb9fda787f
+2024-10-03 11:06:49,565 - basicLogger - INFO - Task created with trace ID: c49b98b1-131c-4d73-99bd-07d7a370cc28
+2024-10-03 11:06:49,690 - basicLogger - INFO - Task created with trace ID: 84e2036a-8152-4973-a07a-23254f9a919c
+2024-10-03 11:06:49,766 - basicLogger - INFO - Task created with trace ID: dae69c69-5228-44cd-b546-660f50a1cc26
+2024-10-03 11:06:49,896 - basicLogger - INFO - Task created with trace ID: d9829b1b-3553-4a5a-94b4-8c9a92e44b16
+2024-10-03 11:06:51,032 - basicLogger - INFO - Task completed with trace ID: b866c253-181c-4f17-bf8f-2bf39168319c
+2024-10-03 11:06:51,110 - basicLogger - INFO - Task completed with trace ID: 3538c3d3-355e-4d78-8c66-64744cc9ba84
+2024-10-03 11:06:51,235 - basicLogger - INFO - Task completed with trace ID: 9d763132-cef7-47ff-85ad-474bb629754f
+2024-10-03 11:06:51,329 - basicLogger - INFO - Task completed with trace ID: c46d875d-1ace-4d72-854f-2aeecb80d19c
+2024-10-03 11:06:51,474 - basicLogger - INFO - Task completed with trace ID: e8b99db4-7a4b-43ea-ae6e-1a526f3eb2c4
+2024-10-03 11:06:51,531 - basicLogger - INFO - Task completed with trace ID: 7918d7cc-3fc3-415c-bf4a-cb9cab801dd3
+2024-10-03 11:06:51,622 - basicLogger - INFO - Task completed with trace ID: 0698fb81-3524-4e8c-9712-a52ad3cdf2f5
+2024-10-03 11:06:51,751 - basicLogger - INFO - Task completed with trace ID: 042d08b3-bd23-43ca-9458-6f0fe4b640b4
+2024-10-03 11:06:51,827 - basicLogger - INFO - Task completed with trace ID: d2475944-b3d3-4432-9b34-bd56855d57ba
+2024-10-03 11:06:51,967 - basicLogger - INFO - Task completed with trace ID: 6b8e59f9-a9ba-4160-ab7b-affd1b0c6fd4
+2024-10-03 11:06:53,096 - basicLogger - INFO - Task created with trace ID: 4b6c526d-e99e-4c8b-ada1-6edf2a925541
+2024-10-03 11:06:53,155 - basicLogger - INFO - Task created with trace ID: 67aaf8f9-a94b-4ccc-b92e-119e61bbc83e
+2024-10-03 11:06:53,297 - basicLogger - INFO - Task created with trace ID: b3e74bc0-48e0-40d2-bf25-3287dad8a51b
+2024-10-03 11:06:53,374 - basicLogger - INFO - Task created with trace ID: c2540f81-b3cb-4c50-ba82-7f73b3773e3e
+2024-10-03 11:06:53,510 - basicLogger - INFO - Task created with trace ID: 005d94b0-541d-4448-88a3-48b25bc5d0ec
+2024-10-03 11:06:53,561 - basicLogger - INFO - Task created with trace ID: 1b322270-3a0c-4e7f-8b25-b9cd41e2c01e
+2024-10-03 11:06:53,672 - basicLogger - INFO - Task created with trace ID: 3759371f-a711-4fb0-8e1e-9ce795f6b0b5
+2024-10-03 11:06:53,794 - basicLogger - INFO - Task created with trace ID: 40f465de-7686-4181-af70-e1b23cbbafc3
+2024-10-03 11:06:53,881 - basicLogger - INFO - Task created with trace ID: bcf0dd22-6ebe-4a52-b012-4a1acc090fb4
+2024-10-03 11:06:54,001 - basicLogger - INFO - Task created with trace ID: e6e3f78a-7368-4de0-8fdb-17d91dd2314a
+2024-10-03 11:06:55,157 - basicLogger - INFO - Task completed with trace ID: 2b64d337-6836-41fd-b714-eaa6671c52dc
+2024-10-03 11:06:55,209 - basicLogger - INFO - Task completed with trace ID: ec00fdd5-3b3f-41bf-a864-53eff8bf0f3d
+2024-10-03 11:06:55,350 - basicLogger - INFO - Task completed with trace ID: 7c61b7ed-ecc4-4748-b971-554281196075
+2024-10-03 11:06:55,413 - basicLogger - INFO - Task completed with trace ID: ab203cbf-8c5a-437f-b9bd-e45bb94cd753
+2024-10-03 11:06:55,568 - basicLogger - INFO - Task completed with trace ID: a3ec1c2a-ab89-4ab8-a814-c1310b3aa10d
+2024-10-03 11:06:55,602 - basicLogger - INFO - Task completed with trace ID: 292df5e6-868e-4589-81ba-68bbe8cc040d
+2024-10-03 11:06:55,712 - basicLogger - INFO - Task completed with trace ID: 4f9312d5-a59b-4f37-a1ed-71b9d503b64c
+2024-10-03 11:06:55,850 - basicLogger - INFO - Task completed with trace ID: 034cbb09-885c-460d-9740-f28c6688e6cd
+2024-10-03 11:06:55,941 - basicLogger - INFO - Task completed with trace ID: baecbb82-2f47-493e-b8cf-a90f514437a4
+2024-10-03 11:06:56,037 - basicLogger - INFO - Task completed with trace ID: d4e4e7a5-d5f5-4091-9093-df6cde2f5cd8
+2024-10-03 11:06:57,222 - basicLogger - INFO - Task created with trace ID: 9e339a8a-0428-487d-a81a-0f5fd01671a5
+2024-10-03 11:06:57,251 - basicLogger - INFO - Task created with trace ID: 29baae76-025b-4de5-b946-880aa382738d
+2024-10-03 11:06:57,374 - basicLogger - INFO - Task created with trace ID: 85c424f4-0ce8-42db-b9b8-8dbed6265cdb
+2024-10-03 11:06:57,456 - basicLogger - INFO - Task created with trace ID: e285dc69-d4f4-495c-9c2b-df26f36c1979
+2024-10-03 11:06:57,603 - basicLogger - INFO - Task created with trace ID: e826d3b2-5270-4415-9dc7-5cbc502f35c1
+2024-10-03 11:06:57,637 - basicLogger - INFO - Task created with trace ID: 1da1cc4b-d707-46b0-8ac4-a3b34c6aa64c
+2024-10-03 11:06:57,747 - basicLogger - INFO - Task created with trace ID: 6e5f4da1-e135-4856-abab-6666be27bd21
+2024-10-03 11:06:57,884 - basicLogger - INFO - Task created with trace ID: 5d8e8603-115f-4854-ab80-7453c4583a6f
+2024-10-03 11:06:57,971 - basicLogger - INFO - Task created with trace ID: 8cbe1593-c375-4c71-bf36-733d1f08eac5
+2024-10-03 11:06:58,061 - basicLogger - INFO - Task created with trace ID: 7f328508-3d9b-4648-ba4f-39e1e368ffe4
+2024-10-03 11:06:59,263 - basicLogger - INFO - Task completed with trace ID: d7c4cbfe-8e0b-41f5-b83f-71508f36c700
+2024-10-03 11:06:59,295 - basicLogger - INFO - Task completed with trace ID: 8a497e0b-93eb-4a07-ac11-03217a46bf5f
+2024-10-03 11:06:59,439 - basicLogger - INFO - Task completed with trace ID: 7c1a1b18-0743-41f6-bda5-415c11bc27ed
+2024-10-03 11:06:59,494 - basicLogger - INFO - Task completed with trace ID: 550d24d7-16b8-474c-adc7-81f04a90a99c
+2024-10-03 11:06:59,659 - basicLogger - INFO - Task completed with trace ID: 649a123c-8cd1-496e-aafb-2751cfa65735
+2024-10-03 11:06:59,680 - basicLogger - INFO - Task completed with trace ID: 8351fa05-4f07-4ca5-a804-c7d52d0781d2
+2024-10-03 11:06:59,805 - basicLogger - INFO - Task completed with trace ID: c396be03-8e19-4d9a-9fda-6b766910b3bd
+2024-10-03 11:06:59,945 - basicLogger - INFO - Task completed with trace ID: f0c5cb7e-0074-45ea-b6a8-88b5a64d1942
+2024-10-03 11:07:00,024 - basicLogger - INFO - Task completed with trace ID: cbb0a53a-c6db-4188-b7df-8702fbbe7f4d
+2024-10-03 11:07:00,115 - basicLogger - INFO - Task completed with trace ID: 3dca4868-5e26-469e-a82c-d8d05305ef7b
+2024-10-03 11:07:01,332 - basicLogger - INFO - Task created with trace ID: fad56f59-8ac9-45de-aa84-fd7fc9e36e63
+2024-10-03 11:07:01,349 - basicLogger - INFO - Task created with trace ID: cdce2bee-a496-41fb-b3af-c134c79c32d2
+2024-10-03 11:07:01,486 - basicLogger - INFO - Task created with trace ID: e2eb500a-e416-41e3-8bff-ecb23c1a1c9e
+2024-10-03 11:07:01,548 - basicLogger - INFO - Task created with trace ID: 050e1280-c08e-4867-987f-1893684fc879
+2024-10-03 11:07:01,720 - basicLogger - INFO - Task created with trace ID: 3144f441-0a60-4075-a23e-27a2ee4f864f
+2024-10-03 11:07:01,736 - basicLogger - INFO - Task created with trace ID: 90a87496-01c4-4aac-87fb-00c4b24bcb49
+2024-10-03 11:07:01,863 - basicLogger - INFO - Task created with trace ID: 9fac05db-2e1f-4e95-876c-7435a6be45d4
+2024-10-03 11:07:02,002 - basicLogger - INFO - Task created with trace ID: b0847870-07a6-4cf6-beb2-b3a90516d48e
+2024-10-03 11:07:02,081 - basicLogger - INFO - Task created with trace ID: ea2719c4-bc20-4b17-a867-f5577f6d9cfb
+2024-10-03 11:07:02,176 - basicLogger - INFO - Task created with trace ID: 61db97c6-5477-4249-972e-ac8a830410b9
+2024-10-03 11:07:03,364 - basicLogger - INFO - Task completed with trace ID: c5d02d18-ec48-41f5-9b09-3c79972ec891
+2024-10-03 11:07:03,393 - basicLogger - INFO - Task completed with trace ID: c12adc0c-9741-4719-8b47-34ee486149f1
+2024-10-03 11:07:03,531 - basicLogger - INFO - Task completed with trace ID: 5bce1c9a-6638-4495-a544-8ecbaece0564
+2024-10-03 11:07:03,609 - basicLogger - INFO - Task completed with trace ID: 1299bf3d-edc4-47f1-a0c7-6b1f0663aafd
+2024-10-03 11:07:03,765 - basicLogger - INFO - Task completed with trace ID: a37570ff-c5d8-4c76-a932-642781f44cdf
+2024-10-03 11:07:03,779 - basicLogger - INFO - Task completed with trace ID: 0b426435-bb70-4b45-89b3-8c15f1a6b0f7
+2024-10-03 11:07:03,905 - basicLogger - INFO - Task completed with trace ID: 783d65f8-4a74-4fb0-8d24-bc9d80635522
+2024-10-03 11:07:04,042 - basicLogger - INFO - Task completed with trace ID: 012c6227-158b-4c7e-908e-c0ad7d283320
+2024-10-03 11:07:04,151 - basicLogger - INFO - Task completed with trace ID: 17fc1aac-7221-4633-b33f-750e3e3ca289
+2024-10-03 11:07:04,228 - basicLogger - INFO - Task completed with trace ID: bbcbb58c-c0a8-4202-8684-7a5f2050ef4a
+2024-10-03 11:07:05,438 - basicLogger - INFO - Task created with trace ID: cd61bd2d-d4b4-441a-903d-59799edafcb5
+2024-10-03 11:07:05,458 - basicLogger - INFO - Task created with trace ID: 4ded00cc-1128-4082-9af3-e5aeae0a75ad
+2024-10-03 11:07:05,596 - basicLogger - INFO - Task created with trace ID: e860b8f5-4acb-45d3-9dd3-fd2b58ec3231
+2024-10-03 11:07:05,672 - basicLogger - INFO - Task created with trace ID: 1b0ab161-7148-4e62-92cb-9140b22cf29b
+2024-10-03 11:07:05,811 - basicLogger - INFO - Task created with trace ID: 6f0c1fd5-f7e0-4086-b59e-7151058dcfd8
+2024-10-03 11:07:05,833 - basicLogger - INFO - Task created with trace ID: f0a69d8b-d2d3-4078-92aa-f2f34a8af613
+2024-10-03 11:07:05,968 - basicLogger - INFO - Task created with trace ID: 9909eafc-dbfb-456e-b8fc-44be0c9ad234
+2024-10-03 11:07:06,093 - basicLogger - INFO - Task created with trace ID: 80651879-8f88-41e3-b710-0c5bf8153e8c
+2024-10-03 11:07:06,186 - basicLogger - INFO - Task created with trace ID: 9f9598c8-fc07-467c-adef-9935fd1791ae
+2024-10-03 11:07:06,280 - basicLogger - INFO - Task created with trace ID: 309441ce-5c58-42b9-8478-23d58dabf287
+2024-10-03 11:07:07,471 - basicLogger - INFO - Task completed with trace ID: f64e3e1f-22c4-4224-8f92-d9f892015ae8
+2024-10-03 11:07:07,495 - basicLogger - INFO - Task completed with trace ID: fb78a752-2dc5-46f2-9899-b6061e52b00a
+2024-10-03 11:07:07,620 - basicLogger - INFO - Task completed with trace ID: ff9b71ac-bdfa-4fd4-9c7d-20ba67dc4ad3
+2024-10-03 11:07:07,707 - basicLogger - INFO - Task completed with trace ID: cd6c2ea0-594f-4b83-889f-85d95604d41a
+2024-10-03 11:07:07,834 - basicLogger - INFO - Task completed with trace ID: 2f755b04-df29-4b6b-a07a-520a61d7032c
+2024-10-03 11:07:07,889 - basicLogger - INFO - Task completed with trace ID: 3f9cc086-cad8-4216-805d-f46a4ea499a9
+2024-10-03 11:07:07,996 - basicLogger - INFO - Task completed with trace ID: 7eba0145-6cd8-48ef-8645-131d987ed949
+2024-10-03 11:07:08,124 - basicLogger - INFO - Task completed with trace ID: eb865184-1d89-481b-82b7-3158c74a2bd5
+2024-10-03 11:07:08,227 - basicLogger - INFO - Task completed with trace ID: de2df93d-078b-407f-a54a-629016d09ea4
+2024-10-03 11:07:08,327 - basicLogger - INFO - Task completed with trace ID: 776865ce-1642-43a6-af05-fc479f696b7b
+2024-10-03 11:07:09,517 - basicLogger - INFO - Task created with trace ID: 5e766782-3bbd-466d-9a40-c9c9df9c517b
+2024-10-03 11:07:09,532 - basicLogger - INFO - Task created with trace ID: 1b14c5f7-d8f7-4b44-92e2-a3ec1ef06725
+2024-10-03 11:07:09,661 - basicLogger - INFO - Task created with trace ID: 45e60625-7f69-4d59-a320-1fd33c084332
+2024-10-03 11:07:09,762 - basicLogger - INFO - Task created with trace ID: ec22e859-7e05-4518-a1d3-b137686e973e
+2024-10-03 11:07:09,879 - basicLogger - INFO - Task created with trace ID: 5c223e5d-45ba-4f33-9e5f-17e69c09b7b9
+2024-10-03 11:07:09,941 - basicLogger - INFO - Task created with trace ID: 410517c4-8f97-4941-bb71-3c724e533c0b
+2024-10-03 11:07:10,033 - basicLogger - INFO - Task created with trace ID: 551d3ebf-cb33-4551-8622-3542746f6ec4
+2024-10-03 11:07:10,174 - basicLogger - INFO - Task created with trace ID: 6da0ea85-9102-4008-8034-e93daca84608
+2024-10-03 11:07:10,283 - basicLogger - INFO - Task created with trace ID: 69dd95ae-e1da-46eb-929b-102837a7b3c8
+2024-10-03 11:07:10,369 - basicLogger - INFO - Task created with trace ID: 6fbde72a-f361-445c-8199-7205d798d3fb
+2024-10-03 11:07:11,559 - basicLogger - INFO - Task completed with trace ID: 3213e555-06ae-4b79-b206-0da4fb6bd00f
+2024-10-03 11:07:11,578 - basicLogger - INFO - Task completed with trace ID: 7a13e8b5-0754-4e35-8717-1e7a4dd1e48f
+2024-10-03 11:07:11,700 - basicLogger - INFO - Task completed with trace ID: e8aa9fd6-867a-4d16-9b98-c2996a5ec6bd
+2024-10-03 11:07:11,808 - basicLogger - INFO - Task completed with trace ID: 806a13ca-4dca-4537-8b1d-67dd5a50edaa
+2024-10-03 11:07:11,910 - basicLogger - INFO - Task completed with trace ID: 30292b7e-5071-4f19-9ff2-2c5adced1cba
+2024-10-03 11:07:11,976 - basicLogger - INFO - Task completed with trace ID: adf0539a-d20b-47e8-8705-368a9c1d1248
+2024-10-03 11:07:12,074 - basicLogger - INFO - Task completed with trace ID: b32b7736-566d-48f9-893a-7eb388219c76
+2024-10-03 11:07:12,205 - basicLogger - INFO - Task completed with trace ID: 69efb0fe-7c67-4502-a56b-ce6a9033f4f6
+2024-10-03 11:07:12,313 - basicLogger - INFO - Task completed with trace ID: b5757d05-f214-418e-b0f8-0444920b2e2a
+2024-10-03 11:07:12,398 - basicLogger - INFO - Task completed with trace ID: 477a91fc-b612-43da-9fe9-af6b5cf2a481
+2024-10-03 11:07:13,611 - basicLogger - INFO - Task created with trace ID: 677da24d-fdae-475c-99c0-aa4d891ca5b1
+2024-10-03 11:07:13,632 - basicLogger - INFO - Task created with trace ID: 59b96ec8-e9bc-46a4-9994-1581750130d5
+2024-10-03 11:07:13,737 - basicLogger - INFO - Task created with trace ID: 41b0b0ae-bbda-44bc-a804-586a7b6a481a
+2024-10-03 11:07:13,862 - basicLogger - INFO - Task created with trace ID: 8ad0cc05-ed1a-44ba-82d8-baedac3d4a00
+2024-10-03 11:07:13,959 - basicLogger - INFO - Task created with trace ID: 08409b4b-732c-4e17-9b99-67733dfa7faa
+2024-10-03 11:07:14,018 - basicLogger - INFO - Task created with trace ID: 31b94666-0578-4098-9fe1-a2c5fef8a656
+2024-10-03 11:07:14,130 - basicLogger - INFO - Task created with trace ID: 2253af57-65ef-4194-8cf1-9626a5a27a5f
+2024-10-03 11:07:14,264 - basicLogger - INFO - Task created with trace ID: 5b656f97-550b-487a-83f7-8b6bb33cbd55
+2024-10-03 11:07:14,376 - basicLogger - INFO - Task created with trace ID: 8996ee52-c1bb-44a4-bbf6-77c79d2d325f
+2024-10-03 11:07:14,452 - basicLogger - INFO - Task created with trace ID: f69859cf-ebb4-41ab-8b39-a382592a3822
+2024-10-03 11:07:15,676 - basicLogger - INFO - Task completed with trace ID: 6c759519-c408-450c-b48f-a57171013df9
+2024-10-03 11:07:15,680 - basicLogger - INFO - Task completed with trace ID: 2645fb39-90f1-454b-86ef-0d3fbe4f6ca6
+2024-10-03 11:07:15,783 - basicLogger - INFO - Task completed with trace ID: 80ab8ade-0736-41fc-83bb-cad037c02754
+2024-10-03 11:07:15,919 - basicLogger - INFO - Task completed with trace ID: 0eec22dc-34fa-4b12-80e1-7201d869722e
+2024-10-03 11:07:16,015 - basicLogger - INFO - Task completed with trace ID: edd2ce73-628f-461a-a526-05c52e6f4197
+2024-10-03 11:07:16,080 - basicLogger - INFO - Task completed with trace ID: ad8cfe06-2329-4f32-a2b0-d1c1203b1940
+2024-10-03 11:07:16,173 - basicLogger - INFO - Task completed with trace ID: 78ce2822-ce7e-4590-823e-f418743be867
+2024-10-03 11:07:16,297 - basicLogger - INFO - Task completed with trace ID: ccdd9ff4-1f3e-452f-92ec-639007ac84a6
+2024-10-03 11:07:16,459 - basicLogger - INFO - Task completed with trace ID: 29a9c397-11c8-406d-85e6-f7afa7625985
+2024-10-03 11:07:16,503 - basicLogger - INFO - Task completed with trace ID: f87b4647-1012-4f18-8d5c-4a2bb29b997f
+2024-10-03 11:07:17,767 - basicLogger - INFO - Task created with trace ID: 06d13d79-80e8-4417-9f51-bef3c853d5fd
+2024-10-03 11:07:17,769 - basicLogger - INFO - Task created with trace ID: ec205ff3-2a32-4e8c-a462-5c051de7eb26
+2024-10-03 11:07:17,830 - basicLogger - INFO - Task created with trace ID: dd3c0a22-e153-4502-82a9-c311835cecda
+2024-10-03 11:07:17,966 - basicLogger - INFO - Task created with trace ID: 61bd1ded-2ac2-4bb8-9586-4ae08a5ee063
+2024-10-03 11:07:18,075 - basicLogger - INFO - Task created with trace ID: 32f55f97-c158-4448-b308-3be4a0d441b2
+2024-10-03 11:07:18,139 - basicLogger - INFO - Task created with trace ID: e4c33e05-8b60-4bdc-bf8b-e24d4c95162a
+2024-10-03 11:07:18,230 - basicLogger - INFO - Task created with trace ID: faf8d438-94d2-4ed0-8b00-932f732d6741
+2024-10-03 11:07:18,346 - basicLogger - INFO - Task created with trace ID: 2cf76aa4-63b0-4f44-a1e7-3e611042cb7f
+2024-10-03 11:07:18,497 - basicLogger - INFO - Task created with trace ID: 0e2dbc94-e295-428a-bbc4-b76ebd8bbb79
+2024-10-03 11:07:18,553 - basicLogger - INFO - Task created with trace ID: c96d5019-fb73-487b-8cce-c6664858ae66
+2024-10-03 11:07:19,825 - basicLogger - INFO - Task completed with trace ID: 4d08b297-cfac-4e7c-93f8-8ab0fb330467
+2024-10-03 11:07:19,825 - basicLogger - INFO - Task completed with trace ID: 991b6d28-9e5a-4118-a8ce-e7c1be5c368c
+2024-10-03 11:07:19,853 - basicLogger - INFO - Task completed with trace ID: 7a509632-cfed-46b9-8645-8eb049e195fe
+2024-10-03 11:07:20,005 - basicLogger - INFO - Task completed with trace ID: b9707684-2d05-4ea9-9d59-99fa47ad10a9
+2024-10-03 11:07:20,108 - basicLogger - INFO - Task completed with trace ID: 7d43108d-f8b9-45b3-b35c-904b29a4cee2
+2024-10-03 11:07:20,166 - basicLogger - INFO - Task completed with trace ID: 79d4751b-fbd8-4037-8f34-656b5068c781
+2024-10-03 11:07:20,261 - basicLogger - INFO - Task completed with trace ID: db6c1efd-7723-43c3-b732-ea02352919e9
+2024-10-03 11:07:20,376 - basicLogger - INFO - Task completed with trace ID: ca86786c-ad54-4bae-a412-79ac355a5545
+2024-10-03 11:07:20,549 - basicLogger - INFO - Task completed with trace ID: cf416c10-dc45-47d1-a0d2-70062f46b801
+2024-10-03 11:07:20,594 - basicLogger - INFO - Task completed with trace ID: 46266409-8518-48ac-8bfd-d74355b73055
+2024-10-03 11:07:21,893 - basicLogger - INFO - Task created with trace ID: 8b666942-3cd6-48a0-b253-2aaa632b8dc2
+2024-10-03 11:07:21,894 - basicLogger - INFO - Task created with trace ID: 17fbe4cc-ed0f-4548-8321-9448988f196f
+2024-10-03 11:07:21,897 - basicLogger - INFO - Task created with trace ID: 7e85db80-3524-4b7d-a15b-516961fedfde
+2024-10-03 11:07:22,035 - basicLogger - INFO - Task created with trace ID: ed04b7cf-9294-4944-953e-e9f46b1d0c52
+2024-10-03 11:07:22,129 - basicLogger - INFO - Task created with trace ID: 7efa3b8c-402c-4057-b93a-48c6ebc47b58
+2024-10-03 11:07:22,194 - basicLogger - INFO - Task created with trace ID: a31ce251-a902-476b-b8a6-9ed5ee611110
+2024-10-03 11:07:22,288 - basicLogger - INFO - Task created with trace ID: 3cc53d6c-77fc-4f27-bdfc-823433514604
+2024-10-03 11:07:22,398 - basicLogger - INFO - Task created with trace ID: 0aa9dbe7-0564-4bba-b50f-b64106b7faf0
+2024-10-03 11:07:22,578 - basicLogger - INFO - Task created with trace ID: 33638f3d-0eed-40f6-b8ac-5d9257e58635
+2024-10-03 11:07:22,636 - basicLogger - INFO - Task created with trace ID: ec6897ff-0b38-473a-a8db-85bd70f426ab
+2024-10-03 11:07:23,931 - basicLogger - INFO - Task completed with trace ID: e5bf4d1a-7c89-4fa2-953d-98681dedc6f3
+2024-10-03 11:07:23,946 - basicLogger - INFO - Task completed with trace ID: 5fde08b3-1aaa-4dd4-8553-767e3a10d932
+2024-10-03 11:07:23,948 - basicLogger - INFO - Task completed with trace ID: 1edfc263-ee10-4efd-a600-7e5a92320678
+2024-10-03 11:07:24,062 - basicLogger - INFO - Task completed with trace ID: 1fc346d6-d647-42d6-bf6b-3f94e7c0461e
+2024-10-03 11:07:24,147 - basicLogger - INFO - Task completed with trace ID: 3dac6524-16a8-4110-933c-ed82f70b9e29
+2024-10-03 11:07:24,238 - basicLogger - INFO - Task completed with trace ID: debe374e-414c-4492-98f3-931d9c23c7ba
+2024-10-03 11:07:24,327 - basicLogger - INFO - Task completed with trace ID: 55e34a0e-4074-4cb6-add9-371e5df7889e
+2024-10-03 11:07:24,420 - basicLogger - INFO - Task completed with trace ID: 164ad81e-8ae1-477b-b3a2-c223c59e25ee
+2024-10-03 11:07:24,624 - basicLogger - INFO - Task completed with trace ID: 813e7869-bbde-4cdf-9613-b4da0f77decf
+2024-10-03 11:07:24,686 - basicLogger - INFO - Task completed with trace ID: a3e03e9c-b8c1-49de-a777-7d79dc404d00
+2024-10-03 11:08:47,287 - basicLogger - INFO - Task created with trace ID: 264c713f-5175-4f4c-b8e4-e19cf51bb516
+2024-10-03 11:08:47,464 - basicLogger - INFO - Task created with trace ID: f3e94b40-172b-453c-8599-88ae3a33d35f
+2024-10-03 11:08:47,669 - basicLogger - INFO - Task created with trace ID: 1f84a7ce-cad1-494c-8ec9-3401c9c5244b
+2024-10-03 11:08:47,885 - basicLogger - INFO - Task created with trace ID: 25a07c3f-a220-43cc-af43-0dd7404d6183
+2024-10-03 11:08:48,059 - basicLogger - INFO - Task created with trace ID: f2b04d34-4b72-4dad-8b4e-6bd8f49bf4ab
+2024-10-03 11:08:49,326 - basicLogger - INFO - Task completed with trace ID: d8763314-b49c-4fda-8964-63e8f98a1479
+2024-10-03 11:08:49,490 - basicLogger - INFO - Task completed with trace ID: a1d593db-13f5-4d35-8a21-b1865d3fd022
+2024-10-03 11:08:49,713 - basicLogger - INFO - Task completed with trace ID: e332456c-0741-4f54-8841-418b9fcb4ea7
+2024-10-03 11:08:49,916 - basicLogger - INFO - Task completed with trace ID: f7578d16-5850-4c49-9089-4c2d1f930166
+2024-10-03 11:08:50,091 - basicLogger - INFO - Task completed with trace ID: 55f0d7a6-c864-4dec-91a1-dcf4f1cad1b6
+2024-10-03 11:08:51,383 - basicLogger - INFO - Task created with trace ID: 2f42abb9-0e68-4879-8a84-b67e1ce0aea5
+2024-10-03 11:08:51,543 - basicLogger - INFO - Task created with trace ID: 07b7679f-7205-4f09-b757-2a9799a2d454
+2024-10-03 11:08:51,748 - basicLogger - INFO - Task created with trace ID: 34dc5b95-5191-48da-af16-6dd9af4391de
+2024-10-03 11:08:51,969 - basicLogger - INFO - Task created with trace ID: c16600c3-174c-40e9-9b64-5cd0898dff2d
+2024-10-03 11:08:52,140 - basicLogger - INFO - Task created with trace ID: 8b7bc641-493f-46e4-8a99-713fb90eeb4c
+2024-10-03 11:08:53,445 - basicLogger - INFO - Task completed with trace ID: 270f2f76-3b5e-4f9c-9774-b55138a7464c
+2024-10-03 11:08:53,584 - basicLogger - INFO - Task completed with trace ID: a2ee073b-b91c-4411-87e1-71a339bbb128
+2024-10-03 11:08:53,788 - basicLogger - INFO - Task completed with trace ID: 26741536-85a2-41ab-9684-9160c786508d
+2024-10-03 11:08:54,005 - basicLogger - INFO - Task completed with trace ID: e9fb19b5-5a4d-42df-b366-dcb082257044
+2024-10-03 11:08:54,161 - basicLogger - INFO - Task completed with trace ID: fe97aadc-eedb-47c0-b35e-7a63d1c0d76f
+2024-10-03 11:08:55,492 - basicLogger - INFO - Task created with trace ID: d96d40dd-e650-4c5d-9dc1-13d2012e8375
+2024-10-03 11:08:55,639 - basicLogger - INFO - Task created with trace ID: e50fcdef-b7bb-4f11-8b4a-366f4d9983c0
+2024-10-03 11:08:55,827 - basicLogger - INFO - Task created with trace ID: 111bd67f-16c6-4e0e-9675-c49037ce324a
+2024-10-03 11:08:56,047 - basicLogger - INFO - Task created with trace ID: 50596d86-e42b-4951-aee7-4f3510c51f78
+2024-10-03 11:08:56,202 - basicLogger - INFO - Task created with trace ID: 102bc6b4-acf1-4b9f-86ea-c3de9f394130
+2024-10-03 11:08:57,545 - basicLogger - INFO - Task completed with trace ID: 9a7d9f62-e7d5-4d35-a3e2-74827a4eec70
+2024-10-03 11:08:57,662 - basicLogger - INFO - Task completed with trace ID: 9d266c50-5a10-4543-a529-f799a3f205d9
+2024-10-03 11:08:57,851 - basicLogger - INFO - Task completed with trace ID: 7108eefd-e185-4b1d-8b07-148aa29a4e80
+2024-10-03 11:08:58,067 - basicLogger - INFO - Task completed with trace ID: 2597b827-50f0-41bb-a2c5-1b09a3e3e147
+2024-10-03 11:08:58,236 - basicLogger - INFO - Task completed with trace ID: 40536142-7539-413c-ad28-cb023fd47f5d
+2024-10-03 11:08:59,599 - basicLogger - INFO - Task created with trace ID: 38ce97cf-5d8f-431f-b531-b03199bcef87
+2024-10-03 11:08:59,698 - basicLogger - INFO - Task created with trace ID: 07dba7ae-79a9-4585-823a-39edb929bd29
+2024-10-03 11:08:59,906 - basicLogger - INFO - Task created with trace ID: db9165bb-9167-45c1-9192-b8d9087d2998
+2024-10-03 11:09:00,093 - basicLogger - INFO - Task created with trace ID: 0823cb81-a850-4129-a528-95119a00704c
+2024-10-03 11:09:00,263 - basicLogger - INFO - Task created with trace ID: 4ebaf7a5-7dee-4131-b561-945c64d272a0
+2024-10-03 11:09:01,683 - basicLogger - INFO - Task completed with trace ID: c7e671c9-b8c1-4155-abda-063dbacc24ab
+2024-10-03 11:09:01,730 - basicLogger - INFO - Task completed with trace ID: c26ac0b3-8b4f-4f45-b84c-5e23bdeef6b4
+2024-10-03 11:09:01,934 - basicLogger - INFO - Task completed with trace ID: 5d79ed8f-e7d3-4190-a42b-174b73900cf7
+2024-10-03 11:09:02,122 - basicLogger - INFO - Task completed with trace ID: b78a5ef2-bec2-4f1d-95e2-03576ef85c7a
+2024-10-03 11:09:02,294 - basicLogger - INFO - Task completed with trace ID: 5fbef39f-a077-4f67-b152-5044899c677a
+2024-10-03 11:09:03,730 - basicLogger - INFO - Task created with trace ID: a12ce161-03d2-4b2e-a393-0b06985195ec
+2024-10-03 11:09:03,779 - basicLogger - INFO - Task created with trace ID: fcd81384-0a39-4106-9b6c-bdc65b843d9a
+2024-10-03 11:09:03,978 - basicLogger - INFO - Task created with trace ID: 5bb593d2-cca2-4623-954c-c3aa361ed919
+2024-10-03 11:09:04,179 - basicLogger - INFO - Task created with trace ID: 9c59e5c7-e924-426a-8e5b-5b151e591f09
+2024-10-03 11:09:04,347 - basicLogger - INFO - Task created with trace ID: ed8af6e0-b355-4074-948e-6f339309e152
+2024-10-03 11:09:05,781 - basicLogger - INFO - Task completed with trace ID: 182e8924-606f-4c94-bb60-9781673f4ff2
+2024-10-03 11:09:05,811 - basicLogger - INFO - Task completed with trace ID: d3327dfd-3d68-4ac7-9796-cf360e82bd47
+2024-10-03 11:09:06,003 - basicLogger - INFO - Task completed with trace ID: a79afc4f-37aa-44bd-beb6-083bc9614b0d
+2024-10-03 11:09:06,208 - basicLogger - INFO - Task completed with trace ID: 879ae74f-b45d-4d27-ae8c-2dfe82aca681
+2024-10-03 11:09:06,387 - basicLogger - INFO - Task completed with trace ID: 63c1fd3f-8058-45d7-b2de-84f78d1de127
+2024-10-03 11:09:07,816 - basicLogger - INFO - Task created with trace ID: 23446a1c-25c9-453e-90df-9f2a49c36068
+2024-10-03 11:09:07,844 - basicLogger - INFO - Task created with trace ID: 0abf0b26-e0e6-499a-ac0c-a457f4ffa3cd
+2024-10-03 11:09:08,047 - basicLogger - INFO - Task created with trace ID: 29f2a5ad-99dd-4662-9c41-bfeadda80397
+2024-10-03 11:09:08,271 - basicLogger - INFO - Task created with trace ID: fd3cd546-3cc8-4376-a51a-8980e6cfe4bf
+2024-10-03 11:09:08,431 - basicLogger - INFO - Task created with trace ID: 1585934a-c192-48aa-9ec4-a99147d1af18
+2024-10-03 11:09:09,864 - basicLogger - INFO - Task completed with trace ID: 41064785-229c-4ed9-8d57-507005092e7d
+2024-10-03 11:09:09,880 - basicLogger - INFO - Task completed with trace ID: 559fc506-57fc-494c-be1b-bdf4b9195dcd
+2024-10-03 11:09:10,069 - basicLogger - INFO - Task completed with trace ID: 8203a5de-7654-4098-9319-fd3e92bfd4a1
+2024-10-03 11:09:10,307 - basicLogger - INFO - Task completed with trace ID: 550f748c-6f6a-4613-991f-1260a0e9b11e
+2024-10-03 11:09:10,478 - basicLogger - INFO - Task completed with trace ID: bea3196d-f08e-427e-b829-304a33dd0e84
+2024-10-03 11:09:11,923 - basicLogger - INFO - Task created with trace ID: b79abd82-4733-4f07-a22e-b04737044c51
+2024-10-03 11:09:11,927 - basicLogger - INFO - Task created with trace ID: 9fcabba9-7802-4452-a5fb-8ffcfb119628
+2024-10-03 11:09:12,116 - basicLogger - INFO - Task created with trace ID: 96e339dc-ebdf-4c70-99ba-a75642e56b56
+2024-10-03 11:09:12,359 - basicLogger - INFO - Task created with trace ID: c1481f4e-94cf-4f73-8d2a-e28c3f4c9f77
+2024-10-03 11:09:12,524 - basicLogger - INFO - Task created with trace ID: 68e65b6a-fade-4911-a4aa-08b42183eb3b
+2024-10-03 11:09:13,976 - basicLogger - INFO - Task completed with trace ID: 3e21b0ac-4036-4fe8-8b41-a9ce122d8fef
+2024-10-03 11:09:13,976 - basicLogger - INFO - Task completed with trace ID: 2b3cda54-12ec-428f-8414-4e77a3c65e99
+2024-10-03 11:09:14,148 - basicLogger - INFO - Task completed with trace ID: 9069259b-cfe3-4d74-a945-63c76d380408
+2024-10-03 11:09:14,412 - basicLogger - INFO - Task completed with trace ID: f7f3db85-f2fd-4709-a50b-fd3b2f68fadd
+2024-10-03 11:09:14,567 - basicLogger - INFO - Task completed with trace ID: dfd5c09e-77c3-44aa-bf9f-e7a91f0b0373
+2024-10-03 11:09:16,058 - basicLogger - INFO - Task created with trace ID: 6fe81538-bb77-4ea3-a386-0930489018db
+2024-10-03 11:09:16,060 - basicLogger - INFO - Task created with trace ID: 383c949f-3f5e-44f9-b5cc-7150c938a848
+2024-10-03 11:09:16,205 - basicLogger - INFO - Task created with trace ID: a3c36079-c64f-49a4-b78a-f18db7cd4573
+2024-10-03 11:09:16,452 - basicLogger - INFO - Task created with trace ID: c0cf68f4-c6eb-4962-b256-4c4a4c8f9328
+2024-10-03 11:09:16,622 - basicLogger - INFO - Task created with trace ID: c7b12fff-af9b-4e91-acbe-e350be28a7d6
+2024-10-03 11:09:18,107 - basicLogger - INFO - Task completed with trace ID: 8e634d1a-88a4-4975-a54d-5e9382fe2fc8
+2024-10-03 11:09:18,107 - basicLogger - INFO - Task completed with trace ID: ffbe4ca4-768c-4ae1-9ddf-7f2886bdbc6c
+2024-10-03 11:09:18,234 - basicLogger - INFO - Task completed with trace ID: 0725e87d-534d-4a79-be38-9233bff1bc0e
+2024-10-03 11:09:18,515 - basicLogger - INFO - Task completed with trace ID: fcf5c79a-32e9-497f-8c97-feef11377f5c
+2024-10-03 11:09:18,652 - basicLogger - INFO - Task completed with trace ID: 0fce1f7e-58a5-437d-83cc-5b2f629b3d32
+2024-10-03 11:09:20,171 - basicLogger - INFO - Task created with trace ID: 45e545e2-a7a3-458a-bcee-6b9b63d75385
+2024-10-03 11:09:20,174 - basicLogger - INFO - Task created with trace ID: 3d44086b-8053-49e6-a277-eddf551b7343
+2024-10-03 11:09:20,281 - basicLogger - INFO - Task created with trace ID: ef4926cb-0949-43fa-afb3-bc8ae992c97a
+2024-10-03 11:09:20,559 - basicLogger - INFO - Task created with trace ID: 7735376e-4b18-4be0-9437-6f0eb7cdc86a
+2024-10-03 11:09:20,685 - basicLogger - INFO - Task created with trace ID: 1653828b-0b35-46b4-90c8-6982a21db3ac
+2024-10-03 11:09:22,225 - basicLogger - INFO - Task completed with trace ID: ada118cc-f953-4cff-ad26-32510e3c45e5
+2024-10-03 11:09:22,229 - basicLogger - INFO - Task completed with trace ID: 64944f2b-e879-4437-b8d6-e2ec1d24f999
+2024-10-03 11:09:22,315 - basicLogger - INFO - Task completed with trace ID: 517472fb-7c9f-44bd-a01a-c0c36963baec
+2024-10-03 11:09:22,606 - basicLogger - INFO - Task completed with trace ID: 036b9dbf-6c91-4c9a-8d77-e7915dd05da0
+2024-10-03 11:09:22,726 - basicLogger - INFO - Task completed with trace ID: 5a089582-5eae-4ec5-8256-32380cb38fc6
+2024-10-03 11:09:24,253 - basicLogger - INFO - Task created with trace ID: 8dfd5f69-9e8f-4aa5-9b6e-832ed5c83a8f
+2024-10-03 11:09:24,253 - basicLogger - INFO - Task created with trace ID: 44cdb6cb-2035-4452-9d9f-0c455fe0d99a
+2024-10-03 11:09:24,354 - basicLogger - INFO - Task created with trace ID: 083cec1b-f773-4240-9476-e7484541d579
+2024-10-03 11:09:24,657 - basicLogger - INFO - Task created with trace ID: cf7d89be-c3e2-4e05-882c-8c739378ac0e
+2024-10-03 11:09:24,764 - basicLogger - INFO - Task created with trace ID: 94c2ff77-0588-4f87-8011-5f442bde9b9b
+2024-10-03 11:09:26,324 - basicLogger - INFO - Task completed with trace ID: 2c6248c5-3766-4537-98c8-d6388c6522c0
+2024-10-03 11:09:26,328 - basicLogger - INFO - Task completed with trace ID: 5981c39f-4fec-4ec8-86d9-5c1415c3d35f
+2024-10-03 11:09:26,383 - basicLogger - INFO - Task completed with trace ID: 34a101c4-ecc6-4be8-86b7-241bea637f6d
+2024-10-03 11:09:26,681 - basicLogger - INFO - Task completed with trace ID: ee7e68af-4741-4320-8dcf-fe3eb310f7ba
+2024-10-03 11:09:26,795 - basicLogger - INFO - Task completed with trace ID: 8c2373c5-a213-4ee1-b1b7-a529c7d913ad
+2024-10-03 11:10:56,650 - basicLogger - INFO - Task created with trace ID: 64d1a70e-708a-41cd-8ffe-698108a7bdc4
+2024-10-03 11:10:56,846 - basicLogger - INFO - Task created with trace ID: abe8df7f-3e84-42a2-99b6-8cfcf88fff80
+2024-10-03 11:10:57,034 - basicLogger - INFO - Task created with trace ID: a243053b-0f63-43ae-980d-2288f6fd2ac3
+2024-10-03 11:10:57,246 - basicLogger - INFO - Task created with trace ID: a6b53b73-8257-4372-acf5-ce9ebea4d0b1
+2024-10-03 11:10:57,444 - basicLogger - INFO - Task created with trace ID: afebeede-2a74-4eae-bca3-42a65a3c2094
+2024-10-03 11:10:58,717 - basicLogger - INFO - Task completed with trace ID: 9d2d4e74-212c-4551-ab52-bf267e3d7106
+2024-10-03 11:10:58,888 - basicLogger - INFO - Task completed with trace ID: dcf63873-e827-4c61-903d-f16c3b0d0c46
+2024-10-03 11:10:59,075 - basicLogger - INFO - Task completed with trace ID: 1f549c89-4ec8-472d-8f2e-8227b163e56c
+2024-10-03 11:10:59,282 - basicLogger - INFO - Task completed with trace ID: a62c0500-525c-4cde-8486-72cb5bb06d4e
+2024-10-03 11:10:59,483 - basicLogger - INFO - Task completed with trace ID: bd8df673-83d9-4533-82dd-5c5d9bd510b0
+2024-10-03 11:11:00,757 - basicLogger - INFO - Task created with trace ID: 65a3c2b9-ed44-4784-8f43-00406fa39237
+2024-10-03 11:11:00,962 - basicLogger - INFO - Task created with trace ID: 9e11ecff-ffe9-4b00-b522-7ff8c2b2bebf
+2024-10-03 11:11:01,119 - basicLogger - INFO - Task created with trace ID: 91780942-2ac1-4b89-985c-bdb3f42f1a8f
+2024-10-03 11:11:01,323 - basicLogger - INFO - Task created with trace ID: 1db181ff-70f3-410d-8595-7a61536fddfc
+2024-10-03 11:11:01,532 - basicLogger - INFO - Task created with trace ID: c6bfde29-568a-47b5-9b04-598ef2db1c66
+2024-10-03 11:11:02,801 - basicLogger - INFO - Task completed with trace ID: 4ef54a5a-d5ae-481e-9448-614c52fa41d2
+2024-10-03 11:11:02,988 - basicLogger - INFO - Task completed with trace ID: 3e357110-3c94-4374-90b3-9450b2a76629
+2024-10-03 11:11:03,160 - basicLogger - INFO - Task completed with trace ID: eaba8683-d003-49df-a185-e941b43c6eca
+2024-10-03 11:11:03,359 - basicLogger - INFO - Task completed with trace ID: 3b53f1e8-a174-4710-b2f9-b27f506cbd3a
+2024-10-03 11:11:03,560 - basicLogger - INFO - Task completed with trace ID: 6d8a3be3-57c1-48c2-97df-187b1a6d603f
+2024-10-03 11:11:04,844 - basicLogger - INFO - Task created with trace ID: 50032d13-1628-4d46-b305-6003a7c8afcb
+2024-10-03 11:11:05,030 - basicLogger - INFO - Task created with trace ID: bfcff371-ebc0-4d52-bf55-19dd4d890147
+2024-10-03 11:11:05,207 - basicLogger - INFO - Task created with trace ID: 2128b069-aa82-461e-9cb7-59889e5aaffd
+2024-10-03 11:11:05,409 - basicLogger - INFO - Task created with trace ID: 90fdb7d1-1718-4c0a-ae3c-a95c84b9f4eb
+2024-10-03 11:11:05,608 - basicLogger - INFO - Task created with trace ID: 2083848b-a6a8-4084-936f-007fb12a3ddb
+2024-10-03 11:11:06,893 - basicLogger - INFO - Task completed with trace ID: 336bc6b0-bf38-47da-9083-1feb9e9e051e
+2024-10-03 11:11:07,078 - basicLogger - INFO - Task completed with trace ID: a7f0ac11-b74c-40b1-9a33-39077bf6e682
+2024-10-03 11:11:07,263 - basicLogger - INFO - Task completed with trace ID: 5f8a2793-520d-41ce-a1f0-fdcb6a04cae7
+2024-10-03 11:11:07,452 - basicLogger - INFO - Task completed with trace ID: ff667d7a-9582-4bc1-8bdf-ce7420a6c8a6
+2024-10-03 11:11:07,642 - basicLogger - INFO - Task completed with trace ID: 6b05d7f7-6935-4585-98ef-f0549c5af86d
+2024-10-03 11:11:08,948 - basicLogger - INFO - Task created with trace ID: 0467b123-6daf-4b80-8f03-98bc6c6c379a
+2024-10-03 11:11:09,121 - basicLogger - INFO - Task created with trace ID: 815c9e4e-382e-4b7f-994d-0d8304fe3fd7
+2024-10-03 11:11:09,306 - basicLogger - INFO - Task created with trace ID: 1b3e6aac-4257-442a-840f-927e4c1af00b
+2024-10-03 11:11:09,495 - basicLogger - INFO - Task created with trace ID: 7d2d32d8-9557-4b76-8350-d286f61ae59e
+2024-10-03 11:11:09,692 - basicLogger - INFO - Task created with trace ID: 3c385a35-37af-4a31-b912-de1e76c26354
+2024-10-03 11:11:10,988 - basicLogger - INFO - Task completed with trace ID: 71d6b6cc-0933-4e13-b1c1-ff6f79753e30
+2024-10-03 11:11:11,159 - basicLogger - INFO - Task completed with trace ID: b8e6a0e8-b524-4f03-ba79-c82fbed186f9
+2024-10-03 11:11:11,399 - basicLogger - INFO - Task completed with trace ID: c2ac2a53-e34f-4251-bd1a-d16709f5f497
+2024-10-03 11:11:11,538 - basicLogger - INFO - Task completed with trace ID: c5b49cc1-72c8-469a-9d5c-49dd671ee499
+2024-10-03 11:11:11,729 - basicLogger - INFO - Task completed with trace ID: 671f3c80-4280-4b55-87e5-49b68e15f75f
+2024-10-03 11:11:13,027 - basicLogger - INFO - Task created with trace ID: 056f6a35-c224-4b86-9cbf-604c6ecc9d52
+2024-10-03 11:11:13,199 - basicLogger - INFO - Task created with trace ID: 51da4623-f021-4346-a7db-7b6c3c2cbd9f
+2024-10-03 11:11:13,425 - basicLogger - INFO - Task created with trace ID: 77b02fcb-0602-44b2-b020-7f8c2084f429
+2024-10-03 11:11:13,579 - basicLogger - INFO - Task created with trace ID: ad70547b-670e-45aa-8252-c7b0f322d5c5
+2024-10-03 11:11:13,768 - basicLogger - INFO - Task created with trace ID: f13460a2-ea6b-4a72-a04a-6d77fce399cd
+2024-10-03 11:11:15,079 - basicLogger - INFO - Task completed with trace ID: 6e0ba786-2169-4be7-b93c-cc9e1076dabe
+2024-10-03 11:11:15,246 - basicLogger - INFO - Task completed with trace ID: 3d3793ca-35a7-4310-8e58-6f2943aba7d1
+2024-10-03 11:11:15,462 - basicLogger - INFO - Task completed with trace ID: 3f5d8dde-7480-4f58-96da-ea3a65ad574a
+2024-10-03 11:11:15,620 - basicLogger - INFO - Task completed with trace ID: dddd76c3-0208-4f67-9288-f2d3a2a3b8f4
+2024-10-03 11:11:15,819 - basicLogger - INFO - Task completed with trace ID: 66bbfde1-6f14-42b1-91ef-68b3c5bada3d
+2024-10-31 09:01:11,183 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 09:04:10,240 - basicLogger - INFO - Task created with trace ID: 290f0295-7834-4cfc-9961-b6edcc0a1b32
+2024-10-31 09:17:48,352 - basicLogger - INFO - Task created with trace ID: 1c218582-b75d-464b-b199-bb533901625c
+2024-10-31 09:17:48,354 - basicLogger - INFO - Task created with trace ID: 2f050b77-7c82-49a7-88eb-fed4d032c104
+2024-10-31 09:17:50,428 - basicLogger - INFO - Task completed with trace ID: 133b7a4b-5039-40e9-8374-2cd0c86ff753
+2024-10-31 09:17:50,430 - basicLogger - INFO - Task completed with trace ID: 212c908d-955f-4a83-8fa9-6e9ed059f926
+2024-10-31 09:17:52,490 - basicLogger - INFO - Task created with trace ID: 8fb7ae44-1344-4d3d-8ae3-24773dc97a50
+2024-10-31 09:17:52,496 - basicLogger - INFO - Task created with trace ID: f1564ae9-fef8-419e-8a1a-73de8dde670a
+2024-10-31 09:17:54,581 - basicLogger - INFO - Task completed with trace ID: ddd38492-d897-4dae-ba01-b98085c7efc9
+2024-10-31 09:17:54,586 - basicLogger - INFO - Task completed with trace ID: bf4ac34c-3f9e-497a-ad8f-fab943ae59df
+2024-10-31 09:31:25,419 - basicLogger - INFO - Task created with trace ID: d2e006f0-e39e-47bf-8dac-2f789534fda7
+2024-10-31 09:44:07,293 - basicLogger - INFO - Task created with trace ID: d09c0a22-3cb5-43ad-b981-55417d3ed2b1
+2024-10-31 09:44:07,790 - basicLogger - INFO - Task created with trace ID: 4d1a476c-f32a-43ad-93c3-56e79297e0d5
+2024-10-31 09:44:09,356 - basicLogger - INFO - Task completed with trace ID: 11b111f3-ab6e-4844-b55f-45f930524ff9
+2024-10-31 09:44:09,839 - basicLogger - INFO - Task completed with trace ID: f94eb1e5-a14e-4c20-99b8-29d1e5452e1c
+2024-10-31 09:44:11,400 - basicLogger - INFO - Task created with trace ID: 68a535bb-f598-4340-b531-8119f565b468
+2024-10-31 09:44:11,872 - basicLogger - INFO - Task created with trace ID: afb61223-2701-4f3c-94d9-1d50fd636dec
+2024-10-31 09:44:13,458 - basicLogger - INFO - Task completed with trace ID: e5f4e235-adf8-4154-9c31-3d1da6ac3770
+2024-10-31 09:44:13,936 - basicLogger - INFO - Task completed with trace ID: 300ece86-7b8b-4297-b653-f99f711aac3a
+2024-10-31 09:51:01,642 - basicLogger - INFO - Task created with trace ID: 0a8cfaf0-6fd2-437b-aaaf-d495ddead182
+2024-10-31 09:51:02,179 - basicLogger - INFO - Task created with trace ID: 575a3e41-86c7-44ec-b45d-fd65d900e944
+2024-10-31 09:51:03,681 - basicLogger - INFO - Task completed with trace ID: f7bb297c-78c8-4e8b-8df3-496bb1ddbedc
+2024-10-31 09:51:04,237 - basicLogger - INFO - Task completed with trace ID: d67e459c-fcec-4008-8010-41807d6f18bb
+2024-10-31 09:51:05,724 - basicLogger - INFO - Task created with trace ID: 909f3119-e90e-436d-acb2-114d20b6a599
+2024-10-31 09:51:06,269 - basicLogger - INFO - Task created with trace ID: ccfe291a-fe58-4cf6-ab33-78b4b10101ec
+2024-10-31 09:51:07,791 - basicLogger - INFO - Task completed with trace ID: 4174922f-abe4-443a-968e-6a94dd4fd452
+2024-10-31 09:51:08,322 - basicLogger - INFO - Task completed with trace ID: a0a7de02-715c-4e77-8dfb-932b31edbc8f
+2024-10-31 09:55:03,498 - basicLogger - INFO - Task created with trace ID: 3afcb11c-259f-4142-9f77-29fd1c40db23
+2024-10-31 09:55:04,025 - basicLogger - INFO - Task created with trace ID: 7ba39286-8d4e-48ac-8fcd-fdd4cb770cd8
+2024-10-31 09:55:05,548 - basicLogger - INFO - Task completed with trace ID: 039faefc-5c3c-4342-9794-665dd8c7413c
+2024-10-31 09:55:06,067 - basicLogger - INFO - Task completed with trace ID: 7831a51e-1dd6-4f0b-a1ee-186eac83938f
+2024-10-31 09:55:07,601 - basicLogger - INFO - Task created with trace ID: 1386bb8e-42e7-4199-b8dd-13c0af2ea405
+2024-10-31 09:55:08,109 - basicLogger - INFO - Task created with trace ID: 81d36737-acc7-4a2c-b447-ac1e219c0b19
+2024-10-31 09:55:09,655 - basicLogger - INFO - Task completed with trace ID: 2c020b59-b5b0-4117-a066-9bf4b22f450f
+2024-10-31 09:55:10,160 - basicLogger - INFO - Task completed with trace ID: dad9562d-054c-42f3-a171-6908028d1563
+2024-10-31 09:57:01,093 - basicLogger - INFO - Task created with trace ID: bc6e87d9-58d5-496a-b604-54ce045945a5
+2024-10-31 09:57:01,598 - basicLogger - INFO - Task created with trace ID: ae8bf335-3429-4070-ad3d-9350791725fe
+2024-10-31 09:57:03,162 - basicLogger - INFO - Task completed with trace ID: 2136a0e4-b344-4a87-8c5d-1da558fc4e62
+2024-10-31 09:57:03,666 - basicLogger - INFO - Task completed with trace ID: ccbf33f3-1a95-4335-8840-8f43cb43c5d8
+2024-10-31 09:57:05,213 - basicLogger - INFO - Task created with trace ID: f687b224-3fb1-4ac9-b91a-b0423b96d156
+2024-10-31 09:57:05,729 - basicLogger - INFO - Task created with trace ID: c4dd9ca9-e308-4498-8077-de57a74ef5f1
+2024-10-31 09:57:07,287 - basicLogger - INFO - Task completed with trace ID: a5727978-8f89-4c30-8799-9ab0a03a8120
+2024-10-31 09:57:07,783 - basicLogger - INFO - Task completed with trace ID: b88edc29-df8d-48ab-864d-49f34f3db016
+2024-10-31 10:08:38,721 - basicLogger - INFO - Tasks retrieved: 17 tasks
+2024-10-31 10:10:32,159 - basicLogger - INFO - Completed tasks retrieved: 196 tasks
+2024-10-31 10:16:25,635 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:16:27,683 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:16:35,650 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:16:37,695 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:16:45,635 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:16:47,676 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:16:55,638 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:16:57,665 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:18:47,655 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:18:54,964 - basicLogger - INFO - Tasks retrieved: 17 tasks
+2024-10-31 10:19:15,249 - basicLogger - INFO - Tasks retrieved: 17 tasks
+2024-10-31 10:19:47,627 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:19:49,667 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:19:57,623 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:19:59,657 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:20:07,629 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:20:09,673 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:20:17,607 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:20:19,638 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:20:23,582 - basicLogger - INFO - Task created with trace ID: 8a0c4204-96f6-4eee-aa5a-919a599be4d0
+2024-10-31 10:20:24,064 - basicLogger - INFO - Task created with trace ID: ddfaaeab-4c1d-4e6f-b317-a466aa39f3c6
+2024-10-31 10:20:25,647 - basicLogger - INFO - Task completed with trace ID: 9b547d57-c3ac-4c54-a939-e212bed388be
+2024-10-31 10:20:26,109 - basicLogger - INFO - Task completed with trace ID: cfee55ff-0b75-47de-aee5-18488a53f8dc
+2024-10-31 10:20:27,627 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:20:27,719 - basicLogger - INFO - Task created with trace ID: d1a1bf9b-2f59-4a8f-8bd6-5f0706916b49
+2024-10-31 10:20:28,162 - basicLogger - INFO - Task created with trace ID: 41a6658c-6158-4987-8bf7-d6faad4e8500
+2024-10-31 10:20:29,685 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:20:29,792 - basicLogger - INFO - Task completed with trace ID: e27ecd73-6547-4a7d-b750-8273833e0c88
+2024-10-31 10:20:30,233 - basicLogger - INFO - Task completed with trace ID: 11bd113b-3579-4585-9f5a-b76b92d90beb
+2024-10-31 10:20:37,620 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:20:39,652 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:20:47,607 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:20:49,633 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:20:57,601 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:20:59,646 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:21:07,605 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:21:09,627 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:21:17,609 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:21:19,637 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:21:27,606 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:21:29,642 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:22:46,906 - basicLogger - INFO - Task created with trace ID: a9c92700-c721-4327-86ad-743c7d2a0cc7
+2024-10-31 10:22:47,394 - basicLogger - INFO - Task created with trace ID: 0fb3f579-0672-4528-b2b2-7f7785fcc600
+2024-10-31 10:22:48,945 - basicLogger - INFO - Task completed with trace ID: e2dced74-3693-42b5-b873-0da17fe0b8bd
+2024-10-31 10:22:49,443 - basicLogger - INFO - Task completed with trace ID: 1aa0acf4-0eb6-4f5a-bef6-905a6b514627
+2024-10-31 10:22:50,999 - basicLogger - INFO - Task created with trace ID: 763adb93-0545-4385-89f3-c7f09f5497ba
+2024-10-31 10:22:51,486 - basicLogger - INFO - Task created with trace ID: ea7b7956-bbea-4fd3-91fa-19e4c593b8f5
+2024-10-31 10:22:53,060 - basicLogger - INFO - Task completed with trace ID: 5c1f71dd-664f-436a-bd17-b6b362c99dad
+2024-10-31 10:22:53,563 - basicLogger - INFO - Task completed with trace ID: ccf4d977-29e7-4532-987e-e91155ca18d4
+2024-10-31 10:25:21,686 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:25:23,746 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:25:31,685 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:25:33,733 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:25:41,672 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:25:43,709 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:27:03,578 - basicLogger - INFO - Tasks retrieved: 25 tasks
+2024-10-31 10:27:21,669 - basicLogger - INFO - Tasks retrieved: 25 tasks
+2024-10-31 10:27:23,726 - basicLogger - INFO - Completed tasks retrieved: 28 tasks
+2024-10-31 10:27:31,670 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:27:33,709 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:27:41,662 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:27:43,708 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:27:51,666 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:27:53,703 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:28:01,661 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:28:03,697 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:28:09,073 - basicLogger - INFO - Task created with trace ID: fa2612c0-426c-4d12-a769-fcaad4dc7ba6
+2024-10-31 10:28:09,159 - basicLogger - INFO - Task created with trace ID: 368aa945-393c-438a-99b6-6f13cf169b47
+2024-10-31 10:28:09,270 - basicLogger - INFO - Task created with trace ID: 1db2fc2c-182d-4f88-a2e0-81f41291af92
+2024-10-31 10:28:09,347 - basicLogger - INFO - Task created with trace ID: 54a5df46-44c1-4237-9c29-d2b338b2a002
+2024-10-31 10:28:09,441 - basicLogger - INFO - Task created with trace ID: ef94374c-3cd1-47f8-85eb-2c4f7fa82804
+2024-10-31 10:28:09,580 - basicLogger - INFO - Task created with trace ID: 937ce1b9-5663-4044-80cd-988736945660
+2024-10-31 10:28:09,660 - basicLogger - INFO - Task created with trace ID: a34e6d4a-2b22-420a-a982-3bb738367812
+2024-10-31 10:28:09,768 - basicLogger - INFO - Task created with trace ID: 77cea37d-3eae-4a15-a74b-772a0f68de18
+2024-10-31 10:28:09,860 - basicLogger - INFO - Task created with trace ID: 2aadb9c5-a7ac-40d2-b70d-2017ed99e549
+2024-10-31 10:28:09,954 - basicLogger - INFO - Task created with trace ID: 611b0d41-5abc-48b5-ae7a-c4e01b53f7ba
+2024-10-31 10:28:11,127 - basicLogger - INFO - Task completed with trace ID: ebd3bb8c-220b-4692-a575-5c59707157ab
+2024-10-31 10:28:11,225 - basicLogger - INFO - Task completed with trace ID: 16fb8f9a-aa48-46d9-a5c3-41dc5687f7ec
+2024-10-31 10:28:11,319 - basicLogger - INFO - Task completed with trace ID: e12634ae-fa54-4799-b2ef-07a0378d9df0
+2024-10-31 10:28:11,397 - basicLogger - INFO - Task completed with trace ID: 481709b0-240f-4875-9fac-37ef9bca0f28
+2024-10-31 10:28:11,492 - basicLogger - INFO - Task completed with trace ID: 13e64142-ee44-4030-befe-0a7d72ce299b
+2024-10-31 10:28:11,631 - basicLogger - INFO - Task completed with trace ID: b978f49e-21ad-45ea-b0d9-99306fc5ed82
+2024-10-31 10:28:11,671 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:28:11,709 - basicLogger - INFO - Task completed with trace ID: 9c58022d-7ab9-4830-8b55-87d0df833d95
+2024-10-31 10:28:11,818 - basicLogger - INFO - Task completed with trace ID: 7571e34a-7977-46e2-9aca-00526c581bc2
+2024-10-31 10:28:11,913 - basicLogger - INFO - Task completed with trace ID: 3c3cf4b7-6247-480d-b07b-b84dd76f0e15
+2024-10-31 10:28:12,006 - basicLogger - INFO - Task completed with trace ID: 86784cd8-93ab-4005-a1d2-cb6414c324cd
+2024-10-31 10:28:13,168 - basicLogger - INFO - Task created with trace ID: 3be5dc37-2f84-4751-918e-5c8f9ff991cc
+2024-10-31 10:28:13,259 - basicLogger - INFO - Task created with trace ID: 3b1cdc36-4f94-40c2-8dd6-ac0f00c022bf
+2024-10-31 10:28:13,354 - basicLogger - INFO - Task created with trace ID: 2c4ef55f-3db7-46b9-9b4d-6d5f7eb70d7b
+2024-10-31 10:28:13,429 - basicLogger - INFO - Task created with trace ID: 7aa72666-c438-4a6c-bb4e-84b5f48d922b
+2024-10-31 10:28:13,553 - basicLogger - INFO - Task created with trace ID: 13663bc6-af4e-4c2b-8641-30c14869b8c9
+2024-10-31 10:28:13,677 - basicLogger - INFO - Task created with trace ID: 303d464b-385c-4858-b803-e14a9d6b718b
+2024-10-31 10:28:13,716 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:28:13,752 - basicLogger - INFO - Task created with trace ID: abf0ad9d-93e4-4c28-a83d-128f14a5275f
+2024-10-31 10:28:13,860 - basicLogger - INFO - Task created with trace ID: 2b31e3a8-842e-4411-b765-08d29b48bdec
+2024-10-31 10:28:13,953 - basicLogger - INFO - Task created with trace ID: 992c4ed1-9007-4c74-bc70-48af33f32273
+2024-10-31 10:28:14,064 - basicLogger - INFO - Task created with trace ID: 733619e5-1503-4b36-aa2d-2b28e802cab5
+2024-10-31 10:28:15,232 - basicLogger - INFO - Task completed with trace ID: cbc7fc69-4956-46bc-83fa-bb586ec7fe0d
+2024-10-31 10:28:15,299 - basicLogger - INFO - Task completed with trace ID: 22a7cbbe-6e35-46a9-8204-c928f834b633
+2024-10-31 10:28:15,393 - basicLogger - INFO - Task completed with trace ID: 4b1b1a44-149e-42b5-a099-fe10502fd4a4
+2024-10-31 10:28:15,471 - basicLogger - INFO - Task completed with trace ID: 6937e142-f65a-4df3-8c50-eceba3bb353b
+2024-10-31 10:28:15,597 - basicLogger - INFO - Task completed with trace ID: 2ef879f0-97f4-4826-b0df-9fe452cf8c79
+2024-10-31 10:28:15,724 - basicLogger - INFO - Task completed with trace ID: 1555193f-57df-4d39-9b89-616fb340f9cc
+2024-10-31 10:28:15,786 - basicLogger - INFO - Task completed with trace ID: 06d08c65-2616-4631-863e-14fbd43fe6ce
+2024-10-31 10:28:15,898 - basicLogger - INFO - Task completed with trace ID: 6bf43366-1f95-412f-8d20-6be63aeddf4c
+2024-10-31 10:28:15,993 - basicLogger - INFO - Task completed with trace ID: 3a0b2475-f11e-4dba-b691-0d2094d56243
+2024-10-31 10:28:16,103 - basicLogger - INFO - Task completed with trace ID: c4c3cb73-5293-4c8d-b2e3-9b6f3697e0af
+2024-10-31 10:28:21,665 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:28:23,705 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:28:31,698 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:28:33,740 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:29:50,790 - basicLogger - INFO - Tasks retrieved: 45 tasks
+2024-10-31 10:30:13,167 - basicLogger - INFO - Tasks retrieved: 45 tasks
+2024-10-31 10:30:22,515 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:31:46,352 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:31:48,379 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:31:56,342 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:31:58,382 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:32:06,337 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:32:08,377 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:32:16,329 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:32:18,374 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:32:26,316 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:32:28,350 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:32:30,164 - basicLogger - INFO - Task created with trace ID: 8051e49f-c240-4a01-9905-e701dc0dd837
+2024-10-31 10:32:30,259 - basicLogger - INFO - Task created with trace ID: c3df2a6a-c672-41ba-855c-f8d96eaf2abd
+2024-10-31 10:32:30,354 - basicLogger - INFO - Task created with trace ID: 09e69c93-c5a7-4a08-84ed-18d5431517e9
+2024-10-31 10:32:30,459 - basicLogger - INFO - Task created with trace ID: 21c67e34-9681-47f5-8ba0-74bad6299350
+2024-10-31 10:32:30,552 - basicLogger - INFO - Task created with trace ID: 25901185-3a9b-4b14-bbe8-b366858509f1
+2024-10-31 10:32:30,646 - basicLogger - INFO - Task created with trace ID: ec203ce8-505f-4626-a33e-6805b327fc7e
+2024-10-31 10:32:30,756 - basicLogger - INFO - Task created with trace ID: 8b28d2ae-b6c2-472d-ae23-8a02a8c24fc0
+2024-10-31 10:32:30,850 - basicLogger - INFO - Task created with trace ID: e4f46d0f-9002-4fcb-b6c3-ff39846b69d6
+2024-10-31 10:32:30,944 - basicLogger - INFO - Task created with trace ID: bc33c8d9-c0ae-4721-a70c-ed16008880c9
+2024-10-31 10:32:31,038 - basicLogger - INFO - Task created with trace ID: cab3ace7-81b4-4364-b782-dc08b395f6f1
+2024-10-31 10:32:32,199 - basicLogger - INFO - Task completed with trace ID: 6125d533-b3aa-4c1a-9b1b-c6b8ee1ff549
+2024-10-31 10:32:32,297 - basicLogger - INFO - Task completed with trace ID: 2c5d4547-f7ca-4241-be08-889982fbd99e
+2024-10-31 10:32:32,393 - basicLogger - INFO - Task completed with trace ID: a9601037-b8f9-4ff1-9c26-1d01f9132370
+2024-10-31 10:32:32,506 - basicLogger - INFO - Task completed with trace ID: 96501a0f-1578-4a36-8806-e433330c31e3
+2024-10-31 10:32:32,578 - basicLogger - INFO - Task completed with trace ID: cca72156-b2aa-4d7e-94ef-94ae128484e9
+2024-10-31 10:32:32,674 - basicLogger - INFO - Task completed with trace ID: a12eaf98-7a7b-4b9b-8b68-59853e4e28cb
+2024-10-31 10:32:32,783 - basicLogger - INFO - Task completed with trace ID: d8f244ab-876a-4ad6-9b41-f3375dee1e92
+2024-10-31 10:32:32,879 - basicLogger - INFO - Task completed with trace ID: 7d4020c5-5b80-4cee-8f48-95778150c108
+2024-10-31 10:32:32,973 - basicLogger - INFO - Task completed with trace ID: baf85bd7-1e4c-4a27-8f35-34e1c76ea988
+2024-10-31 10:32:33,069 - basicLogger - INFO - Task completed with trace ID: 8c2cab41-7cf8-4d7f-b015-d0e0492d36aa
+2024-10-31 10:32:34,246 - basicLogger - INFO - Task created with trace ID: cb2cee5f-63fa-4ac6-834f-55dcce13f25f
+2024-10-31 10:32:34,329 - basicLogger - INFO - Task created with trace ID: 9159f3f1-4641-4fcf-83cf-6c50c4ececeb
+2024-10-31 10:32:34,442 - basicLogger - INFO - Task created with trace ID: f717dcf8-5fb1-4f98-bf5c-6bffebcbb940
+2024-10-31 10:32:34,567 - basicLogger - INFO - Task created with trace ID: 92e24113-33f8-4726-a4b9-c40579bb9065
+2024-10-31 10:32:34,613 - basicLogger - INFO - Task created with trace ID: 536dbbe9-9ec2-44e4-9501-0a56392a663d
+2024-10-31 10:32:34,709 - basicLogger - INFO - Task created with trace ID: c0b7b2e6-0f90-4c7b-881a-eff52e1f0e62
+2024-10-31 10:32:34,820 - basicLogger - INFO - Task created with trace ID: e0e16665-2397-4a40-8aaa-ae4c4c0492a7
+2024-10-31 10:32:34,913 - basicLogger - INFO - Task created with trace ID: 533a96d4-60ac-4646-87cf-9bf71d78f06d
+2024-10-31 10:32:35,010 - basicLogger - INFO - Task created with trace ID: 0f2a943f-aa0e-4a68-8ceb-0406002a6c72
+2024-10-31 10:32:35,103 - basicLogger - INFO - Task created with trace ID: b99969f8-21d4-4cc1-864d-5468709e090a
+2024-10-31 10:32:36,310 - basicLogger - INFO - Task completed with trace ID: c5ab6390-7ea0-4f69-8e19-441e3f5f8ac3
+2024-10-31 10:32:36,341 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:32:36,378 - basicLogger - INFO - Task completed with trace ID: 65acb664-3d37-4eb8-ae99-27ac3c78ce59
+2024-10-31 10:32:36,501 - basicLogger - INFO - Task completed with trace ID: 7123d93b-1c11-497d-895d-1146d1f41361
+2024-10-31 10:32:36,608 - basicLogger - INFO - Task completed with trace ID: 4ec05e2d-17f0-42fa-b1e1-90681f80ac5c
+2024-10-31 10:32:36,661 - basicLogger - INFO - Task completed with trace ID: 5699b5da-dc68-44ed-95ff-2d5db0e02a2a
+2024-10-31 10:32:36,765 - basicLogger - INFO - Task completed with trace ID: 53b96490-1365-485c-a835-a409f83a5af8
+2024-10-31 10:32:36,877 - basicLogger - INFO - Task completed with trace ID: 15b5af7c-6d4f-43f4-8f21-4b788b59668c
+2024-10-31 10:32:36,969 - basicLogger - INFO - Task completed with trace ID: 713e837d-f6d6-4fe4-a04d-7aff5758fe65
+2024-10-31 10:32:37,048 - basicLogger - INFO - Task completed with trace ID: fe0c7a06-48e4-4d73-9db1-51bcc8dcf619
+2024-10-31 10:32:37,143 - basicLogger - INFO - Task completed with trace ID: f05faed6-f8d3-425c-a1c4-08681419aa19
+2024-10-31 10:32:38,372 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:32:46,326 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:32:48,368 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:35:22,629 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:35:24,665 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:35:27,628 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:35:29,646 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:35:32,649 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:35:34,710 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:35:37,635 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:35:39,673 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:35:42,617 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:35:44,648 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:35:47,598 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:35:49,635 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:35:52,634 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:35:54,669 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:35:57,639 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:35:59,688 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:36:02,636 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:36:04,681 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:36:07,630 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:36:09,656 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:36:12,609 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:36:14,668 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:36:17,631 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:36:17,833 - basicLogger - INFO - Task created with trace ID: 46d70564-b159-4d4d-a445-6eda4a99520b
+2024-10-31 10:36:17,951 - basicLogger - INFO - Task created with trace ID: edb652af-9fa6-4b10-9543-9ca9631e6480
+2024-10-31 10:36:18,046 - basicLogger - INFO - Task created with trace ID: b8094837-0f44-4420-a9d1-3818dcfebbf9
+2024-10-31 10:36:18,143 - basicLogger - INFO - Task created with trace ID: f7b5675f-ea35-45e9-9caf-a53840312c18
+2024-10-31 10:36:18,251 - basicLogger - INFO - Task created with trace ID: b7316afa-e9ff-4997-96b5-ce679f6061f0
+2024-10-31 10:36:18,346 - basicLogger - INFO - Task created with trace ID: 51b0e845-ce65-400f-91b8-9644865c9012
+2024-10-31 10:36:18,440 - basicLogger - INFO - Task created with trace ID: 9bb1f5a6-1893-44f9-8606-5b277d7c44f8
+2024-10-31 10:36:18,548 - basicLogger - INFO - Task created with trace ID: 520f9d35-bd54-47f4-a06e-fff462aeaa29
+2024-10-31 10:36:18,648 - basicLogger - INFO - Task created with trace ID: 93a19249-f85c-495a-a56b-8e99aef3ee7e
+2024-10-31 10:36:18,721 - basicLogger - INFO - Task created with trace ID: 8aa2b7d0-4057-4d0c-997e-0b418c452462
+2024-10-31 10:36:19,667 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:36:19,879 - basicLogger - INFO - Task completed with trace ID: cdf39abf-3637-492c-b84d-021fe9c2c30c
+2024-10-31 10:36:19,986 - basicLogger - INFO - Task completed with trace ID: 04fc56b2-685c-481f-8e2a-7d238f8ccb50
+2024-10-31 10:36:20,082 - basicLogger - INFO - Task completed with trace ID: 55f4c56c-d9a1-4a01-aa7e-aa477d09eb50
+2024-10-31 10:36:20,177 - basicLogger - INFO - Task completed with trace ID: 4ed718b9-b447-44cf-bb5e-2fd2119ac68e
+2024-10-31 10:36:20,289 - basicLogger - INFO - Task completed with trace ID: e247ef77-0644-4f2a-9872-b3ce703e6acb
+2024-10-31 10:36:20,382 - basicLogger - INFO - Task completed with trace ID: a370646b-8c4e-43b6-b051-6a4007b43684
+2024-10-31 10:36:20,475 - basicLogger - INFO - Task completed with trace ID: d8e5aa29-24f2-4494-bc17-a12a5c8b6f2f
+2024-10-31 10:36:20,584 - basicLogger - INFO - Task completed with trace ID: 47475eb0-6e23-411d-81f0-f429852f4149
+2024-10-31 10:36:20,677 - basicLogger - INFO - Task completed with trace ID: 5c51a58e-f1f4-4aa1-bba1-f0d668afaa15
+2024-10-31 10:36:20,755 - basicLogger - INFO - Task completed with trace ID: 7604f6ee-66f7-4d6b-82ef-f253db0c5365
+2024-10-31 10:36:21,920 - basicLogger - INFO - Task created with trace ID: 5ef6587c-08c0-4bc6-b3a5-4afc17ca9f73
+2024-10-31 10:36:22,042 - basicLogger - INFO - Task created with trace ID: 11ea7375-0997-4332-a5f0-f8444f03f30e
+2024-10-31 10:36:22,131 - basicLogger - INFO - Task created with trace ID: ad165533-14a4-4282-8755-efe7c8a39440
+2024-10-31 10:36:22,223 - basicLogger - INFO - Task created with trace ID: e57ebc53-6f26-422a-8358-0aa474ef1000
+2024-10-31 10:36:22,345 - basicLogger - INFO - Task created with trace ID: 6b0af8d2-00b7-4e5c-bd68-83d4f06223a3
+2024-10-31 10:36:22,447 - basicLogger - INFO - Task created with trace ID: cc0cac0d-6668-44a2-b773-d53ee3bdc152
+2024-10-31 10:36:22,530 - basicLogger - INFO - Task created with trace ID: 51a49a39-658e-4889-b827-22a0d78f9a22
+2024-10-31 10:36:22,635 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:36:22,645 - basicLogger - INFO - Task created with trace ID: 3b391350-a9c5-418d-9c77-4e80d70f87fe
+2024-10-31 10:36:22,733 - basicLogger - INFO - Task created with trace ID: 259564b5-22c8-4bfb-89cb-effa4f3f0ef4
+2024-10-31 10:36:22,826 - basicLogger - INFO - Task created with trace ID: 17ab3df6-5e93-4afd-8236-3f07786660c3
+2024-10-31 10:36:23,980 - basicLogger - INFO - Task completed with trace ID: 29af71e1-3a54-4b1b-8c48-910b4ac72353
+2024-10-31 10:36:24,091 - basicLogger - INFO - Task completed with trace ID: c166aa12-e1d5-4334-8deb-0ce23deda8fe
+2024-10-31 10:36:24,171 - basicLogger - INFO - Task completed with trace ID: fe0cbf75-0031-47bd-a023-739e6d079835
+2024-10-31 10:36:24,266 - basicLogger - INFO - Task completed with trace ID: 052625c1-7818-454b-8f4e-fd7a6a2d306f
+2024-10-31 10:36:24,392 - basicLogger - INFO - Task completed with trace ID: ca90ea6f-b480-4676-afa0-9b910f8d7b59
+2024-10-31 10:36:24,485 - basicLogger - INFO - Task completed with trace ID: 81287490-f40b-454c-9784-6ee680217666
+2024-10-31 10:36:24,563 - basicLogger - INFO - Task completed with trace ID: 5f89de78-505c-419b-bb45-5f94182fdb33
+2024-10-31 10:36:24,667 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:36:24,717 - basicLogger - INFO - Task completed with trace ID: 2c0ab8f3-13df-4ce2-9bc1-588e9474be9f
+2024-10-31 10:36:24,783 - basicLogger - INFO - Task completed with trace ID: 6cacddc6-e239-48fe-a3c3-9802cb3c1a26
+2024-10-31 10:36:24,874 - basicLogger - INFO - Task completed with trace ID: 1f06e810-a284-4c70-b4b4-1d7f95f06154
+2024-10-31 10:36:27,607 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:36:29,659 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:36:32,624 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:36:34,650 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:36:37,620 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:36:39,640 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:36:42,622 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:36:44,655 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:36:47,629 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:36:49,663 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:36:52,609 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:36:54,640 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:36:57,636 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:36:59,686 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:37:02,629 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:37:04,685 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:37:07,628 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:37:09,674 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:37:12,627 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:37:14,646 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:37:17,620 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:37:19,652 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:37:22,642 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:37:24,688 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:37:27,625 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:37:29,668 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:37:32,607 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:37:34,670 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:37:37,627 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:37:39,651 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:37:42,642 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:37:44,688 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:37:54,086 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:37:56,131 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:37:59,065 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:38:01,106 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:38:04,054 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:38:06,103 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:38:09,080 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:38:11,111 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:38:49,057 - basicLogger - INFO - Tasks retrieved: 85 tasks
+2024-10-31 10:38:51,085 - basicLogger - INFO - Completed tasks retrieved: 88 tasks
+2024-10-31 10:38:54,073 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:38:56,117 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:38:59,084 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:39:01,122 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:39:04,070 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:39:06,102 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:39:09,088 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:39:11,130 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:39:14,043 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:39:16,101 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:41:17,491 - basicLogger - INFO - Tasks retrieved: 85 tasks
+2024-10-31 10:41:42,322 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:41:42,832 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:41:43,784 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:41:44,079 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:41:44,313 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:41:44,519 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:41:45,813 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:41:47,842 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:41:50,808 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:41:52,858 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:41:55,089 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:41:55,508 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:41:55,731 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:41:55,827 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:41:56,027 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:41:56,242 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:41:57,864 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:42:00,787 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:42:02,831 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:42:05,800 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:42:07,846 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:42:10,806 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:42:12,843 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:42:15,814 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:42:17,855 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:42:20,816 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:42:22,877 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:42:25,795 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:42:27,843 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:42:30,797 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:42:32,830 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:42:35,814 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:42:37,866 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:42:40,814 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:42:42,853 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:42:45,858 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:42:46,179 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:42:46,414 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:42:46,751 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:42:47,005 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:42:48,831 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:42:49,165 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:42:49,441 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:43:00,214 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:43:02,244 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:43:05,234 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:43:07,273 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:43:10,251 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:43:12,277 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:45:27,108 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:45:29,153 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:45:32,097 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:45:34,134 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:45:35,727 - basicLogger - INFO - Task created with trace ID: a386d454-82fa-476b-91cd-86334773a909
+2024-10-31 10:45:35,836 - basicLogger - INFO - Task created with trace ID: 96b64b63-5ae6-477d-9dfe-96319f77d8a5
+2024-10-31 10:45:35,929 - basicLogger - INFO - Task created with trace ID: 413f07c1-711e-4a93-a412-8db9d99a6e0f
+2024-10-31 10:45:36,055 - basicLogger - INFO - Task created with trace ID: 27cbe9d3-eedd-4129-97ca-1749639a630e
+2024-10-31 10:45:36,117 - basicLogger - INFO - Task created with trace ID: 51743c85-1db2-45c7-b5d4-f7795fc12e08
+2024-10-31 10:45:36,233 - basicLogger - INFO - Task created with trace ID: 2ecb5a82-7346-43b5-9039-0ba5066e1174
+2024-10-31 10:45:36,323 - basicLogger - INFO - Task created with trace ID: d7620ba8-fd61-48e1-af4e-a557fdf73d0f
+2024-10-31 10:45:36,419 - basicLogger - INFO - Task created with trace ID: eda5f4f6-d0dc-4611-9ecd-5ba0f4d525db
+2024-10-31 10:45:36,545 - basicLogger - INFO - Task created with trace ID: 6d9397de-5400-45ef-bcc4-bec58c768a0c
+2024-10-31 10:45:36,622 - basicLogger - INFO - Task created with trace ID: 3d434d17-700e-4ed2-a509-ef2ea8594bdc
+2024-10-31 10:45:37,077 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:45:37,775 - basicLogger - INFO - Task completed with trace ID: 8ad54419-c869-4388-9e06-8593e83450d2
+2024-10-31 10:45:37,876 - basicLogger - INFO - Task completed with trace ID: 771073d7-6f72-4bf9-b3ab-a4c70982c12c
+2024-10-31 10:45:37,971 - basicLogger - INFO - Task completed with trace ID: 593749e3-5d43-48d2-a416-debfc4689150
+2024-10-31 10:45:38,098 - basicLogger - INFO - Task completed with trace ID: 6894d66d-b06f-4667-99d3-5ba698fea524
+2024-10-31 10:45:38,161 - basicLogger - INFO - Task completed with trace ID: db71520f-22e3-4a04-a2c3-362183ec3a0b
+2024-10-31 10:45:38,270 - basicLogger - INFO - Task completed with trace ID: 0d89af79-c55c-48c2-ba74-ff278026c3c0
+2024-10-31 10:45:38,365 - basicLogger - INFO - Task completed with trace ID: fe463b16-8292-4bae-b646-923b742f0a32
+2024-10-31 10:45:38,458 - basicLogger - INFO - Task completed with trace ID: ef03e961-3075-4375-82c2-336c9232fd24
+2024-10-31 10:45:38,588 - basicLogger - INFO - Task completed with trace ID: 9342daf5-555d-4a4d-ac72-0209c224f9e4
+2024-10-31 10:45:38,677 - basicLogger - INFO - Task completed with trace ID: 8d7a5d3d-fcbe-484b-b983-80b44c4fd069
+2024-10-31 10:45:39,129 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:45:39,824 - basicLogger - INFO - Task created with trace ID: 67957499-0b46-445b-acfb-2c5f3b4a74f2
+2024-10-31 10:45:39,902 - basicLogger - INFO - Task created with trace ID: 174b4aa5-ce3e-4e89-af4d-899ec96e8b27
+2024-10-31 10:45:40,013 - basicLogger - INFO - Task created with trace ID: 77f89b50-15fa-44dd-9add-83c910f2cd9a
+2024-10-31 10:45:40,138 - basicLogger - INFO - Task created with trace ID: 9a1c938e-ef2e-40e6-8265-523322c182d4
+2024-10-31 10:45:40,232 - basicLogger - INFO - Task created with trace ID: acc6269e-dc16-43ab-a318-95a30e8b1d74
+2024-10-31 10:45:40,309 - basicLogger - INFO - Task created with trace ID: 029249f8-2888-4c26-825c-72ab92658628
+2024-10-31 10:45:40,402 - basicLogger - INFO - Task created with trace ID: 06ac2838-ff91-4a2a-8909-42cfb4186312
+2024-10-31 10:45:40,492 - basicLogger - INFO - Task created with trace ID: e6f600bd-5dc6-4fd4-9625-1e179496fc53
+2024-10-31 10:45:40,632 - basicLogger - INFO - Task created with trace ID: 40f077a0-295e-4b70-a8cb-d25e5b8faac5
+2024-10-31 10:45:40,724 - basicLogger - INFO - Task created with trace ID: 492c19d6-aa4f-4305-a397-33562ff61948
+2024-10-31 10:45:41,874 - basicLogger - INFO - Task completed with trace ID: dde96206-851d-4e3f-8b8d-737e504d5f67
+2024-10-31 10:45:41,937 - basicLogger - INFO - Task completed with trace ID: ae583baa-4a26-4115-af69-83fc0af2a330
+2024-10-31 10:45:42,060 - basicLogger - INFO - Task completed with trace ID: 054b068b-f8b3-4663-b362-c0e8d869dafe
+2024-10-31 10:45:42,116 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:45:42,185 - basicLogger - INFO - Task completed with trace ID: 6116807d-4767-4c31-a5b5-5423c815b881
+2024-10-31 10:45:42,278 - basicLogger - INFO - Task completed with trace ID: b184e55a-68cb-4a19-a271-dea247dd2cf2
+2024-10-31 10:45:42,356 - basicLogger - INFO - Task completed with trace ID: f9f4e4c5-d303-44c7-b963-1dca1b57b79b
+2024-10-31 10:45:42,456 - basicLogger - INFO - Task completed with trace ID: 9e83d663-e5cd-4970-b4c4-d402efa9ceca
+2024-10-31 10:45:42,543 - basicLogger - INFO - Task completed with trace ID: 3496f216-0dfb-4c0e-a468-6f19a21102ec
+2024-10-31 10:45:42,682 - basicLogger - INFO - Task completed with trace ID: be513323-c11f-4b9c-9d15-15d009ef4781
+2024-10-31 10:45:42,791 - basicLogger - INFO - Task completed with trace ID: 517c3507-f01c-4fe6-840f-355d705c5d7b
+2024-10-31 10:45:44,135 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:45:45,691 - basicLogger - INFO - Task created with trace ID: 03c428c4-2718-4921-a2e4-36144c511e3d
+2024-10-31 10:45:45,791 - basicLogger - INFO - Task created with trace ID: caed787c-7242-42f3-ae12-1192822c7618
+2024-10-31 10:45:45,885 - basicLogger - INFO - Task created with trace ID: 5e8ac811-baf6-452c-8d0f-f341958ce4be
+2024-10-31 10:45:45,978 - basicLogger - INFO - Task created with trace ID: dee73152-8966-4ec9-ad0e-dc67b918d492
+2024-10-31 10:45:46,089 - basicLogger - INFO - Task created with trace ID: f3c8fe91-ecd2-4268-b397-11c61d4cfffe
+2024-10-31 10:45:46,182 - basicLogger - INFO - Task created with trace ID: 5aa7a9e9-f513-492c-8942-8b421c867a2f
+2024-10-31 10:45:46,291 - basicLogger - INFO - Task created with trace ID: b244a38c-440b-406d-9ae7-7480baa4c949
+2024-10-31 10:45:46,386 - basicLogger - INFO - Task created with trace ID: fce0fb42-9332-4b7f-97ad-223dd280182b
+2024-10-31 10:45:46,494 - basicLogger - INFO - Task created with trace ID: 9916973d-1736-423c-b500-36dbd88aaac9
+2024-10-31 10:45:46,589 - basicLogger - INFO - Task created with trace ID: 04ac02f8-fae3-4d47-8d10-8772d0c7aba5
+2024-10-31 10:45:47,077 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:45:47,747 - basicLogger - INFO - Task completed with trace ID: 8395342a-aca4-47df-8914-b03dd29a1e55
+2024-10-31 10:45:47,841 - basicLogger - INFO - Task completed with trace ID: 81fbdaad-3ace-4ab1-a446-cc556b83fc15
+2024-10-31 10:45:47,937 - basicLogger - INFO - Task completed with trace ID: 61eeeed2-0eae-49f5-9fd5-f71475e0f794
+2024-10-31 10:45:48,030 - basicLogger - INFO - Task completed with trace ID: 26a3a129-df3c-4fa3-919c-9e7dd7d28060
+2024-10-31 10:45:48,123 - basicLogger - INFO - Task completed with trace ID: 51a3f53b-038b-4a70-8957-3178ed13a9be
+2024-10-31 10:45:48,217 - basicLogger - INFO - Task completed with trace ID: 555a4e9a-1eb4-4d6b-b695-10a3c593cf17
+2024-10-31 10:45:48,340 - basicLogger - INFO - Task completed with trace ID: 680dcbab-e22f-4349-aa03-35186a46115d
+2024-10-31 10:45:48,437 - basicLogger - INFO - Task completed with trace ID: fd330d40-fe5d-49c1-8d6a-f3bb76382b1d
+2024-10-31 10:45:48,563 - basicLogger - INFO - Task completed with trace ID: 39878391-6819-4ea6-8e57-658d4cbb8cff
+2024-10-31 10:45:48,653 - basicLogger - INFO - Task completed with trace ID: df50a58f-02ae-41d4-9e9a-db193e4082b8
+2024-10-31 10:45:49,106 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:45:49,834 - basicLogger - INFO - Task created with trace ID: 1c695f45-f545-4007-96e8-28d6caa61c4b
+2024-10-31 10:45:49,884 - basicLogger - INFO - Task created with trace ID: 02dce3e3-18f7-4aa1-8df5-245527c657bb
+2024-10-31 10:45:49,977 - basicLogger - INFO - Task created with trace ID: e13ea258-1973-415e-93b3-4d7c190198b7
+2024-10-31 10:45:50,073 - basicLogger - INFO - Task created with trace ID: ecd1ee8d-d987-4024-8d29-a3d2138ef431
+2024-10-31 10:45:50,150 - basicLogger - INFO - Task created with trace ID: a4153db1-1389-4876-ade8-9e1c47cfaba2
+2024-10-31 10:45:50,260 - basicLogger - INFO - Task created with trace ID: 5856d10e-29b6-462e-828f-64be1f9fd54b
+2024-10-31 10:45:50,370 - basicLogger - INFO - Task created with trace ID: 774136a0-aa25-4422-9165-93908450fc9e
+2024-10-31 10:45:50,479 - basicLogger - INFO - Task created with trace ID: 83b57723-ec8a-4b48-8b2a-0aa2119e335f
+2024-10-31 10:45:50,599 - basicLogger - INFO - Task created with trace ID: 4ec42330-a5ec-4931-85a7-84c20921069f
+2024-10-31 10:45:50,682 - basicLogger - INFO - Task created with trace ID: 5f7a3ffd-7d68-4ba4-9d24-5c42666ced4a
+2024-10-31 10:45:51,872 - basicLogger - INFO - Task completed with trace ID: eee2e0c6-6d75-401b-ae94-a08225c38e98
+2024-10-31 10:45:51,923 - basicLogger - INFO - Task completed with trace ID: 6369460b-2f16-4a2a-bfd4-08d1c7842b7e
+2024-10-31 10:45:52,016 - basicLogger - INFO - Task completed with trace ID: 8a8cad61-d043-456c-b20d-9d01575390aa
+2024-10-31 10:45:52,090 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:45:52,114 - basicLogger - INFO - Task completed with trace ID: 4f9ceba9-e9e3-4063-a75e-b2a80d79110a
+2024-10-31 10:45:52,204 - basicLogger - INFO - Task completed with trace ID: 2f87a978-85bb-43c2-a04f-e3a823652b18
+2024-10-31 10:45:52,299 - basicLogger - INFO - Task completed with trace ID: 74af3120-07fc-4b2d-9cb2-68937cdc94a1
+2024-10-31 10:45:52,408 - basicLogger - INFO - Task completed with trace ID: ea279cfe-d873-43c7-969c-9ffe1cd95ef2
+2024-10-31 10:45:52,531 - basicLogger - INFO - Task completed with trace ID: a8d8613b-f606-4c47-a584-01d15f818172
+2024-10-31 10:45:52,659 - basicLogger - INFO - Task completed with trace ID: 62e5894a-d4fc-41c0-be39-d11dadcad8e7
+2024-10-31 10:45:52,735 - basicLogger - INFO - Task completed with trace ID: beab8b1c-0b1c-4032-9740-265c452c31cc
+2024-10-31 10:45:54,137 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:45:57,107 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:45:59,154 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:47:01,850 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:47:03,874 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:47:06,855 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:47:08,901 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:47:11,860 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:47:13,890 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:47:16,851 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:47:18,002 - basicLogger - INFO - Task created with trace ID: 39193a9f-1115-41c8-b103-fe48672f5d32
+2024-10-31 10:47:18,112 - basicLogger - INFO - Task created with trace ID: a9544395-6b55-4ac2-b2a3-6ac80552f44e
+2024-10-31 10:47:18,221 - basicLogger - INFO - Task created with trace ID: 9f057b8a-b31d-4e96-912a-db50dd79541f
+2024-10-31 10:47:18,315 - basicLogger - INFO - Task created with trace ID: b2f9b416-ed74-41f4-81d2-e132933d796c
+2024-10-31 10:47:18,408 - basicLogger - INFO - Task created with trace ID: 85903a4c-1110-4ea8-9d60-aff680c475e7
+2024-10-31 10:47:18,505 - basicLogger - INFO - Task created with trace ID: 1539c952-b0ea-4a2a-9f98-c86e91025338
+2024-10-31 10:47:18,613 - basicLogger - INFO - Task created with trace ID: 17a2670b-c572-4b8a-aa09-cc5bc15d49b2
+2024-10-31 10:47:18,707 - basicLogger - INFO - Task created with trace ID: dadef306-a35e-4403-a0e5-b469017445a0
+2024-10-31 10:47:18,802 - basicLogger - INFO - Task created with trace ID: 96e61831-8d79-4b80-b233-87c9f6d44073
+2024-10-31 10:47:18,891 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:47:18,911 - basicLogger - INFO - Task created with trace ID: 7ed0c56a-7273-4a7e-8b0c-d4da947da773
+2024-10-31 10:47:20,036 - basicLogger - INFO - Task completed with trace ID: fa120153-230e-4a0a-b259-0479845e8800
+2024-10-31 10:47:20,132 - basicLogger - INFO - Task completed with trace ID: a8f30341-d65a-44d7-83b3-5695e757133a
+2024-10-31 10:47:20,256 - basicLogger - INFO - Task completed with trace ID: 3c0b28d4-d43d-488a-9548-7b9756eee6fa
+2024-10-31 10:47:20,349 - basicLogger - INFO - Task completed with trace ID: 9f9e4684-d5ab-4a23-b9e3-9c9bcac174f0
+2024-10-31 10:47:20,445 - basicLogger - INFO - Task completed with trace ID: 0ddb9b17-481b-45f6-9610-be15608b1755
+2024-10-31 10:47:20,538 - basicLogger - INFO - Task completed with trace ID: 83b7ab4d-ba65-4f8b-b92a-468249e4d22c
+2024-10-31 10:47:20,660 - basicLogger - INFO - Task completed with trace ID: b6b93291-e3d7-4594-b5b2-c18d539033ba
+2024-10-31 10:47:20,753 - basicLogger - INFO - Task completed with trace ID: f7a65443-9ffe-4d69-8279-0882fe992021
+2024-10-31 10:47:20,857 - basicLogger - INFO - Task completed with trace ID: 36aa667f-69f9-42c5-955c-8461e9ad3964
+2024-10-31 10:47:20,969 - basicLogger - INFO - Task completed with trace ID: e2d22306-7cdf-456c-aee9-b992d242b364
+2024-10-31 10:47:21,881 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:47:22,075 - basicLogger - INFO - Task created with trace ID: d398d1db-7299-4f77-8e98-8b3d180e8275
+2024-10-31 10:47:22,184 - basicLogger - INFO - Task created with trace ID: 3230f8af-2bf4-43ba-90ca-510c983e3ca1
+2024-10-31 10:47:22,311 - basicLogger - INFO - Task created with trace ID: 032779e0-96c1-464a-9ae3-ba3401efb5e4
+2024-10-31 10:47:22,405 - basicLogger - INFO - Task created with trace ID: 19ab079b-6cc2-493a-b8b7-2c14126b9ebb
+2024-10-31 10:47:22,498 - basicLogger - INFO - Task created with trace ID: 06473af3-acca-4d0d-b973-7c4b20484c65
+2024-10-31 10:47:22,577 - basicLogger - INFO - Task created with trace ID: 4c692ea8-5f72-4369-9ce5-e366e3e441b7
+2024-10-31 10:47:22,719 - basicLogger - INFO - Task created with trace ID: 4b523d2d-2326-4122-8799-4599c8cb664f
+2024-10-31 10:47:22,797 - basicLogger - INFO - Task created with trace ID: 6b004ef1-0e93-4ebf-8f5b-6da6d64eb258
+2024-10-31 10:47:22,907 - basicLogger - INFO - Task created with trace ID: ea12304c-89a2-4328-9ef7-69d6d32c8a0f
+2024-10-31 10:47:23,001 - basicLogger - INFO - Task created with trace ID: 64ca5de8-d969-4fe3-82ff-99dbc09b5734
+2024-10-31 10:47:23,907 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:47:24,112 - basicLogger - INFO - Task completed with trace ID: 6744abec-d462-4c4e-942c-4c4871be6d33
+2024-10-31 10:47:24,257 - basicLogger - INFO - Task completed with trace ID: 741587f4-6b6c-45ff-953d-4affef6d3f3f
+2024-10-31 10:47:24,336 - basicLogger - INFO - Task completed with trace ID: 1a1dc631-de51-40ce-9504-1d459d037358
+2024-10-31 10:47:24,430 - basicLogger - INFO - Task completed with trace ID: d3b5b70c-3f2a-4f05-bbc6-bcd820438f07
+2024-10-31 10:47:24,525 - basicLogger - INFO - Task completed with trace ID: 2d0456ec-edd1-474d-9390-cd35c67dea64
+2024-10-31 10:47:24,605 - basicLogger - INFO - Task completed with trace ID: 3025aac3-e00f-42e1-8cec-8088a5e55d49
+2024-10-31 10:47:24,744 - basicLogger - INFO - Task completed with trace ID: c2a83bf0-80ab-4504-9162-5c53c5705402
+2024-10-31 10:47:24,837 - basicLogger - INFO - Task completed with trace ID: 19650dbe-bdaa-4c8c-9e63-87d5a741474b
+2024-10-31 10:47:24,931 - basicLogger - INFO - Task completed with trace ID: b42df74e-4c61-4a64-9f81-0443c8528f2d
+2024-10-31 10:47:25,026 - basicLogger - INFO - Task completed with trace ID: 6e259d06-d13b-4959-a402-d8880a54a608
+2024-10-31 10:47:26,861 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:47:28,885 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:47:31,874 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:47:33,916 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:47:36,865 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:47:38,897 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:50:02,092 - basicLogger - INFO - Task created with trace ID: 3af323fb-da85-47a6-bc9a-dfc8611252b5
+2024-10-31 10:50:02,200 - basicLogger - INFO - Task created with trace ID: 15da3b46-2104-4f81-b120-00521bdb77dd
+2024-10-31 10:50:02,295 - basicLogger - INFO - Task created with trace ID: a86e346c-0d2e-45f2-81df-d0698cbcd7a0
+2024-10-31 10:50:02,388 - basicLogger - INFO - Task created with trace ID: 5111e7a2-2b7a-4293-a39c-2f28297bd19a
+2024-10-31 10:50:02,516 - basicLogger - INFO - Task created with trace ID: 72cdc206-7ab3-4871-b1f2-61cd6bca7c04
+2024-10-31 10:50:02,593 - basicLogger - INFO - Task created with trace ID: edddf79f-c9bc-4a59-8c53-51c362497f12
+2024-10-31 10:50:02,703 - basicLogger - INFO - Task created with trace ID: 8a1418af-ede1-4be2-bc96-0fae8e3c942b
+2024-10-31 10:50:02,798 - basicLogger - INFO - Task created with trace ID: f760ef8b-372b-48e1-8414-8b15f4e51da0
+2024-10-31 10:50:02,893 - basicLogger - INFO - Task created with trace ID: b8789a98-9fba-46af-a6a2-66ed14116b72
+2024-10-31 10:50:02,971 - basicLogger - INFO - Task created with trace ID: 77b2d899-a196-4c2e-ae79-eecbd66d0420
+2024-10-31 10:50:04,135 - basicLogger - INFO - Task completed with trace ID: 20b6727c-c78a-4f0f-bd74-6d71c631ee4a
+2024-10-31 10:50:04,276 - basicLogger - INFO - Task completed with trace ID: fc2a6fce-03d6-41dc-abe4-d22a4eeab2a2
+2024-10-31 10:50:04,351 - basicLogger - INFO - Task completed with trace ID: cf5ac1b0-353b-49d3-a2a4-7d99b39398db
+2024-10-31 10:50:04,443 - basicLogger - INFO - Task completed with trace ID: c1def11f-da75-4029-afd2-930cc51945a4
+2024-10-31 10:50:04,568 - basicLogger - INFO - Task completed with trace ID: 42cbef6d-fc41-4303-afee-18be4c22164b
+2024-10-31 10:50:04,646 - basicLogger - INFO - Task completed with trace ID: 345b884f-4280-41d4-afcd-46d6327445ae
+2024-10-31 10:50:04,789 - basicLogger - INFO - Task completed with trace ID: 04b5fcdb-04be-4376-8caa-003f4aef8629
+2024-10-31 10:50:04,850 - basicLogger - INFO - Task completed with trace ID: fdc72f4d-8510-4dce-91af-36d364b81ada
+2024-10-31 10:50:04,957 - basicLogger - INFO - Task completed with trace ID: f94a783f-038f-4542-8bd5-8977f9c0b5d0
+2024-10-31 10:50:05,022 - basicLogger - INFO - Task completed with trace ID: da68e6f4-e85e-4370-aea4-40c6f3c5b592
+2024-10-31 10:50:06,212 - basicLogger - INFO - Task created with trace ID: 9f6cf918-2c5f-4b76-a486-0c3387de173e
+2024-10-31 10:50:06,337 - basicLogger - INFO - Task created with trace ID: f679d1fa-1797-43dd-9608-0ee6eb45c978
+2024-10-31 10:50:06,399 - basicLogger - INFO - Task created with trace ID: 58aa4260-09d6-4d3e-8d61-be1c2e5f6843
+2024-10-31 10:50:06,495 - basicLogger - INFO - Task created with trace ID: f24fa590-8d9f-4cfa-bcbf-7176dc88426e
+2024-10-31 10:50:06,604 - basicLogger - INFO - Task created with trace ID: 297b6022-1515-4ce8-8b7e-c93f7f1e3d70
+2024-10-31 10:50:06,682 - basicLogger - INFO - Task created with trace ID: 16c3ee4d-355f-44e1-a4e8-c33e366292c4
+2024-10-31 10:50:06,822 - basicLogger - INFO - Task created with trace ID: 77143813-e95a-46dc-98e3-c43788bf2681
+2024-10-31 10:50:06,892 - basicLogger - INFO - Task created with trace ID: a9fa67ef-6473-4b64-bfb5-6927a42b7477
+2024-10-31 10:50:07,010 - basicLogger - INFO - Task created with trace ID: a0cd82ba-1093-479e-9b17-f9f85b092d5d
+2024-10-31 10:50:07,072 - basicLogger - INFO - Task created with trace ID: 1d3a416e-6498-4ed2-8e73-3b5e84445ead
+2024-10-31 10:50:08,260 - basicLogger - INFO - Task completed with trace ID: fd1ab04b-74e4-4e0e-bcd1-adc407cd5cfd
+2024-10-31 10:50:08,383 - basicLogger - INFO - Task completed with trace ID: bdbbe5b5-46ce-4cb3-abc0-44e17a66b17e
+2024-10-31 10:50:08,444 - basicLogger - INFO - Task completed with trace ID: 0a899ba1-227b-487b-a19a-915e504ec3eb
+2024-10-31 10:50:08,538 - basicLogger - INFO - Task completed with trace ID: ed29709a-69b8-4b58-94a5-0591a2f849d4
+2024-10-31 10:50:08,648 - basicLogger - INFO - Task completed with trace ID: d5bf0237-5b5b-40b0-ad8c-bebb2a05d732
+2024-10-31 10:50:08,742 - basicLogger - INFO - Task completed with trace ID: abe3065f-2098-49a2-a996-79edb5fb2fad
+2024-10-31 10:50:08,870 - basicLogger - INFO - Task completed with trace ID: e31ea7c8-822a-4553-87fb-788c48574840
+2024-10-31 10:50:08,933 - basicLogger - INFO - Task completed with trace ID: c69422cb-b2b4-4cc4-b072-70925fcdf4c4
+2024-10-31 10:50:09,041 - basicLogger - INFO - Task completed with trace ID: c0638b56-256f-46a9-9817-10a9ece48de2
+2024-10-31 10:50:09,104 - basicLogger - INFO - Task completed with trace ID: 25c2cfbb-2e5e-4b63-b45f-799dfeb4022d
+2024-10-31 10:50:27,101 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:50:29,135 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:50:32,101 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:50:34,127 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 10:51:05,944 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:52:09,768 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:52:10,006 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:52:10,222 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:52:10,508 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:52:10,725 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:52:10,909 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:52:11,092 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:52:11,250 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:52:11,407 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:52:11,567 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:52:11,733 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:52:20,550 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:55:44,947 - basicLogger - INFO - Task completed with trace ID: cba3d467-f384-45fa-855c-9f48342bf3a7
+2024-10-31 10:55:45,054 - basicLogger - INFO - Task completed with trace ID: 223be0d9-c497-46a2-b350-9a33b8c39e69
+2024-10-31 10:55:45,150 - basicLogger - INFO - Task completed with trace ID: 150fd8a5-3472-4275-a8b9-d177632953f8
+2024-10-31 10:55:45,226 - basicLogger - INFO - Task completed with trace ID: eab35991-800d-4f48-9796-5503064ac5ce
+2024-10-31 10:55:45,337 - basicLogger - INFO - Task completed with trace ID: ad0c92c2-afc9-489a-8785-25d3d6986a14
+2024-10-31 10:55:45,478 - basicLogger - INFO - Task completed with trace ID: f78c1bc5-6241-4aa7-aefd-b05a407b77e5
+2024-10-31 10:55:45,526 - basicLogger - INFO - Task completed with trace ID: 5289b7e8-e224-4c0f-8a9a-2c796dea1b9d
+2024-10-31 10:55:45,652 - basicLogger - INFO - Task completed with trace ID: 849ef849-9d6f-4772-b58c-22c54353cdf9
+2024-10-31 10:55:45,728 - basicLogger - INFO - Task completed with trace ID: e04c6160-baa7-4605-811b-ef62e7ebe890
+2024-10-31 10:55:45,822 - basicLogger - INFO - Task completed with trace ID: 4b6f28a6-1ca9-4626-80fa-bb1a5cbb9f7e
+2024-10-31 10:55:46,998 - basicLogger - INFO - Task completed with trace ID: 09239ca3-7fa0-4fdb-ac12-0432a5f9e51e
+2024-10-31 10:55:47,105 - basicLogger - INFO - Task completed with trace ID: ef1b4215-9d1f-43fb-ae15-59e55173d72a
+2024-10-31 10:55:47,197 - basicLogger - INFO - Task completed with trace ID: a6b118d2-04dd-439e-8f6f-9ec19d74b13a
+2024-10-31 10:55:47,277 - basicLogger - INFO - Task completed with trace ID: 38e02f87-a2fb-4ecd-bca3-ed3361e33612
+2024-10-31 10:55:47,398 - basicLogger - INFO - Task completed with trace ID: 39656156-02ab-4df7-b938-bd63e9625692
+2024-10-31 10:55:47,523 - basicLogger - INFO - Task completed with trace ID: 721c7229-51e4-4dc7-92ac-71eccac824cb
+2024-10-31 10:55:47,570 - basicLogger - INFO - Task completed with trace ID: 5d228823-43f9-4658-a3e3-65bb7b7342d0
+2024-10-31 10:55:47,710 - basicLogger - INFO - Task completed with trace ID: 447695df-cf29-4831-8ef9-6a8c412d93ea
+2024-10-31 10:55:47,787 - basicLogger - INFO - Task completed with trace ID: 3bb1ea45-1748-4434-bbc5-40a5930d7012
+2024-10-31 10:55:47,865 - basicLogger - INFO - Task completed with trace ID: 1159a56b-8ffd-4b58-8a84-395e0cb13465
+2024-10-31 10:55:58,208 - basicLogger - INFO - Task completed with trace ID: e216d991-19c6-42fc-97c6-47716b733dc3
+2024-10-31 10:55:58,301 - basicLogger - INFO - Task completed with trace ID: d0f44224-c9f9-44d2-a883-513d974fb481
+2024-10-31 10:55:58,381 - basicLogger - INFO - Task completed with trace ID: 2ca10529-d4c4-446e-9a11-5203c25d68d1
+2024-10-31 10:55:58,490 - basicLogger - INFO - Task completed with trace ID: c1e281fd-6b58-40c4-83cf-60919564aaf7
+2024-10-31 10:55:58,603 - basicLogger - INFO - Task completed with trace ID: cd8a0333-a7a9-42ac-8e5d-c3b8759eec14
+2024-10-31 10:55:58,710 - basicLogger - INFO - Task completed with trace ID: f5470cd5-9203-4648-ac98-ff06f18371ad
+2024-10-31 10:55:58,789 - basicLogger - INFO - Task completed with trace ID: b0b9876a-cd93-4b8e-964e-fd6afc1c2e72
+2024-10-31 10:55:58,886 - basicLogger - INFO - Task completed with trace ID: 3321865f-6378-482d-b43c-0c38af8c8ff6
+2024-10-31 10:55:58,979 - basicLogger - INFO - Task completed with trace ID: 3f5e7975-3d7c-439d-b456-29fb57dc6c9f
+2024-10-31 10:55:59,139 - basicLogger - INFO - Task completed with trace ID: 206770b0-dfc3-41f1-b0c2-d30d749ea893
+2024-10-31 10:56:00,254 - basicLogger - INFO - Task completed with trace ID: dc5039af-0233-4cda-983b-664b524621ab
+2024-10-31 10:56:00,338 - basicLogger - INFO - Task completed with trace ID: e2b3e28a-b185-4fe6-b0b3-c9b0bca96f0f
+2024-10-31 10:56:00,416 - basicLogger - INFO - Task completed with trace ID: db2333b4-d45a-4800-95f4-74dcf7d3eda5
+2024-10-31 10:56:00,528 - basicLogger - INFO - Task completed with trace ID: ef733025-6745-41f1-ace2-b53478b5d2cc
+2024-10-31 10:56:00,637 - basicLogger - INFO - Task completed with trace ID: d8ffd8fd-67c3-4ea4-972c-a5a18834d320
+2024-10-31 10:56:00,747 - basicLogger - INFO - Task completed with trace ID: 0bbe48eb-8229-4067-b91f-b782de551b67
+2024-10-31 10:56:00,826 - basicLogger - INFO - Task completed with trace ID: 042c12c8-4dd3-4b86-822c-603610d089dd
+2024-10-31 10:56:00,920 - basicLogger - INFO - Task completed with trace ID: a4e8ff25-8640-46e6-9d26-59c8206b21a9
+2024-10-31 10:56:01,014 - basicLogger - INFO - Task completed with trace ID: 8050bd0d-b6e5-4ed6-9ab8-1344c96be3f8
+2024-10-31 10:56:01,171 - basicLogger - INFO - Task completed with trace ID: 1a679728-5cde-4200-ba02-94528b471af0
+2024-10-31 10:56:14,443 - basicLogger - INFO - Task completed with trace ID: e3a4168a-df5e-4aa1-81fb-4d08c4efeeff
+2024-10-31 10:56:14,545 - basicLogger - INFO - Task completed with trace ID: 9b07bf06-2c0d-44ed-b71d-298e583371e7
+2024-10-31 10:56:14,667 - basicLogger - INFO - Task completed with trace ID: 6e53ea7e-7620-4cd1-822e-c9ea27318ff1
+2024-10-31 10:56:14,791 - basicLogger - INFO - Task completed with trace ID: c20eff89-e005-4f76-bb39-d7e5b9f569ad
+2024-10-31 10:56:14,837 - basicLogger - INFO - Task completed with trace ID: 6f1abf50-f04b-43c5-9de1-78a9e101a8c9
+2024-10-31 10:56:14,962 - basicLogger - INFO - Task completed with trace ID: f7cf36b2-1cd8-46e2-ab71-63aaafa915e5
+2024-10-31 10:56:15,058 - basicLogger - INFO - Task completed with trace ID: f53adc35-13f3-4ece-8478-c1260d875c43
+2024-10-31 10:56:15,166 - basicLogger - INFO - Task completed with trace ID: 4c562d8c-d8e2-436d-98e0-99a6cf4f1a44
+2024-10-31 10:56:15,294 - basicLogger - INFO - Task completed with trace ID: e4824e55-dadd-4b66-8b25-1b3807b18bc5
+2024-10-31 10:56:15,339 - basicLogger - INFO - Task completed with trace ID: 9b980e8d-e079-4fae-907d-92f2ea6f1d5b
+2024-10-31 10:56:16,486 - basicLogger - INFO - Task completed with trace ID: 9e08011e-2c0e-453c-968c-5bfbd3b3039f
+2024-10-31 10:56:16,595 - basicLogger - INFO - Task completed with trace ID: df4e9b16-952e-4092-82b1-155f95459b65
+2024-10-31 10:56:16,707 - basicLogger - INFO - Task completed with trace ID: dd730fa1-c925-44b0-ae74-ba07d5f751f8
+2024-10-31 10:56:16,830 - basicLogger - INFO - Task completed with trace ID: 8192024f-2191-473a-8379-741b02eedc71
+2024-10-31 10:56:16,864 - basicLogger - INFO - Task completed with trace ID: 0814f88a-5ec8-42fa-a6bd-f50c2f0b7a06
+2024-10-31 10:56:17,004 - basicLogger - INFO - Task completed with trace ID: e828d0cd-6cf4-4063-b89f-697878bfdc08
+2024-10-31 10:56:17,098 - basicLogger - INFO - Task completed with trace ID: 893af405-8699-401b-8d62-848c0ea1ec55
+2024-10-31 10:56:17,208 - basicLogger - INFO - Task completed with trace ID: a3b84ffe-5fe1-49db-be02-11797352dd26
+2024-10-31 10:56:17,350 - basicLogger - INFO - Task completed with trace ID: ae5f8d38-ddd2-4001-b86d-c742c017558a
+2024-10-31 10:56:17,382 - basicLogger - INFO - Task completed with trace ID: 05ef1c60-9781-4c45-9d87-6015d17f5145
+2024-10-31 10:57:50,427 - basicLogger - INFO - Task created with trace ID: da644892-253b-401e-aab7-cb473d409b17
+2024-10-31 10:57:50,526 - basicLogger - INFO - Task created with trace ID: 03b3c6a7-65fa-4ff8-a163-51804af16900
+2024-10-31 10:57:50,632 - basicLogger - INFO - Task created with trace ID: 0f9a4d0f-a2f6-4b83-9130-d0b8d467ff88
+2024-10-31 10:57:50,725 - basicLogger - INFO - Task created with trace ID: 2c7f0827-b451-4f91-9e28-ab5b8b9fce21
+2024-10-31 10:57:50,819 - basicLogger - INFO - Task created with trace ID: dfb01e4e-5fb0-4236-b39e-f8148ddf07ba
+2024-10-31 10:57:50,912 - basicLogger - INFO - Task created with trace ID: 2e9cee46-81fd-4b46-bf78-1e5dbf433993
+2024-10-31 10:57:51,008 - basicLogger - INFO - Task created with trace ID: 446e29c8-f16c-43c5-96c7-42f7cf60fb6c
+2024-10-31 10:57:51,117 - basicLogger - INFO - Task created with trace ID: 35611883-6a04-4a6d-aa62-7942d7870088
+2024-10-31 10:57:51,226 - basicLogger - INFO - Task created with trace ID: e0257c11-ce6a-4061-8401-74ffcacc7c32
+2024-10-31 10:57:51,336 - basicLogger - INFO - Task created with trace ID: 0e3f4c4b-1b11-4b18-9c2d-dd34cac5ba9f
+2024-10-31 10:57:52,495 - basicLogger - INFO - Task completed with trace ID: afc7464b-e0b8-465d-837f-d589b19f3667
+2024-10-31 10:57:52,588 - basicLogger - INFO - Task completed with trace ID: 6c7636ea-b1a7-48dd-95a3-4c2d00eff4ee
+2024-10-31 10:57:52,665 - basicLogger - INFO - Task completed with trace ID: ce2af207-360e-4fe9-a238-5e140c771e4b
+2024-10-31 10:57:52,762 - basicLogger - INFO - Task completed with trace ID: 5342147d-6c5e-49df-b6e0-1a94fea56f84
+2024-10-31 10:57:52,854 - basicLogger - INFO - Task completed with trace ID: 5267b022-aa94-48e5-b7de-6f391855ac2d
+2024-10-31 10:57:52,947 - basicLogger - INFO - Task completed with trace ID: ca9aa4b7-4ef9-4760-872b-c9669af852d2
+2024-10-31 10:57:53,087 - basicLogger - INFO - Task completed with trace ID: f5d799c5-2cee-4fdf-9cea-877f2331221f
+2024-10-31 10:57:53,164 - basicLogger - INFO - Task completed with trace ID: 3002431a-ddde-49d0-bb66-6769c73586f1
+2024-10-31 10:57:53,275 - basicLogger - INFO - Task completed with trace ID: f7d04668-caa6-4885-ae24-2879e143ea8c
+2024-10-31 10:57:53,371 - basicLogger - INFO - Task completed with trace ID: a762e405-6d8f-4b68-a8b5-ebc18c44a997
+2024-10-31 10:57:54,563 - basicLogger - INFO - Task created with trace ID: 99c3f52d-4af5-4682-b96b-187d16e51ab4
+2024-10-31 10:57:54,646 - basicLogger - INFO - Task created with trace ID: 7bcdfa59-9e2a-4aca-a33f-55dabca05e2b
+2024-10-31 10:57:54,707 - basicLogger - INFO - Task created with trace ID: 80ed22c4-f352-468f-8e17-97c52e8b6b68
+2024-10-31 10:57:54,831 - basicLogger - INFO - Task created with trace ID: b79026ec-f400-47c4-af50-12c63286159f
+2024-10-31 10:57:54,893 - basicLogger - INFO - Task created with trace ID: 2bf78eb6-8420-4711-9d94-6e709d05d222
+2024-10-31 10:57:55,005 - basicLogger - INFO - Task created with trace ID: 3112fb90-56a6-4ef2-9252-59b1181a69f5
+2024-10-31 10:57:55,129 - basicLogger - INFO - Task created with trace ID: f89b6b7a-7f73-4afb-94c9-84cf57d09311
+2024-10-31 10:57:55,220 - basicLogger - INFO - Task created with trace ID: 399db391-9458-4034-a93b-5c11ead75793
+2024-10-31 10:57:55,329 - basicLogger - INFO - Task created with trace ID: 753ad88f-272c-4df9-9805-eff13343dc8f
+2024-10-31 10:57:55,438 - basicLogger - INFO - Task created with trace ID: 832f3b5e-42b0-46ea-b968-86714274a78d
+2024-10-31 10:57:56,612 - basicLogger - INFO - Task completed with trace ID: 2389f185-c321-4680-ba15-9b7acf08743b
+2024-10-31 10:57:56,704 - basicLogger - INFO - Task completed with trace ID: 51338147-ad18-4dfb-988d-6e519b7bd64b
+2024-10-31 10:57:56,769 - basicLogger - INFO - Task completed with trace ID: b6358293-4fe4-429a-9ec6-2035619a76f5
+2024-10-31 10:57:56,905 - basicLogger - INFO - Task completed with trace ID: a1ded5cb-fa16-4918-a685-38d54d8432d5
+2024-10-31 10:57:56,951 - basicLogger - INFO - Task completed with trace ID: 3ef755c5-d86b-4918-b599-12879a09a438
+2024-10-31 10:57:57,046 - basicLogger - INFO - Task completed with trace ID: f58b1e98-fbb9-4dbe-9d5b-5acbc3c4423f
+2024-10-31 10:57:57,187 - basicLogger - INFO - Task completed with trace ID: 7cbadaee-0360-4f86-ac4f-8538e4c7d143
+2024-10-31 10:57:57,249 - basicLogger - INFO - Task completed with trace ID: 057ccac8-d5bd-46fd-99d8-bbcd450c5582
+2024-10-31 10:57:57,387 - basicLogger - INFO - Task completed with trace ID: bf524860-ad26-4ca7-8e77-a2799032eb37
+2024-10-31 10:57:57,497 - basicLogger - INFO - Task completed with trace ID: 30c4e230-1546-4088-9a06-0d0a6be95364
+2024-10-31 10:58:08,586 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:58:47,090 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 10:59:10,466 - basicLogger - INFO - Task created with trace ID: None
+2024-10-31 10:59:15,363 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:00:01,507 - basicLogger - INFO - Tasks retrieved: 9 tasks
+2024-10-31 11:00:26,346 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:00:28,384 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:00:31,349 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:00:33,378 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:00:51,671 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:01:14,676 - basicLogger - INFO - Task created with trace ID: 010421b2-21ef-470e-8fbd-491564c28435
+2024-10-31 11:01:14,775 - basicLogger - INFO - Task created with trace ID: ed4a940f-2443-42ee-9955-b93198e52515
+2024-10-31 11:01:14,884 - basicLogger - INFO - Task created with trace ID: ff547fc7-aa6f-4db9-83ef-726e6bba9409
+2024-10-31 11:01:14,977 - basicLogger - INFO - Task created with trace ID: 7e3e13b2-91c9-4dc6-a410-d72853199ea6
+2024-10-31 11:01:15,085 - basicLogger - INFO - Task created with trace ID: 9db1c8f0-afb9-47be-b41e-71798143005c
+2024-10-31 11:01:15,194 - basicLogger - INFO - Task created with trace ID: 91fd901c-e669-4e63-8df4-272279941e0d
+2024-10-31 11:01:15,289 - basicLogger - INFO - Task created with trace ID: cfcd78f5-e09c-4a37-861c-199a39539408
+2024-10-31 11:01:15,396 - basicLogger - INFO - Task created with trace ID: 39e41f5a-3301-446f-9c2a-5b7c2e459b2b
+2024-10-31 11:01:15,489 - basicLogger - INFO - Task created with trace ID: c202b431-eedb-4a24-9e19-c39b8c798871
+2024-10-31 11:01:15,606 - basicLogger - INFO - Task created with trace ID: a33a023e-acb5-489e-beee-0f528a5db265
+2024-10-31 11:01:16,749 - basicLogger - INFO - Task completed with trace ID: 544bf957-30ae-4637-95ca-afee9e497abe
+2024-10-31 11:01:16,871 - basicLogger - INFO - Task completed with trace ID: 81505932-7f0c-43a3-80ce-4ad069596882
+2024-10-31 11:01:16,935 - basicLogger - INFO - Task completed with trace ID: fe005e0c-7274-42ce-bdb3-f3d8388ee145
+2024-10-31 11:01:17,042 - basicLogger - INFO - Task completed with trace ID: 858ed4dd-7fc0-465b-82a7-04256f9306b2
+2024-10-31 11:01:17,152 - basicLogger - INFO - Task completed with trace ID: 4a278dc0-a362-45f8-81bb-201657d4d061
+2024-10-31 11:01:17,261 - basicLogger - INFO - Task completed with trace ID: 5ebffe4e-6bd0-417c-af4b-bbea25a48c6f
+2024-10-31 11:01:17,385 - basicLogger - INFO - Task completed with trace ID: ce7faba7-ffa6-4e99-9384-b7b4d4c9ebd8
+2024-10-31 11:01:17,450 - basicLogger - INFO - Task completed with trace ID: 486448f5-18ee-4390-ac72-45d61ea1e4ec
+2024-10-31 11:01:17,583 - basicLogger - INFO - Task completed with trace ID: 34fbf880-3488-4278-af63-6fd114a2ffe2
+2024-10-31 11:01:17,665 - basicLogger - INFO - Task completed with trace ID: e683b3dd-0bda-43a4-ae6b-bcc23eb7f67d
+2024-10-31 11:01:18,824 - basicLogger - INFO - Task created with trace ID: 12a09972-bccc-48e2-92da-7f4031419d1d
+2024-10-31 11:01:18,924 - basicLogger - INFO - Task created with trace ID: 95970106-37c9-4965-af15-954de002eace
+2024-10-31 11:01:18,982 - basicLogger - INFO - Task created with trace ID: a1420772-1b5c-4db7-95c6-e43567c599a2
+2024-10-31 11:01:19,090 - basicLogger - INFO - Task created with trace ID: d47a93e3-47fd-44da-a0ab-c12d481e6748
+2024-10-31 11:01:19,197 - basicLogger - INFO - Task created with trace ID: 69c3ab8d-e570-49f7-808d-e165078a7999
+2024-10-31 11:01:19,344 - basicLogger - INFO - Task created with trace ID: 83c5a05c-1246-4be6-b5af-12fcbb1d03e9
+2024-10-31 11:01:19,418 - basicLogger - INFO - Task created with trace ID: dd16fe62-82d6-4099-8968-f5ffb82e5158
+2024-10-31 11:01:19,480 - basicLogger - INFO - Task created with trace ID: ca46dbac-5991-4443-b419-33e3fc608624
+2024-10-31 11:01:19,606 - basicLogger - INFO - Task created with trace ID: f6c8a4d9-3b02-4b4e-a7e9-fc462d30f89a
+2024-10-31 11:01:19,685 - basicLogger - INFO - Task created with trace ID: c4811569-9238-460c-b51e-4b1982bb0195
+2024-10-31 11:01:20,874 - basicLogger - INFO - Task completed with trace ID: ff7e5c26-b091-4375-b5f5-ec80070a68b3
+2024-10-31 11:01:20,963 - basicLogger - INFO - Task completed with trace ID: c23a0a8e-40e4-4117-8968-886dec89fa56
+2024-10-31 11:01:21,034 - basicLogger - INFO - Task completed with trace ID: dec7b470-5cee-4563-8462-f2c3a5ed9595
+2024-10-31 11:01:21,119 - basicLogger - INFO - Task completed with trace ID: b1672907-5cee-4bb1-83c5-2baf64cdf0dc
+2024-10-31 11:01:21,229 - basicLogger - INFO - Task completed with trace ID: 13ddbba7-659b-497d-88cf-ed63f9121dca
+2024-10-31 11:01:21,370 - basicLogger - INFO - Task completed with trace ID: 57bf3c8c-2c2e-4077-b6e8-4b48bb485919
+2024-10-31 11:01:21,463 - basicLogger - INFO - Task completed with trace ID: f1c0e9f2-3d92-4478-9249-6271d72d5223
+2024-10-31 11:01:21,524 - basicLogger - INFO - Task completed with trace ID: 558c5d93-fcbb-4e84-ac01-f6f6bf1d3f32
+2024-10-31 11:01:21,649 - basicLogger - INFO - Task completed with trace ID: e4012547-deac-49f6-badf-ddab5fccbeb9
+2024-10-31 11:01:21,726 - basicLogger - INFO - Task completed with trace ID: 6bf92916-6dae-43d2-af24-d2495ec93991
+2024-10-31 11:01:53,877 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:04:05,779 - basicLogger - INFO - Task created with trace ID: 15054df0-6814-4064-b8e9-9ca5419a30d3
+2024-10-31 11:04:05,872 - basicLogger - INFO - Task created with trace ID: e95bd4e2-ede1-4ff3-b30d-1b88984d86f8
+2024-10-31 11:04:05,968 - basicLogger - INFO - Task created with trace ID: ad09141d-1e38-4724-9b0a-2416d9206f3a
+2024-10-31 11:04:06,092 - basicLogger - INFO - Task created with trace ID: 4e31c5c6-dcea-4a4a-a2c0-04796ee46ac5
+2024-10-31 11:04:06,172 - basicLogger - INFO - Task created with trace ID: 9918825d-cd87-44ef-98fd-8052508cf591
+2024-10-31 11:04:06,266 - basicLogger - INFO - Task created with trace ID: b61a9dd9-dea6-4bb7-8b54-b460fded69c5
+2024-10-31 11:04:06,377 - basicLogger - INFO - Task created with trace ID: ca8dee9e-01b5-408d-aabb-236090c7e2ad
+2024-10-31 11:04:06,472 - basicLogger - INFO - Task created with trace ID: b51baf5e-47ab-496d-9901-6f2f675bd390
+2024-10-31 11:04:06,565 - basicLogger - INFO - Task created with trace ID: 0b80930e-4cfb-4dc3-a0d2-3332732a348b
+2024-10-31 11:04:06,675 - basicLogger - INFO - Task created with trace ID: aac1054a-2e12-4788-9b5f-2b1aab630bb2
+2024-10-31 11:04:07,831 - basicLogger - INFO - Task completed with trace ID: f9c5a5e0-0861-4e5e-83c9-790f492a09ad
+2024-10-31 11:04:07,905 - basicLogger - INFO - Task completed with trace ID: f20d64c3-5173-4f81-a9c1-4540510ace46
+2024-10-31 11:04:07,997 - basicLogger - INFO - Task completed with trace ID: c3bbd721-e24b-4c97-a601-08782104a205
+2024-10-31 11:04:08,124 - basicLogger - INFO - Task completed with trace ID: 62cb131c-85d7-4a5c-ac2e-472815d0416f
+2024-10-31 11:04:08,202 - basicLogger - INFO - Task completed with trace ID: 454a5e40-9e54-4e5e-8399-566f2da160b7
+2024-10-31 11:04:08,297 - basicLogger - INFO - Task completed with trace ID: 9b132bb8-8811-4fba-889b-d2ee5e43cf88
+2024-10-31 11:04:08,422 - basicLogger - INFO - Task completed with trace ID: 8a204d15-eb3f-4a0d-a682-8502c2e16db7
+2024-10-31 11:04:08,499 - basicLogger - INFO - Task completed with trace ID: 58805759-e376-42a0-85f1-d9313428aa6f
+2024-10-31 11:04:08,594 - basicLogger - INFO - Task completed with trace ID: 8c2981d9-a945-430d-ab15-b9e1a2be17fa
+2024-10-31 11:04:08,705 - basicLogger - INFO - Task completed with trace ID: 0f7b747c-9657-426c-97e3-c672d5ea2c9a
+2024-10-31 11:04:09,906 - basicLogger - INFO - Task created with trace ID: fa62a076-fc3a-4ccd-927a-be9fb5772369
+2024-10-31 11:04:09,935 - basicLogger - INFO - Task created with trace ID: 55372abb-5b5c-41a9-a174-0634c31be43a
+2024-10-31 11:04:10,029 - basicLogger - INFO - Task created with trace ID: f3df3c63-8db5-498f-b1d3-3f038057943d
+2024-10-31 11:04:10,154 - basicLogger - INFO - Task created with trace ID: d3a68f48-c6a1-477f-b322-0e525a088a7c
+2024-10-31 11:04:10,233 - basicLogger - INFO - Task created with trace ID: 03738a0f-8540-4fcb-854a-85ea0f8c01fb
+2024-10-31 11:04:10,391 - basicLogger - INFO - Task created with trace ID: c5bb4ca5-97eb-49ee-a904-1fd88f413697
+2024-10-31 11:04:10,454 - basicLogger - INFO - Task created with trace ID: b80903f9-98aa-4b60-b6c9-3d3de857581b
+2024-10-31 11:04:10,534 - basicLogger - INFO - Task created with trace ID: ac3eaf1a-e5a6-4f8d-91d3-535c429cb362
+2024-10-31 11:04:10,626 - basicLogger - INFO - Task created with trace ID: 581665f7-c86c-4b31-95b6-5e0a43e9a90d
+2024-10-31 11:04:10,734 - basicLogger - INFO - Task created with trace ID: 9fc5e764-4c85-4af2-b4d6-3d4f86bfb8e3
+2024-10-31 11:04:11,957 - basicLogger - INFO - Task completed with trace ID: 200d8d81-3c1d-482b-ac02-59f1d8524991
+2024-10-31 11:04:11,989 - basicLogger - INFO - Task completed with trace ID: 94afb428-8b63-44cf-8915-51f3844c573f
+2024-10-31 11:04:12,082 - basicLogger - INFO - Task completed with trace ID: 7ee6011e-6faf-495c-902c-8823a0c03ff4
+2024-10-31 11:04:12,195 - basicLogger - INFO - Task completed with trace ID: 321d0b3d-8b79-43c8-929e-a7d5698dc0df
+2024-10-31 11:04:12,271 - basicLogger - INFO - Task completed with trace ID: 141f211c-b0e3-4c2c-b46e-6232871e19c0
+2024-10-31 11:04:12,460 - basicLogger - INFO - Task completed with trace ID: bca04879-61ec-4460-839e-64320ee12051
+2024-10-31 11:04:12,508 - basicLogger - INFO - Task completed with trace ID: df012343-2bfa-49d3-9df8-f9b93c46d3b5
+2024-10-31 11:04:12,585 - basicLogger - INFO - Task completed with trace ID: d647627d-2814-4657-902a-e039efd9903e
+2024-10-31 11:04:12,696 - basicLogger - INFO - Task completed with trace ID: 405fef26-de86-4587-a322-7b4548d4dd37
+2024-10-31 11:04:12,801 - basicLogger - INFO - Task completed with trace ID: fda9834a-217a-4dbb-85fc-7d8cb36dfa44
+2024-10-31 11:08:56,412 - basicLogger - INFO - Tasks retrieved: 40 tasks
+2024-10-31 11:08:58,451 - basicLogger - INFO - Completed tasks retrieved: 40 tasks
+2024-10-31 11:09:04,246 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:09:06,299 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:09:09,251 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:09:11,293 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:09:34,293 - basicLogger - INFO - Task created with trace ID: 24a71599-f977-4a3d-abaf-fe997f3ed190
+2024-10-31 11:09:34,387 - basicLogger - INFO - Task created with trace ID: bad6fcca-6934-490b-8d38-2c24e804d2d2
+2024-10-31 11:09:34,465 - basicLogger - INFO - Task created with trace ID: 19a8c8bb-fd52-4458-b5b7-d98a500669fb
+2024-10-31 11:09:34,588 - basicLogger - INFO - Task created with trace ID: 5d46692c-a564-404f-a1d6-71295d5848b5
+2024-10-31 11:09:34,681 - basicLogger - INFO - Task created with trace ID: a89038f5-dd6b-4aac-a9d6-1158864f774f
+2024-10-31 11:09:34,774 - basicLogger - INFO - Task created with trace ID: 74204f14-5351-4d49-944e-ea648536344b
+2024-10-31 11:09:34,883 - basicLogger - INFO - Task created with trace ID: 4e3dc7f8-170e-452d-98bd-e41fac0fca5e
+2024-10-31 11:09:34,963 - basicLogger - INFO - Task created with trace ID: 92c8e51e-93db-4605-abf1-7ff3cf873306
+2024-10-31 11:09:35,076 - basicLogger - INFO - Task created with trace ID: e65b1443-f137-41de-b2b7-fd81fd40e049
+2024-10-31 11:09:35,181 - basicLogger - INFO - Task created with trace ID: 9d7ab51a-d75c-4ff6-a64e-3f419594eca3
+2024-10-31 11:09:35,737 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:09:36,365 - basicLogger - INFO - Task completed with trace ID: 8f203459-bc9d-487d-a792-5f37a3b96da1
+2024-10-31 11:09:36,450 - basicLogger - INFO - Task completed with trace ID: c2d39e82-cd47-4b9a-8257-c0cd6a868313
+2024-10-31 11:09:36,559 - basicLogger - INFO - Task completed with trace ID: 2bd8eed2-5bce-40d9-88a4-24f0fc924c56
+2024-10-31 11:09:36,638 - basicLogger - INFO - Task completed with trace ID: eb30bacb-dd7e-42b2-8160-5a16f2356260
+2024-10-31 11:09:36,716 - basicLogger - INFO - Task completed with trace ID: a0e23a98-5a3b-4739-b560-9c9082b2eaeb
+2024-10-31 11:09:36,811 - basicLogger - INFO - Task completed with trace ID: 40fb706a-d655-4866-8c67-d90f77adcd34
+2024-10-31 11:09:36,938 - basicLogger - INFO - Task completed with trace ID: 4be4279f-506a-4249-862b-e3fc4f2dd326
+2024-10-31 11:09:37,064 - basicLogger - INFO - Task completed with trace ID: 9e12ceee-7355-49fc-9043-70eda383373e
+2024-10-31 11:09:37,111 - basicLogger - INFO - Task completed with trace ID: 0c2d827f-cddd-4b94-94f8-8669ae8d5c32
+2024-10-31 11:09:37,206 - basicLogger - INFO - Task completed with trace ID: deb13eb0-3503-4b24-ae3c-27314cc15c4a
+2024-10-31 11:09:37,779 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:09:38,408 - basicLogger - INFO - Task created with trace ID: 5c588fa8-346d-4cae-bcfa-b9046c6bf906
+2024-10-31 11:09:38,477 - basicLogger - INFO - Task created with trace ID: f1964008-53a1-4a50-81b6-d4380d55c0d5
+2024-10-31 11:09:38,601 - basicLogger - INFO - Task created with trace ID: b39f1b2f-594d-4e70-ae93-c97b1fe9c0d6
+2024-10-31 11:09:38,694 - basicLogger - INFO - Task created with trace ID: db8c2772-2575-4a91-9a91-d6fddc4ad5c2
+2024-10-31 11:09:38,757 - basicLogger - INFO - Task created with trace ID: 2f1eed78-563b-42e9-80d7-bfb3fac4df38
+2024-10-31 11:09:38,858 - basicLogger - INFO - Task created with trace ID: 966efb58-c1f6-46d4-abe4-8a7c528e8a5a
+2024-10-31 11:09:38,972 - basicLogger - INFO - Task created with trace ID: fbb3595f-6efb-4712-9b26-7690cd98fd15
+2024-10-31 11:09:39,113 - basicLogger - INFO - Task created with trace ID: 2830d0af-e79e-44e1-bb47-b350ea5ff301
+2024-10-31 11:09:39,142 - basicLogger - INFO - Task created with trace ID: 147473e9-0065-4954-a76e-ed084677051d
+2024-10-31 11:09:39,248 - basicLogger - INFO - Task created with trace ID: a0d75d1b-6a0b-43af-a841-cd08569fd4d4
+2024-10-31 11:09:40,464 - basicLogger - INFO - Task completed with trace ID: d2e52227-32d5-4e54-be96-f003afcb04e5
+2024-10-31 11:09:40,524 - basicLogger - INFO - Task completed with trace ID: 26571e0b-9ec9-4860-b270-05959ae419a5
+2024-10-31 11:09:40,648 - basicLogger - INFO - Task completed with trace ID: 8b09c938-0f83-4748-8c9c-436bc6d2d9ed
+2024-10-31 11:09:40,661 - basicLogger - INFO - Tasks retrieved: 10 tasks
+2024-10-31 11:09:40,744 - basicLogger - INFO - Task completed with trace ID: e5731eb3-7224-46c1-9527-84ffd3a468b7
+2024-10-31 11:09:40,808 - basicLogger - INFO - Task completed with trace ID: fa7d572b-21ea-4536-986a-08630e396202
+2024-10-31 11:09:40,901 - basicLogger - INFO - Task completed with trace ID: 7493c050-8353-40c3-9e82-6fc0848a8fe3
+2024-10-31 11:09:41,013 - basicLogger - INFO - Task completed with trace ID: cb87deb5-38af-4014-893c-9a3d01be1f53
+2024-10-31 11:09:41,155 - basicLogger - INFO - Task completed with trace ID: 34fc60ca-9837-4726-a16a-e9b30b6f211e
+2024-10-31 11:09:41,185 - basicLogger - INFO - Task completed with trace ID: 48ec8503-19eb-465f-81e9-000aa72c31e3
+2024-10-31 11:09:41,295 - basicLogger - INFO - Task completed with trace ID: a2c4446f-2ecc-41bf-bdb4-297172077211
+2024-10-31 11:09:42,696 - basicLogger - INFO - Completed tasks retrieved: 10 tasks
+2024-10-31 11:09:45,657 - basicLogger - INFO - Tasks retrieved: 10 tasks
+2024-10-31 11:09:47,687 - basicLogger - INFO - Completed tasks retrieved: 10 tasks
+2024-10-31 11:09:50,669 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:09:52,718 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:09:55,658 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:09:57,696 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:10:00,650 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:10:02,681 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:10:05,673 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:10:07,712 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:10:10,673 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:10:12,708 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:10:15,654 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:10:17,700 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:10:20,648 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:10:22,677 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:10:25,648 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:10:27,666 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:10:30,675 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:10:32,727 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:10:35,633 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:10:37,664 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:10:40,672 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:10:42,713 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:10:45,632 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:10:47,664 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:10:50,678 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:10:52,702 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:10:55,656 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:10:57,677 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:11:00,674 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:11:02,708 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:11:05,653 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:11:07,709 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:11:10,680 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:11:12,703 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:11:15,649 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:11:17,688 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:11:20,659 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:11:22,723 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:11:25,662 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:11:27,696 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:11:30,643 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:11:32,684 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:11:35,658 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:11:37,696 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:11:40,649 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:11:42,691 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:11:45,663 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:11:47,700 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:11:50,663 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:11:52,685 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:11:55,668 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:11:57,723 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:12:00,642 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:12:02,681 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:12:05,654 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:12:07,693 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:12:10,669 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:12:12,711 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:12:15,670 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:12:17,709 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:12:20,688 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:12:22,743 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:12:25,667 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:12:27,708 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:12:30,648 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:12:32,676 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:12:35,680 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:12:37,706 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:12:40,658 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:12:42,678 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:12:45,662 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:12:47,711 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:12:50,666 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:12:52,692 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:12:55,654 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:12:57,698 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:13:00,668 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:13:02,695 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:13:05,646 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:13:07,673 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:13:10,656 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:13:12,709 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:13:15,693 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:13:17,727 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:13:20,667 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:13:22,708 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:13:25,674 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:13:27,696 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:13:30,663 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:13:32,707 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:13:35,674 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:13:37,717 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:13:40,646 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:13:42,694 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:13:45,657 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:13:47,698 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:13:50,670 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:13:52,722 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:13:55,657 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:13:57,681 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:14:00,661 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:14:02,699 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:14:05,639 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:14:07,656 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:14:10,673 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:14:12,715 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:14:15,664 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:14:17,734 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:14:20,665 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:14:22,700 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:14:25,670 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:14:27,710 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:14:30,652 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:14:32,700 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:14:35,644 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:14:37,684 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:14:40,661 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:14:42,712 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:14:45,664 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:14:47,701 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:14:50,657 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:14:52,694 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:14:55,637 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:14:57,683 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:15:00,648 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:15:02,719 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:15:05,674 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:15:07,708 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:15:10,667 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:15:12,693 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:15:15,654 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:15:17,702 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:15:20,648 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:15:22,689 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:15:25,643 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:15:27,682 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:15:30,652 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:15:32,682 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:15:35,665 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:15:37,694 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:15:40,663 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:15:42,706 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:15:45,638 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:15:47,677 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:15:50,675 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:15:52,719 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:15:55,662 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:15:57,707 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:16:00,678 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:16:02,713 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:16:05,644 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:16:07,689 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:16:10,646 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:16:12,685 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:16:15,651 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:16:17,706 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:16:20,660 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:16:22,681 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:16:25,669 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:16:27,694 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:16:30,658 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:16:32,702 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:16:35,653 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:16:37,693 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:16:40,669 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:16:42,712 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:16:45,661 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:16:47,702 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:16:50,652 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:16:52,699 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:16:55,657 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:16:57,697 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:17:00,656 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:17:02,686 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:17:05,658 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:17:07,689 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:17:10,656 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:17:12,692 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:17:15,646 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:17:17,683 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:17:20,670 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:17:22,703 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:17:25,647 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:17:27,679 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:17:30,657 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:17:32,683 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:17:35,653 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:17:37,682 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:17:40,652 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:17:42,688 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:17:45,662 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:17:47,710 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:17:50,640 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:17:52,662 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:17:55,673 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:17:57,701 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:18:00,660 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:18:02,701 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:18:05,654 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:18:07,685 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:18:10,650 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:18:12,678 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:18:15,643 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:18:17,688 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:18:20,650 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:18:22,679 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:18:25,678 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:18:27,700 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:18:30,686 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:18:32,720 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:18:35,673 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:18:37,714 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:18:40,654 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:18:42,712 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:18:45,648 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:18:47,681 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:18:50,662 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:18:52,701 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:18:55,671 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:18:57,733 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:19:00,631 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:19:02,678 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:19:05,646 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:19:07,684 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:19:10,664 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:19:12,705 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:19:15,664 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:19:17,710 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:19:20,669 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:19:22,730 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:19:25,661 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:19:27,685 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:19:30,659 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:19:32,701 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:19:35,644 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:19:37,678 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:19:40,655 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:19:42,679 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:19:45,681 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:19:47,715 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:19:50,654 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:19:52,698 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:19:55,652 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:19:57,700 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:20:00,646 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:20:02,668 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:20:05,662 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:20:07,692 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:20:10,679 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:20:12,731 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:20:15,672 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:20:17,712 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:20:20,651 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:20:22,696 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:20:25,667 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:20:27,696 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:20:30,658 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:20:32,690 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:20:35,690 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:20:37,728 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:20:40,635 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:20:42,671 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:20:45,643 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:20:47,693 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:20:50,653 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:20:52,678 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:20:55,655 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:20:57,690 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:21:00,655 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:21:02,689 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:21:05,651 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:21:07,677 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:21:10,653 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:21:12,699 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:21:15,665 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:21:17,706 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:21:20,661 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:21:22,691 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:21:25,676 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:21:27,724 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:21:30,655 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:21:32,704 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:21:35,654 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:21:37,700 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:21:40,639 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:21:42,673 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:21:45,673 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:21:47,717 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:21:50,663 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:21:52,720 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:21:55,694 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:21:57,739 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:22:00,671 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:22:02,734 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:22:05,685 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:22:07,733 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:22:10,669 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:22:12,699 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:22:15,650 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:22:17,708 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:22:20,673 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:22:22,728 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:22:25,677 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:22:27,709 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:22:30,667 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:22:32,720 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:22:35,665 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:22:37,705 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:22:40,680 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:22:42,724 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:22:45,666 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:22:47,698 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:22:50,662 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:22:52,686 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:22:55,668 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:22:57,694 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:23:00,695 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:23:02,735 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:23:05,653 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:23:07,707 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:23:10,663 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:23:12,697 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:23:15,676 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:23:17,715 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:23:20,681 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:23:22,725 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:23:25,664 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:23:27,703 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:23:30,658 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:23:32,689 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:32:08,318 - basicLogger - INFO - Task created with trace ID: d3b2481d-9d34-4663-8249-73b61f829d81
+2024-10-31 11:32:08,406 - basicLogger - INFO - Task created with trace ID: 0adc2cdb-2f50-4048-bc64-bce7ed7db0c7
+2024-10-31 11:32:08,502 - basicLogger - INFO - Task created with trace ID: fcc99efc-8d08-439b-be7a-556dee384c7a
+2024-10-31 11:32:08,597 - basicLogger - INFO - Task created with trace ID: c15128cd-5b15-47d8-994d-1ff324217f9e
+2024-10-31 11:32:08,692 - basicLogger - INFO - Task created with trace ID: 5de42da3-5247-4dd7-abc4-da93f3ccd898
+2024-10-31 11:32:08,803 - basicLogger - INFO - Task created with trace ID: 79bbaf1d-bf95-4ffd-b9cb-0d440fc4fcd6
+2024-10-31 11:32:08,898 - basicLogger - INFO - Task created with trace ID: 9fec641c-d1ff-4781-833a-88521efdc3e4
+2024-10-31 11:32:09,007 - basicLogger - INFO - Task created with trace ID: 114ee552-0737-46a4-aea4-92be3a3f946a
+2024-10-31 11:32:09,101 - basicLogger - INFO - Task created with trace ID: 6ad3c232-6aa6-4a70-8d93-a2dc379e7302
+2024-10-31 11:32:09,211 - basicLogger - INFO - Task created with trace ID: 6b077d54-cd66-4a64-97c1-6847e4179f64
+2024-10-31 11:32:10,351 - basicLogger - INFO - Task completed with trace ID: 4ef08b1d-22c1-40fb-b6c4-31af0c387a3a
+2024-10-31 11:32:10,446 - basicLogger - INFO - Task completed with trace ID: fb33c2ba-a97f-4e5d-96ed-ff9667c866e0
+2024-10-31 11:32:10,540 - basicLogger - INFO - Task completed with trace ID: a47a6736-0dba-4924-9266-c0831bf568d9
+2024-10-31 11:32:10,634 - basicLogger - INFO - Task completed with trace ID: 5bbd0217-f068-4da2-a557-798fa60d2a91
+2024-10-31 11:32:10,747 - basicLogger - INFO - Task completed with trace ID: 6b5b69e1-dbfa-402e-bb46-7d0b4f19910a
+2024-10-31 11:32:10,959 - basicLogger - INFO - Task completed with trace ID: 8be75c6c-7056-4935-b0d1-2261518156b7
+2024-10-31 11:32:10,961 - basicLogger - INFO - Task completed with trace ID: 74e9a460-0166-4801-9490-5011b2bc9dbf
+2024-10-31 11:32:11,049 - basicLogger - INFO - Task completed with trace ID: a16c0125-843b-4b1a-a061-0eb12a40bf4f
+2024-10-31 11:32:11,145 - basicLogger - INFO - Task completed with trace ID: 5064fbf9-53f7-42cf-a035-8e1262575fe4
+2024-10-31 11:32:11,252 - basicLogger - INFO - Task completed with trace ID: 6d812e9e-4067-4903-9123-a92a6d329498
+2024-10-31 11:32:12,402 - basicLogger - INFO - Task created with trace ID: 638a719e-29ed-41b6-89c2-3eff11b8caf1
+2024-10-31 11:32:12,484 - basicLogger - INFO - Task created with trace ID: 4867ac10-8de5-4a34-86a1-68d0ac955a97
+2024-10-31 11:32:12,583 - basicLogger - INFO - Task created with trace ID: ad1b87ef-b9d6-4fb0-ab28-35c318a5f2d1
+2024-10-31 11:32:12,683 - basicLogger - INFO - Task created with trace ID: adde6787-3941-459f-af6d-598c17e8ddee
+2024-10-31 11:32:12,793 - basicLogger - INFO - Task created with trace ID: 4d9795c8-df87-4bb3-bad4-4b99be66b423
+2024-10-31 11:32:13,011 - basicLogger - INFO - Task created with trace ID: 42bbacdf-618a-4da1-899c-921c2b11ca43
+2024-10-31 11:32:13,014 - basicLogger - INFO - Task created with trace ID: 826e7ee7-62fe-4e61-81bf-f11a58d98163
+2024-10-31 11:32:13,087 - basicLogger - INFO - Task created with trace ID: f987cac3-047d-4ce8-984b-0808fa2b930e
+2024-10-31 11:32:13,195 - basicLogger - INFO - Task created with trace ID: 44e234dd-ab99-43e0-a1eb-9d88f8b0f19e
+2024-10-31 11:32:13,303 - basicLogger - INFO - Task created with trace ID: f7fdb587-7af2-405d-846d-e75717c3cc10
+2024-10-31 11:32:14,462 - basicLogger - INFO - Task completed with trace ID: 007ad47d-44b6-4343-bb21-d17647a0d9f6
+2024-10-31 11:32:14,525 - basicLogger - INFO - Task completed with trace ID: d6ec09f1-8a55-479f-a892-3f109a67298d
+2024-10-31 11:32:14,634 - basicLogger - INFO - Task completed with trace ID: 4cdc7a63-1a54-404f-be22-929c3c841173
+2024-10-31 11:32:14,730 - basicLogger - INFO - Task completed with trace ID: 3b1c394c-9741-43e2-97fa-dd8eed8af1a5
+2024-10-31 11:32:14,840 - basicLogger - INFO - Task completed with trace ID: 002e3230-ce22-4922-9fe9-5d6233771fea
+2024-10-31 11:32:15,084 - basicLogger - INFO - Task completed with trace ID: bd146556-a996-4886-bee1-5edf83a97313
+2024-10-31 11:32:15,086 - basicLogger - INFO - Task completed with trace ID: 7725f374-6f0b-49ea-9851-83b891a45b0a
+2024-10-31 11:32:15,139 - basicLogger - INFO - Task completed with trace ID: 7e29b8e8-8bae-46da-bebd-e1499e1dc5af
+2024-10-31 11:32:15,234 - basicLogger - INFO - Task completed with trace ID: f8223467-3d15-4522-9014-7195a37aeac8
+2024-10-31 11:32:15,344 - basicLogger - INFO - Task completed with trace ID: 6eacdef0-e16b-4f6c-8ed3-0cfbdd76d176
+2024-10-31 11:38:28,050 - basicLogger - INFO - Tasks retrieved: 20 tasks
+2024-10-31 11:38:30,073 - basicLogger - INFO - Completed tasks retrieved: 20 tasks
+2024-10-31 11:38:32,979 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:38:35,015 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:38:37,989 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:38:40,026 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:38:42,980 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:38:45,029 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 11:38:47,985 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 11:38:50,016 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:16:10,662 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:16:12,696 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:16:15,609 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:16:17,629 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:16:20,613 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:16:22,655 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:16:25,585 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:16:27,618 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:16:30,624 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:16:32,646 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:16:35,598 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:16:37,624 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:16:40,596 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:16:42,637 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:16:45,592 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:16:47,625 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:26:14,542 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:26:16,576 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:26:19,387 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:26:21,421 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:26:24,399 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:26:26,437 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:26:29,382 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:26:31,435 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:26:34,389 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:26:36,437 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:26:39,385 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:26:41,437 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:26:44,391 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:26:46,451 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:26:49,411 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:26:51,449 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:26:54,399 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:26:56,426 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:26:59,392 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:27:01,440 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:27:04,380 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:27:06,433 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:27:09,378 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:27:11,432 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:27:14,391 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:27:16,420 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:27:19,379 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:27:21,417 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:27:24,402 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:27:26,468 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:27:29,394 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:27:31,442 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:27:34,392 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:27:36,439 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:27:39,394 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:27:41,420 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:27:44,371 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:27:46,423 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:27:49,381 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:27:51,402 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:27:54,390 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:27:56,429 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:27:59,392 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:28:01,417 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:28:04,412 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:28:06,466 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:28:09,371 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:28:11,422 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:28:14,386 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:28:16,437 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:28:19,395 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:28:21,420 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:28:24,375 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:28:26,431 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:28:29,382 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:28:31,410 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:28:34,379 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:28:36,410 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:28:39,383 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:28:41,418 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:28:44,376 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:28:46,429 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:28:49,371 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:28:51,404 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:28:54,373 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:28:56,412 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:28:59,400 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:29:01,457 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:29:04,368 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:29:06,401 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:29:09,364 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:29:11,413 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:29:14,411 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:29:16,453 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:29:19,404 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:29:21,436 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:29:24,383 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:29:26,437 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:29:29,374 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:29:31,427 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:29:34,381 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:29:36,406 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:29:39,394 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:29:41,417 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:29:44,392 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:29:46,440 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:29:49,375 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:29:51,414 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:29:54,392 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:29:56,417 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:29:59,391 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:30:01,432 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:30:04,381 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:30:06,431 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:30:09,397 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:30:11,432 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:30:14,380 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:30:16,439 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:30:19,394 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:30:21,434 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:30:24,370 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:30:26,409 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:30:29,387 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:30:31,421 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:30:34,366 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:30:36,394 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:30:39,404 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:30:41,447 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:30:44,364 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:30:46,416 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:30:49,391 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:30:51,424 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:30:54,402 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:30:56,450 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:30:59,405 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:31:01,449 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:31:04,387 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:31:06,433 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:31:09,382 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:31:11,427 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:31:14,381 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:31:16,420 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:31:19,400 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:31:21,434 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:31:24,371 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:31:26,432 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:31:29,383 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:31:31,430 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:31:34,371 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:31:36,400 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:31:39,409 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:31:41,449 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:31:44,390 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:31:46,446 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:31:49,394 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:31:51,439 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:31:54,375 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:31:56,422 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:31:59,393 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:32:01,430 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:32:04,380 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:32:06,437 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:32:09,364 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:32:11,419 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:32:14,390 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:32:16,454 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:32:19,380 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:32:21,443 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:32:24,381 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:32:26,424 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:32:29,370 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:32:31,417 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:32:34,372 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:32:36,399 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:32:39,384 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:32:41,419 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:32:44,393 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:32:46,424 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:32:49,374 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:32:51,414 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:32:54,355 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:32:56,372 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:32:59,401 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:33:01,427 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:33:04,404 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:33:06,438 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:33:09,377 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:33:11,412 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:33:14,373 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:33:16,419 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:33:19,379 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:33:21,425 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:33:24,397 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:33:26,440 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:33:29,365 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:33:31,399 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:33:34,387 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:33:36,425 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:33:39,380 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:33:41,428 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:33:44,398 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:33:46,440 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:33:49,396 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:33:51,432 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:33:54,378 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:33:56,419 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:33:59,386 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:34:01,429 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:34:04,395 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:34:06,449 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:34:09,406 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:34:11,456 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:34:14,396 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:34:16,435 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:34:19,405 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:34:21,447 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:34:24,393 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:34:26,416 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:34:29,380 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:34:31,405 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:34:34,390 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:34:36,431 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:34:39,385 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:34:41,425 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:34:44,371 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:34:46,388 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:34:49,402 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:34:51,425 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:34:54,363 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:34:56,411 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:34:59,359 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:35:01,406 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:35:04,383 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:35:06,414 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:35:09,385 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:35:11,436 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:35:14,388 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:35:16,417 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:35:19,413 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:35:21,466 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:35:24,385 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:35:26,423 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:35:29,383 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:35:31,426 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:35:34,390 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:35:36,435 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:35:39,385 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:35:41,422 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:35:44,369 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:35:46,421 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:35:49,360 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:35:51,382 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:35:54,401 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:35:56,433 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:35:59,399 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:36:01,441 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:36:04,395 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:36:06,448 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:36:09,382 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:36:11,427 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:36:14,378 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:36:16,417 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:36:19,397 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:36:21,435 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:36:24,378 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:36:26,410 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:36:29,376 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:36:31,429 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:36:34,390 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:36:36,425 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:36:39,394 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:36:41,439 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:36:44,397 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:36:46,436 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:36:49,392 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:36:51,428 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:36:54,412 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:36:56,453 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:36:59,391 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:37:01,417 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:37:04,374 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:37:06,404 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:37:09,372 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:37:11,395 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:37:14,389 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:37:16,445 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:37:19,370 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:37:21,418 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:37:24,386 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:37:26,424 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:37:29,383 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:37:31,430 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:37:34,370 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:37:36,414 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:37:39,369 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:37:41,406 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:37:44,378 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:37:46,404 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:37:49,386 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:37:51,416 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:37:54,380 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:37:56,415 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:37:59,371 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:38:01,432 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:38:04,364 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:38:06,389 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:38:09,383 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:38:11,415 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:38:14,382 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:38:16,422 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:38:19,411 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:38:21,452 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:38:24,386 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:38:26,429 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:38:29,372 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:38:31,408 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:38:34,381 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:38:36,407 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:38:39,382 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:38:41,420 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:38:44,383 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:38:46,433 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:38:49,374 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:38:51,413 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:38:54,374 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:38:56,423 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:38:59,381 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:39:01,413 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:39:04,390 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:39:06,422 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:39:09,362 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:39:11,387 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:39:14,376 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:39:16,425 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:39:19,382 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:39:21,437 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:39:24,395 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:39:26,433 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:39:29,382 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:39:31,414 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:39:34,402 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:39:36,433 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:39:39,370 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:39:41,401 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:39:44,403 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:39:46,436 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:39:46,564 - basicLogger - INFO - Task created with trace ID: e159d46c-075e-417a-8b90-fe18db87a625
+2024-10-31 12:39:46,658 - basicLogger - INFO - Task created with trace ID: ca66a8e0-1c1a-4ac8-a3c0-10f1ff9f8fb6
+2024-10-31 12:39:46,757 - basicLogger - INFO - Task created with trace ID: 874f8ba0-5100-4020-9640-83499c7c8474
+2024-10-31 12:39:46,861 - basicLogger - INFO - Task created with trace ID: afb24342-9cdc-4972-9a4d-dcd9830d82cd
+2024-10-31 12:39:46,975 - basicLogger - INFO - Task created with trace ID: ef178938-23c1-4212-bd0b-55322f8b29a9
+2024-10-31 12:39:47,051 - basicLogger - INFO - Task created with trace ID: 02ba5b9b-1d56-45bd-817e-5dac9d785bb0
+2024-10-31 12:39:47,144 - basicLogger - INFO - Task created with trace ID: 614ab3ce-7218-41e0-be22-c7c12fbec0ba
+2024-10-31 12:39:47,283 - basicLogger - INFO - Task created with trace ID: e0caf0af-7542-4053-9eed-fa36d615e56e
+2024-10-31 12:39:47,361 - basicLogger - INFO - Task created with trace ID: 563186af-3f6e-47d3-bf95-93eb3b19ae83
+2024-10-31 12:39:47,471 - basicLogger - INFO - Task created with trace ID: 8bc5c37f-3c05-4e1d-96a6-d06cb569c592
+2024-10-31 12:39:48,632 - basicLogger - INFO - Task completed with trace ID: 42bc42b3-651c-44d5-a7c9-477130287e84
+2024-10-31 12:39:48,728 - basicLogger - INFO - Task completed with trace ID: ff5b9bf6-cd66-42c9-abd2-42449bd957f1
+2024-10-31 12:39:48,823 - basicLogger - INFO - Task completed with trace ID: b04a7c61-24d6-48d9-b0b7-3ed742d4d715
+2024-10-31 12:39:48,905 - basicLogger - INFO - Task completed with trace ID: 83bf9a56-7d59-4279-ab3c-c5bc8614e1c1
+2024-10-31 12:39:49,029 - basicLogger - INFO - Task completed with trace ID: f513979d-d52c-41af-bed2-a1c9c680963b
+2024-10-31 12:39:49,088 - basicLogger - INFO - Task completed with trace ID: dd225854-1a39-4d0c-a8df-96cb22214cff
+2024-10-31 12:39:49,198 - basicLogger - INFO - Task completed with trace ID: b40c74de-0d57-477a-829d-b0a032e2de7f
+2024-10-31 12:39:49,348 - basicLogger - INFO - Task completed with trace ID: 68329295-0fba-4388-a1ce-3509445bc7f8
+2024-10-31 12:39:49,394 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:39:49,417 - basicLogger - INFO - Task completed with trace ID: 192a0b26-8cec-464d-98e9-09bf81c3a579
+2024-10-31 12:39:49,566 - basicLogger - INFO - Task completed with trace ID: a86b4f4c-878c-413a-aa26-5b619c8c66f1
+2024-10-31 12:39:50,675 - basicLogger - INFO - Task created with trace ID: 8161cc6d-adc7-4d9a-8a3b-88e9b01360ef
+2024-10-31 12:39:50,762 - basicLogger - INFO - Task created with trace ID: fb1a8ec5-b646-4708-89a7-8ed3e3fcb663
+2024-10-31 12:39:50,918 - basicLogger - INFO - Task created with trace ID: fb685bb0-cfeb-4002-9239-e00c756d107c
+2024-10-31 12:39:50,967 - basicLogger - INFO - Task created with trace ID: 84ebf242-bcc5-42f1-be50-6a04a958f9a6
+2024-10-31 12:39:51,060 - basicLogger - INFO - Task created with trace ID: bf3952d0-1ca2-461e-938d-b939d0e13560
+2024-10-31 12:39:51,141 - basicLogger - INFO - Task created with trace ID: 086d143c-b2db-4c60-b8c6-44b19b05b24b
+2024-10-31 12:39:51,236 - basicLogger - INFO - Task created with trace ID: 06f8c367-a717-457c-bda1-d1c6908ec51b
+2024-10-31 12:39:51,427 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:39:51,433 - basicLogger - INFO - Task created with trace ID: 17c522b7-0381-41c0-976c-aeb6a2325dec
+2024-10-31 12:39:51,470 - basicLogger - INFO - Task created with trace ID: 7bb48d0b-422f-44eb-aa88-8a45829009de
+2024-10-31 12:39:51,592 - basicLogger - INFO - Task created with trace ID: b8c14adf-605c-47c7-9ab1-0229273f0a17
+2024-10-31 12:39:52,731 - basicLogger - INFO - Task completed with trace ID: 22ad8972-809a-42c7-8e4a-15358a7c1bfa
+2024-10-31 12:39:52,784 - basicLogger - INFO - Task completed with trace ID: 7b170b24-6752-4d6b-8010-54fca24e9cca
+2024-10-31 12:39:52,968 - basicLogger - INFO - Task completed with trace ID: b32a9ae9-4e3a-4e43-85d9-c091e6b27472
+2024-10-31 12:39:52,991 - basicLogger - INFO - Task completed with trace ID: 590a418d-9c50-4235-bbbc-f504174cd679
+2024-10-31 12:39:53,100 - basicLogger - INFO - Task completed with trace ID: 278e55b7-9771-4e47-a12a-371438060d0c
+2024-10-31 12:39:53,226 - basicLogger - INFO - Task completed with trace ID: e57bd2e1-0d12-4e8a-aadb-f65b447828fb
+2024-10-31 12:39:53,274 - basicLogger - INFO - Task completed with trace ID: 7da0cbda-b015-4aa3-bae1-0207c1cdeedb
+2024-10-31 12:39:53,474 - basicLogger - INFO - Task completed with trace ID: 84d9e569-fc7a-4914-9948-71d38f24ac0d
+2024-10-31 12:39:53,494 - basicLogger - INFO - Task completed with trace ID: 717c2190-dffd-48ed-816d-195b0158dcbc
+2024-10-31 12:39:53,634 - basicLogger - INFO - Task completed with trace ID: 96964bb4-618e-40bd-824a-823d67fe4c84
+2024-10-31 12:39:54,403 - basicLogger - INFO - Tasks retrieved: 19 tasks
+2024-10-31 12:39:56,428 - basicLogger - INFO - Completed tasks retrieved: 10 tasks
+2024-10-31 12:39:59,362 - basicLogger - INFO - Tasks retrieved: 1 tasks
+2024-10-31 12:40:01,422 - basicLogger - INFO - Completed tasks retrieved: 10 tasks
+2024-10-31 12:40:04,394 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:40:06,439 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:40:09,382 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:40:11,417 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:40:14,402 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:40:16,464 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:40:19,383 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:40:21,421 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:40:24,422 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:40:26,477 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:40:29,395 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:40:31,432 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:40:34,399 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:40:36,436 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:41:59,374 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:42:01,442 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:42:04,388 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:42:06,421 - basicLogger - INFO - Completed tasks retrieved: 0 tasks
+2024-10-31 12:42:09,393 - basicLogger - INFO - Tasks retrieved: 0 tasks
+2024-10-31 12:42:11,449 - basicLogger - INFO - Completed tasks retrieved: 0 tasks

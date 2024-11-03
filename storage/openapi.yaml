@@ -1,0 +1,189 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: 'Calendar Task Manager'
+  description: Calendar task creation, viewing, completion, and retrieval of completed tasks
+
+paths:
+  /tasks:
+    get:
+      description: Returns a list of tasks 
+      operationId: app.tasks
+      parameters:
+        - name: start_timestamp
+          in: query
+          required: false
+          description: Start timestamp for filtering tasks 
+          schema:
+            type: string
+            format: date-time
+        - name: end_timestamp
+          in: query
+          required: false
+          description: End timestamp for filtering tasks 
+          schema:
+            type: string
+            format: date-time
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    task_name:
+                      type: string
+                    due_date:
+                      type: string
+                      format: date-time
+                    task_description:
+                      type: string
+                    task_difficulty:
+                      type: integer
+                    uuid:
+                      type: string
+        '400':
+          description: Tasks not found
+
+  /completed_tasks:
+    get:
+      description: Returns a list of completed tasks 
+      operationId: app.completed_tasks
+      parameters:
+        - name: start_timestamp
+          in: query
+          required: false
+          description: Start timestamp for filtering completed tasks 
+          schema:
+            type: string
+            format: date-time
+        - name: end_timestamp
+          in: query
+          required: false
+          description: End timestamp for filtering completed tasks
+          schema:
+            type: string
+            format: date-time
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    task_name:
+                      type: string
+                    completed_by:
+                      type: string
+                    uuid:
+                      type: string
+        '400':
+          description: Tasks not found
+
+  /create:
+    post:
+      description: Create a task (specify day, time, and description)
+      operationId: app.create
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - uuid
+                - task_name
+                - due_date
+                - task_description
+                - task_difficulty
+              properties:
+                uuid:
+                  type: string
+                  format: uuid
+                  description: UUID for the task
+                task_name:
+                  type: string
+                  description: Name of the task
+                due_date:
+                  type: string
+                  format: date-time
+                  description: Due date and time for the task
+                task_description:
+                  type: string
+                  description: Description of the task
+                task_difficulty:
+                  type: integer
+                  description: Difficulty level of the task (e.g., 1 for Easy, 2 for Medium, 3 for Hard)
+      responses:
+        '201':
+          description: Task successfully created
+        '400':
+          description: Error has occurred, task creation unsuccessful
+
+  /complete:
+    post:
+      description: Completes a task.
+      operationId: app.complete
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - uuid
+                - completed_by  
+              properties:
+                task_name:
+                  type: string
+                  description: Name of the task being completed
+                uuid:
+                  type: string
+                  format: uuid
+                  description: Unique UUID for the task
+                completed_at:
+                  type: string
+                  format: date-time
+                  description: Timestamp of when the task was completed
+                completion_status:
+                  type: boolean
+                  description: Status of the task (true = complete)
+                completed_by:
+                  type: string
+                  description: Username of the person who completed the task
+                task_difficulty:
+                  type: integer
+                  description: Difficulty level of the task (if applicable)
+      responses:
+        '200':
+          description: Task successfully completed 
+        '400':
+          description: Error has occurred, task completion unsuccessful
+
+ 
+components:
+  schemas:
+    Task:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        name:
+          type: string
+          example: 'Finish project report'
+        date_created:
+          type: string
+          format: date-time
+          example: 2023-10-01T12:00:00Z
+        status:
+          type: string
+          example: 'incomplete'
+
+ 
