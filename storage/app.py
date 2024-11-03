@@ -15,12 +15,16 @@ import logging.config
 import requests
 from flask import jsonify, request
 
+
+
 with open('log_conf.yml', 'r') as f:
     log_config = yaml.safe_load(f.read())
     logging.config.dictConfig(log_config)
 
 
 logger = logging.getLogger('basicLogger')
+
+
 
 # MySQL info
 with open('app_conf.yml', 'r') as f:
@@ -31,6 +35,7 @@ TASK_FILE = 'tasks.json'
 MAX_EVENTS = 5
 
 db_config = app_config['datastore']
+logger.info(f"Connecting to MySQL database on host '{db_config['hostname']}' and port '{db_config['port']}'.")
 DATABASE_URL = f"mysql+pymysql://{db_config['user']}:{db_config['password']}@{db_config['hostname']}:{db_config['port']}/{db_config['db']}"
 engine = create_engine(DATABASE_URL)
 Session = sessionmaker(bind=engine)
