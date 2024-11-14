@@ -1,0 +1,16 @@
+version: 1
+
+datastore:
+  user: root
+  password: Sandwich$2021
+  hostname: ec2-35-91-72-209.us-west-2.compute.amazonaws.com
+  port: 3306
+  db: storage
+  filename: ./data.json  
+
+scheduler:
+  period_sec: 5
+
+eventstore:
+  url: localhost:8090
+

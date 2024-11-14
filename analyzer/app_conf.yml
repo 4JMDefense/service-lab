@@ -1,0 +1,19 @@
+version: 1
+
+datastore:
+  user: suser
+  password: passpass
+  hostname: ec2-44-229-192-171.us-west-2.compute.amazonaws.com
+  port: 3306
+  db: storage
+
+eventstore1:
+  url: http://localhost:8090/create
+eventstore2:
+  url: http://localhost:8090/complete
+
+
+events:
+  hostname: ec2-44-229-192-171.us-west-2.compute.amazonaws.com
+  port: 9092
+  topic: events

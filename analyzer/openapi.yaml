@@ -1,0 +1,74 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: 'Analyzer Service'
+  description: Service for consuming Kafka events and providing event statistics.
+
+paths:
+  /stats:
+    get:
+      description: Returns the count of each event type in the system
+      operationId: app.get_stats
+      responses:
+        '200':
+          description: Statistics of events
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Stats'
+
+  /event1:
+    get:
+      description: Fetch an event of type "event1" by index
+      operationId: app.get_event1
+      parameters:
+        - name: index
+          in: query
+          required: true
+          description: The index of the event in the list
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Event data
+          content:
+            application/json:
+              schema:
+                type: object
+        '400':
+          description: Invalid index provided
+        '404':
+          description: Event not found
+
+  /event2:
+    get:
+      description: Fetch an event of type "event2" by index
+      operationId: app.get_event2
+      parameters:
+        - name: index
+          in: query
+          required: true
+          description: The index of the event in the list
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Event data
+          content:
+            application/json:
+              schema:
+                type: object
+        '400':
+          description: Invalid index provided
+        '404':
+          description: Event not found
+
+components:
+  schemas:
+    Stats:
+      type: object
+      properties:
+        create_count:
+          type: integer
+        complete_count:
+          type: integer
