@@ -1,3 +1,5 @@
+"""This module handles the main application logic for the receiver service."""
+
 import connexion
 from connexion import NoContent
 from flask import jsonify
@@ -11,17 +13,23 @@ import uuid
 from pykafka import KafkaClient
 from time import sleep
 
-# LOGGING
-with open('app_conf.yml', 'r') as f:
-    app_config = yaml.safe_load(f.read())
+# LOGGING CONFIGURATION
+def load_yaml_config(file_path, encoding='utf-8'):
+    """Load YAML configuration from a file with the specified encoding."""
+    try:
+        with open(file_path, 'r', encoding=encoding) as f:
+            return yaml.safe_load(f.read())
+    except FileNotFoundError:
+        logger.error(f"Configuration file '{file_path}' not found.")
+        raise
+    except yaml.YAMLError as e:
+        logger.error(f"Error parsing configuration file '{file_path}': {e}")
+        raise
 
-eventstore1_url = app_config['eventstore1']['url']
-eventstore2_url = app_config['eventstore2']['url']
+app_config = load_yaml_config('app_conf.yml')
+log_config = load_yaml_config('log_conf.yml')
 
-with open('log_conf.yml', 'r') as f:
-    log_config = yaml.safe_load(f.read())
-    logging.config.dictConfig(log_config)
-
+logging.config.dictConfig(log_config)
 logger = logging.getLogger('basicLogger')
 
 # Constants
@@ -35,8 +43,8 @@ kafka_hostname = kafka_config['hostname']
 kafka_port = kafka_config['port']
 kafka_topic = kafka_config['topic']
 
-# Initialize Kafka client and producer with retry logic
 def create_kafka_producer():
+    """Initialize and return a Kafka producer with retry logic."""
     retry_count = 5
     for attempt in range(retry_count):
         try:
@@ -46,7 +54,7 @@ def create_kafka_producer():
             producer = topic.get_sync_producer()
             logger.info("Kafka client and producer initialized successfully.")
             return producer
-        except Exception as e:
+        except (ConnectionError, Exception) as e:
             logger.error(f"Attempt {attempt + 1} to initialize Kafka client failed: {str(e)}")
             if attempt < retry_count - 1:
                 sleep(2)  # Wait before retrying
@@ -59,19 +67,25 @@ producer = create_kafka_producer()
 
 # API TASKS
 def tasks():
+    """Retrieve and return all tasks from the TASK_FILE."""
     try:
-        with open(TASK_FILE, 'r') as file:
+        with open(TASK_FILE, 'r', encoding='utf-8') as file:
             data = json.load(file)
     except FileNotFoundError:
+        logger.warning(f"Task file '{TASK_FILE}' not found.")
         return jsonify([]), 200
+    except json.JSONDecodeError as e:
+        logger.error(f"Error parsing task file '{TASK_FILE}': {e}")
+        return jsonify({"message": "Error reading task file"}), 500
 
     return jsonify(data), 200
 
 def produce_event(event_type, body):
+    """Produce an event message to Kafka."""
     trace_id = str(uuid.uuid4())
     body['trace_id'] = trace_id
 
-    logger.info(f"Stored event '{event_type}' request with trace id {trace_id}")
+    logger.info(f"Preparing event '{event_type}' with trace id {trace_id}")
 
     try:
         # Prepare Kafka message
@@ -93,9 +107,11 @@ def produce_event(event_type, body):
     return NoContent, 201
 
 def create(body):
+    """Handle the 'create' event."""
     return produce_event('create', body)
 
 def complete(body):
+    """Handle the 'complete' event."""
     return produce_event('complete', body)
 
 # Initialize Connexion app
