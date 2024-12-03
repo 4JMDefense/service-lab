@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { label 'python_agent' }
 
     parameters {
         string(name: 'DOCKER_IMAGE', defaultValue: 'your-dockerhub-username/receiver:latest', description: 'Docker image name')
