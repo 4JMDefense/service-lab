@@ -17,15 +17,14 @@ pipeline {
                 }
             }
         }
-
         stage('Security') {
             steps {
                 script {
                     echo 'Running Security Stage (Vulnerability Scan)'
                     sh '''
-                    # Create and activate a virtual environment
+                    # Create and activate a virtual environment using dot (.) instead of source
                     python3 -m venv venv
-                    source venv/bin/activate
+                    . venv/bin/activate
                     
                     # Upgrade pip and setuptools to address vulnerabilities
                     pip install --upgrade pip setuptools
@@ -37,11 +36,11 @@ pipeline {
                 }
             }
         }
-
         stage('Package') {
             steps {
                 script {
                     echo 'Running Package Stage'
+                    // Build and push Docker image
                     sh '''
                     docker build -t ${params.DOCKER_IMAGE} .
                     docker push ${params.DOCKER_IMAGE}
@@ -49,11 +48,11 @@ pipeline {
                 }
             }
         }
-
         stage('Deploy') {
             steps {
                 script {
                     echo 'Running Deploy Stage'
+                    // Deploy using SSH
                     sshagent([params.SSH_CREDENTIALS]) {
                         sh '''
                         ssh -o StrictHostKeyChecking=no ubuntu@${params.VM_HOST} '
