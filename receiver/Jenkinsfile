@@ -41,7 +41,7 @@ pipeline {
                     echo 'Running Package Stage'
                     // Build and push Docker image, with correct path for the Dockerfile
                     sh '''
-                    docker build -t jmdizon5/receiver:latest -f receiver/Dockerfile receiver
+                    docker build -t jmdizon5/receiver:latest -f dockerfile
                     docker push jmdizon5/receiver:latest
                     '''
                 }
