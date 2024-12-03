@@ -44,11 +44,11 @@ pipeline {
             steps {
                 withCredentials([string(credentialsId: 'DockerHub', variable: 'TOKEN')]) {
                     echo 'Logging in to Docker Hub'
-                    sh 'echo "$TOKEN" | docker login -u "jmdizon5" --password-stdin docker.io'
+                    sh "docker login -u 'jmdizon5' -p '$TOKEN' docker.io"
                     echo 'Building Docker image'
-                    sh 'sudo docker build -t jmdizon5/receiver:latest -f receiver/dockerfile receiver'
+                    sh "docker build -t jmdizon5/receiver:latest -f receiver/dockerfile receiver"
                     echo 'Pushing Docker image to Docker Hub'
-                    sh 'sudo docker push jmdizon5/receiver:latest'
+                    sh "docker push jmdizon5/receiver:latest"
                 }
             }
         }
