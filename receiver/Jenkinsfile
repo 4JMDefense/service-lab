@@ -16,6 +16,7 @@ pipeline {
                 }
             }
         }
+
         stage('Security') {
             steps {
                 script {
@@ -35,23 +36,27 @@ pipeline {
                 }
             }
         }
+
         stage('Package') {
+            when {
+                expression { env.GIT_BRANCH == 'origin/main' }
+            }
             steps {
-                script {
-                    echo 'Running Package Stage'
-                    // Build and push Docker image
-                    sh '''
-                    docker build -t jmdizon5/receiver:latest -f receiver/dockerfile receiver
-                    docker push jmdizon5/receiver:latest
-                    '''
+                withCredentials([string(credentialsId: 'DockerHub', variable: 'TOKEN')]) {
+                    echo 'Logging in to Docker Hub'
+                    sh "docker login -u 'jmdizon5' -p '$TOKEN' docker.io"
+                    echo 'Building Docker image'
+                    sh "docker build -t jmdizon5/receiver:latest -f receiver/dockerfile receiver"
+                    echo 'Pushing Docker image to Docker Hub'
+                    sh "docker push jmdizon5/receiver:latest"
                 }
             }
         }
+
         stage('Deploy') {
             steps {
                 script {
                     echo 'Running Deploy Stage'
-                    // Deploy using SSH
                     sshagent([params.SSH_CREDENTIALS]) {
                         sh '''
                         ssh -o StrictHostKeyChecking=no ubuntu@${params.VM_HOST} '
