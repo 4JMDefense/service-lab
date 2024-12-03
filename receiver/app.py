@@ -1,29 +1,28 @@
 """This module handles the main application logic for the receiver service."""
 
-import connexion
-from connexion import NoContent
-from flask import jsonify
 import json
 from datetime import datetime
-import os
-import yaml
 import logging
 import logging.config
 import uuid
-from pykafka import KafkaClient
 from time import sleep
+import yaml
+from flask import jsonify
+from pykafka import KafkaClient
+import connexion
+from connexion import NoContent
 
 # LOGGING CONFIGURATION
 def load_yaml_config(file_path, encoding='utf-8'):
-    """Load YAML configuration from a file with the specified encoding."""
+    """Load YAML configuration from a file."""
     try:
-        with open(file_path, 'r', encoding=encoding) as f:
-            return yaml.safe_load(f.read())
+        with open(file_path, 'r', encoding=encoding) as file:
+            return yaml.safe_load(file.read())
     except FileNotFoundError:
-        logger.error(f"Configuration file '{file_path}' not found.")
+        logger.error("Configuration file '%s' not found.", file_path)
         raise
-    except yaml.YAMLError as e:
-        logger.error(f"Error parsing configuration file '{file_path}': {e}")
+    except yaml.YAMLError as error:
+        logger.error("Error parsing YAML file '%s': %s", file_path, error)
         raise
 
 app_config = load_yaml_config('app_conf.yml')
@@ -37,7 +36,7 @@ TASK_FILE = 'tasks.json'
 EVENTS_FILE = 'events.json'
 MAX_EVENTS = 5
 
-# Kafka configuration from app_conf.yml
+# Kafka configuration
 kafka_config = app_config['events']
 kafka_hostname = kafka_config['hostname']
 kafka_port = kafka_config['port']
@@ -54,28 +53,26 @@ def create_kafka_producer():
             producer = topic.get_sync_producer()
             logger.info("Kafka client and producer initialized successfully.")
             return producer
-        except (ConnectionError, Exception) as e:
-            logger.error(f"Attempt {attempt + 1} to initialize Kafka client failed: {str(e)}")
+        except Exception as error:  # Catching all exceptions temporarily for robustness
+            logger.error("Attempt %d to initialize Kafka client failed: %s", attempt + 1, error)
             if attempt < retry_count - 1:
                 sleep(2)  # Wait before retrying
             else:
                 logger.critical("Failed to initialize Kafka client after multiple attempts.")
                 raise
 
-# Create the producer at startup
 producer = create_kafka_producer()
 
-# API TASKS
 def tasks():
     """Retrieve and return all tasks from the TASK_FILE."""
     try:
         with open(TASK_FILE, 'r', encoding='utf-8') as file:
             data = json.load(file)
     except FileNotFoundError:
-        logger.warning(f"Task file '{TASK_FILE}' not found.")
+        logger.warning("Task file '%s' not found.", TASK_FILE)
         return jsonify([]), 200
-    except json.JSONDecodeError as e:
-        logger.error(f"Error parsing task file '{TASK_FILE}': {e}")
+    except json.JSONDecodeError as error:
+        logger.error("Error parsing task file '%s': %s", TASK_FILE, error)
         return jsonify({"message": "Error reading task file"}), 500
 
     return jsonify(data), 200
@@ -85,23 +82,18 @@ def produce_event(event_type, body):
     trace_id = str(uuid.uuid4())
     body['trace_id'] = trace_id
 
-    logger.info(f"Preparing event '{event_type}' with trace id {trace_id}")
+    logger.info("Preparing event '%s' with trace id %s", event_type, trace_id)
 
     try:
-        # Prepare Kafka message
         msg = {
             "type": event_type,
             "datetime": datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
             "payload": body
         }
-        msg_str = json.dumps(msg)
-
-        # Produce message to Kafka
-        producer.produce(msg_str.encode('utf-8'))
-        logger.info(f"Produced event '{event_type}' with trace id {trace_id}")
-
-    except Exception as e:
-        logger.error(f"Failed to produce Kafka message for event '{event_type}': {str(e)}")
+        producer.produce(json.dumps(msg).encode('utf-8'))
+        logger.info("Produced event '%s' with trace id %s", event_type, trace_id)
+    except Exception as error:
+        logger.error("Failed to produce Kafka message for event '%s': %s", event_type, error)
         return jsonify({"message": "Error producing Kafka message"}), 500
 
     return NoContent, 201
@@ -114,7 +106,6 @@ def complete(body):
     """Handle the 'complete' event."""
     return produce_event('complete', body)
 
-# Initialize Connexion app
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
 
