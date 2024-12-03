@@ -2,6 +2,7 @@ pipeline {
     agent { label 'python_agent' }
 
     parameters {
+        string(name: 'DOCKER_IMAGE', defaultValue: 'jmdizon5/receiver:latest', description: 'Docker image name')
         string(name: 'SSH_CREDENTIALS', defaultValue: 'jenkins-ssh-credential-id', description: 'SSH credentials ID for VM access')
         string(name: 'VM_HOST', defaultValue: 'your-3855-vm-ip', description: 'IP address of the 3855 VM')
         string(name: 'COMPOSE_PATH', defaultValue: '/path/to/docker-compose', description: 'Path to your docker-compose directory')
@@ -19,16 +20,11 @@ pipeline {
         stage('Security') {
             steps {
                 script {
-                    echo 'Running Security Stage (Vulnerability Scan)'
+                    echo 'Running Security Stage'
+                    // Run a simple security check, e.g., Python package vulnerability scan
                     sh '''
-                    # Create and activate a virtual environment using dot (.) instead of source
                     python3 -m venv venv
-                    . venv/bin/activate
-                    
-                    # Upgrade pip and setuptools to address vulnerabilities
-                    pip install --upgrade pip setuptools
-                    
-                    # Install and run Safety for vulnerability scanning
+                    source venv/bin/activate
                     pip install safety
                     safety check
                     '''
@@ -39,9 +35,9 @@ pipeline {
             steps {
                 script {
                     echo 'Running Package Stage'
-                    // Hardcoded Docker image name
+                    // Build and push Docker image
                     sh '''
-                    docker build -t jmdizon5/receiver:latest .
+                    docker build -t jmdizon5/receiver:latest -f receiver/Dockerfile .
                     docker push jmdizon5/receiver:latest
                     '''
                 }
