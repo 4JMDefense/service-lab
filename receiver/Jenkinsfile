@@ -2,7 +2,6 @@ pipeline {
     agent { label 'python_agent' }
 
     parameters {
-        string(name: 'DOCKER_IMAGE', defaultValue: 'your-dockerhub-username/receiver:latest', description: 'Docker image name')
         string(name: 'SSH_CREDENTIALS', defaultValue: 'jenkins-ssh-credential-id', description: 'SSH credentials ID for VM access')
         string(name: 'VM_HOST', defaultValue: 'your-3855-vm-ip', description: 'IP address of the 3855 VM')
         string(name: 'COMPOSE_PATH', defaultValue: '/path/to/docker-compose', description: 'Path to your docker-compose directory')
@@ -40,10 +39,10 @@ pipeline {
             steps {
                 script {
                     echo 'Running Package Stage'
-                    // Build and push Docker image
+                    // Hardcoded Docker image name
                     sh '''
-                    docker build -t ${params.DOCKER_IMAGE} .
-                    docker push ${params.DOCKER_IMAGE}
+                    docker build -t jmdizon5/receiver:latest .
+                    docker push jmdizon5/receiver:latest
                     '''
                 }
             }
