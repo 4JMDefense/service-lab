@@ -1,4 +1,7 @@
 version: 1
+retries:
+  max_attempts: 5
+  interval: 5
 eventstore1:
   url: http://localhost:8090/create
 eventstore2:

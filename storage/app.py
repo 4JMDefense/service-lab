@@ -17,14 +17,12 @@ from pykafka import KafkaClient
 from pykafka.common import OffsetType
 
 
-
 with open('log_conf.yml', 'r') as f:
     log_config = yaml.safe_load(f.read())
     logging.config.dictConfig(log_config)
 
 
 logger = logging.getLogger('basicLogger')
-
 
 
 # MySQL info
@@ -47,13 +45,48 @@ KAFKA_TOPIC = app_config['events']['topic']
 
 # API TASKS
 def tasks():
+    session = Session()
     try:
-        with open(TASK_FILE, 'r') as file:
-            data = json.load(file)
-    except FileNotFoundError:
-        return jsonify([]), 200
+        start_timestamp = request.args.get('start_timestamp')
+        end_timestamp = request.args.get('end_timestamp')
 
-    return jsonify(data), 200
+        query = session.query(Create)
+
+        # Handle timestamp filtering with 'Z' handling
+        if start_timestamp:
+            if 'Z' in start_timestamp:
+                start_timestamp = start_timestamp.replace('Z', '+00:00')
+            start_dt = datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%S%z")  # Changed to strptime
+            query = query.filter(Create.date_created >= start_dt)
+
+        if end_timestamp:
+            if 'Z' in end_timestamp:
+                end_timestamp = end_timestamp.replace('Z', '+00:00')
+            end_dt = datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S%z")  # Changed to strptime
+            query = query.filter(Create.date_created < end_dt)
+
+        tasks_list = query.all()
+        tasks_data = [
+            {
+                'trace_id': task.trace_id,
+                'task_name': task.task_name,
+                'due_date': task.due_date,
+                'task_description': task.task_description,
+                'task_difficulty': task.task_difficulty,
+                'uuid': task.uuid,
+                'date_created': task.date_created.isoformat()
+            }
+            for task in tasks_list
+        ]
+
+        logger.info("Tasks retrieved: %d tasks", len(tasks_data))
+        return jsonify(tasks_data), 200
+    except Exception as e:
+        logger.error(f"Error retrieving tasks: {str(e)}")
+        return "Error retrieving tasks", 500
+    finally:
+        session.close()
+
 
 def create(body):
 
@@ -148,73 +181,28 @@ def complete(body):
     return response_message, 200 if task_found else 201
 
 
-
-
-def tasks():
-    session = Session()  # Create a new session to interact with the database
-    try:
-        # Get timestamp parameters from the query string
-        start_timestamp = request.args.get('start_timestamp')
-        end_timestamp = request.args.get('end_timestamp')
-
-        # Initialize query for tasks
-        query = session.query(Create)
-
-        # Apply timestamp filtering if parameters are provided
-        if start_timestamp:
-            start_dt = datetime.fromisoformat(start_timestamp)  # Convert to datetime object
-            query = query.filter(Create.date_created >= start_dt)
-
-        if end_timestamp:
-            end_dt = datetime.fromisoformat(end_timestamp)  # Convert to datetime object
-            query = query.filter(Create.date_created < end_dt)
-
-        tasks_list = query.all()
-
-        # Convert the tasks to a list of dictionaries for JSON serialization
-        tasks_data = [
-            {
-                'trace_id': task.trace_id,
-                'task_name': task.task_name,
-                'due_date': task.due_date,
-                'task_description': task.task_description,
-                'task_difficulty': task.task_difficulty,
-                'uuid': task.uuid,
-                'date_created': task.date_created.isoformat()  # Ensure you have this field
-            }
-            for task in tasks_list
-        ]
-
-        logger.info("Tasks retrieved: %d tasks", len(tasks_data))  # Log the number of tasks retrieved
-        return jsonify(tasks_data), 200  # Return the tasks data as JSON
-    except Exception as e:
-        logger.error(f"Error retrieving tasks: {str(e)}")  # Log the error
-        return "Error retrieving tasks", 500  # Return an error response
-    finally:
-        session.close()  # Ensure the session is closed
-
 def completed_tasks():
-    session = Session()  # Create a new session to interact with the database
+    session = Session()
     try:
-        # Get timestamp parameters from the query string
         start_timestamp = request.args.get('start_timestamp')
         end_timestamp = request.args.get('end_timestamp')
 
-        # Initialize query for completed tasks
         query = session.query(Complete)
 
-        # Apply timestamp filtering if parameters are provided
+        # Handle timestamp filtering with 'Z' handling
         if start_timestamp:
-            start_dt = datetime.fromisoformat(start_timestamp)  # Convert to datetime object
+            if 'Z' in start_timestamp:
+                start_timestamp = start_timestamp.replace('Z', '+00:00')
+            start_dt = datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%S%z")  # Changed to strptime
             query = query.filter(Complete.date_created >= start_dt)
 
         if end_timestamp:
-            end_dt = datetime.fromisoformat(end_timestamp)  # Convert to datetime object
+            if 'Z' in end_timestamp:
+                end_timestamp = end_timestamp.replace('Z', '+00:00')
+            end_dt = datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S%z")  # Changed to strptime
             query = query.filter(Complete.date_created < end_dt)
 
         completed_tasks_list = query.all()
-
-        # Convert the completed tasks to a list of dictionaries for JSON serialization
         completed_tasks_data = [
             {
                 'trace_id': task.trace_id,
@@ -222,46 +210,52 @@ def completed_tasks():
                 'task_difficulty': task.task_difficulty,
                 'uuid': task.uuid,
                 'completed_by': task.completed_by,
-                'date_created': task.date_created.isoformat()  # Ensure you have this field
+                'date_created': task.date_created.strftime("%Y-%m-%d %H:%M:%S")  # Custom format
+
             }
             for task in completed_tasks_list
         ]
 
-        logger.info("Completed tasks retrieved: %d tasks", len(completed_tasks_data))  # Log the number of completed tasks retrieved
-        return jsonify(completed_tasks_data), 200  # Return the completed tasks data as JSON
+        logger.info("Completed tasks retrieved: %d tasks", len(completed_tasks_data))
+        return jsonify(completed_tasks_data), 200
     except Exception as e:
-        logger.error(f"Error retrieving completed tasks: {str(e)}")  # Log the error
-        return "Error retrieving completed tasks", 500  # Return an error response
+        logger.error(f"Error retrieving completed tasks: {str(e)}")
+        return "Error retrieving completed tasks", 500
     finally:
-        session.close()  # Ensure the session is closed
-
+        session.close()
 
 
 def process_messages():
     """Process incoming messages from Kafka and store them in the database."""
-    client = KafkaClient(hosts=KAFKA_HOST)
-    topic = client.topics[KAFKA_TOPIC.encode('utf-8')]
-    consumer = topic.get_simple_consumer(
-        consumer_group=b'event_group',
-        reset_offset_on_start=False,
-        auto_offset_reset=OffsetType.LATEST
-    )
+    logger.info("Initializing Kafka consumer...")
+    try:
+        # Initialize Kafka client and topic subscription
+        client = KafkaClient(hosts=KAFKA_HOST)
+        topic = client.topics[KAFKA_TOPIC.encode('utf-8')]
+        consumer = topic.get_simple_consumer(
+            consumer_group=b'event_group',
+            reset_offset_on_start=False,
+            auto_offset_reset=OffsetType.LATEST
+        )
 
-    logger.info("Starting Kafka consumer...")
-    for msg in consumer:
-        if msg is not None:
-            msg_str = msg.value.decode('utf-8')
-            event_msg = json.loads(msg_str)
-            logger.info(f"Message received: {event_msg}")
+        logger.info("Starting Kafka consumer...")
+        for msg in consumer:
+            if msg is not None:
+                msg_str = msg.value.decode('utf-8')
+                event_msg = json.loads(msg_str)
+                logger.info(f"Message received: {event_msg}")
 
-            
-            if event_msg["type"] == "event1":
-                store_event1(event_msg["payload"])
-            elif event_msg["type"] == "event2":
-                store_event2(event_msg["payload"])
+                # Process events based on their type
+                if event_msg["type"] == "create":
+                    store_event1(event_msg["payload"])
+                elif event_msg["type"] == "complete":
+                    store_event2(event_msg["payload"])
 
-            
-            consumer.commit_offsets()
+                # Commit message offsets
+                consumer.commit_offsets()
+    except Exception as e:
+        logger.error(f"Error in Kafka consumer: {str(e)}")
+
 
 def store_event1(payload):
     """Store Event1 in the database."""
@@ -315,4 +309,5 @@ if __name__ == "__main__":
     t1.start()
 
     # Start the Flask application
-    app.run(port=8090)
+    app.run(host="0.0.0.0", port=8090)
+

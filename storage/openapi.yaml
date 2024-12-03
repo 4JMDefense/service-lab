@@ -16,14 +16,12 @@ paths:
           description: Start timestamp for filtering tasks 
           schema:
             type: string
-            format: date-time
         - name: end_timestamp
           in: query
           required: false
           description: End timestamp for filtering tasks 
           schema:
             type: string
-            format: date-time
       responses:
         '200':
           description: Successful response
@@ -38,7 +36,6 @@ paths:
                       type: string
                     due_date:
                       type: string
-                      format: date-time
                     task_description:
                       type: string
                     task_difficulty:
@@ -59,14 +56,12 @@ paths:
           description: Start timestamp for filtering completed tasks 
           schema:
             type: string
-            format: date-time
         - name: end_timestamp
           in: query
           required: false
           description: End timestamp for filtering completed tasks
           schema:
             type: string
-            format: date-time
       responses:
         '200':
           description: Successful response
@@ -112,7 +107,6 @@ paths:
                   description: Name of the task
                 due_date:
                   type: string
-                  format: date-time
                   description: Due date and time for the task
                 task_description:
                   type: string
@@ -149,7 +143,6 @@ paths:
                   description: Unique UUID for the task
                 completed_at:
                   type: string
-                  format: date-time
                   description: Timestamp of when the task was completed
                 completion_status:
                   type: boolean
@@ -180,7 +173,6 @@ components:
           example: 'Finish project report'
         date_created:
           type: string
-          format: date-time
           example: 2023-10-01T12:00:00Z
         status:
           type: string

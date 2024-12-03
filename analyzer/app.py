@@ -8,6 +8,7 @@ from pykafka import KafkaClient
 from pykafka.common import OffsetType
 import time
 import atexit
+from flask_cors import CORS  # Import CORS
 
 # Load configurations
 with open('app_conf.yml', 'r') as f:
@@ -108,12 +109,14 @@ def get_event2():
 # Initialize the Connexion app
 app = connexion.FlaskApp(__name__, specification_dir='')
 
+# Apply CORS to allow cross-origin requests
+CORS(app.app
 
 app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
-
 
 start_kafka_consumer()
 
 # Start the Flask app
 if __name__ == "__main__":
-    app.run(port=8110)  # Disable reloader to prevent restarts
+    app.run(host="0.0.0.0", port=8110)  # Disable reloader to prevent restarts
+

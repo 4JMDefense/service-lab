@@ -4,9 +4,9 @@ from flask import jsonify, request
 import json
 from datetime import datetime
 import os
-from sqlalchemy import create_engine, func  # Make sure func is imported
+from sqlalchemy import create_engine, func
 from sqlalchemy.orm import sessionmaker
-from create import Create 
+from create import Create
 from complete import Complete
 import uuid
 import yaml
@@ -14,8 +14,8 @@ import logging
 import logging.config
 from apscheduler.schedulers.background import BackgroundScheduler
 import requests
-from datetime import datetime, timezone
-
+import pytz
+from flask_cors import CORS 
 
 # Load logging configuration
 with open('log_conf.yml', 'r') as f:
@@ -29,9 +29,6 @@ logger = logging.getLogger('basicLogger')
 with open('app_conf.yml', 'r') as f:
     app_config = yaml.safe_load(f.read())
 
-
-
-
 # Constants
 TASK_FILE = 'tasks.json'
 MAX_EVENTS = 5
@@ -42,15 +39,9 @@ engine = create_engine(DATABASE_URL)
 Session = sessionmaker(bind=engine)
 
 STATS_FILE = app_config['datastore']['filename']
-
-
-
+PERIODIC_INTERVAL = app_config['scheduler']['period_sec']
 
 # API TASKS
-
-
-
-
 def tasks():
     try:
         # Get timestamp parameters from the query string
@@ -64,8 +55,8 @@ def tasks():
         if end_timestamp:
             params['end_timestamp'] = end_timestamp
 
-        # Query the external service
-        response = requests.get(f"localhost:8090/tasks", params=params)
+        # Query the external service (Updated API URL)
+        response = requests.get(f"http://ec2-44-229-192-171.us-west-2.compute.amazonaws.com:8090/tasks", params=params)
 
         if response.status_code == 200:
             tasks_data = response.json()  # Get the JSON response
@@ -91,8 +82,8 @@ def completed_tasks():
         if end_timestamp:
             params['end_timestamp'] = end_timestamp
 
-        # Query the external service
-        response = requests.get(f"localhost:8090/completed_tasks", params=params)
+        # Query the external service (Updated API URL)
+        response = requests.get(f"http://ec2-44-229-192-171.us-west-2.compute.amazonaws.com:8090/completed_tasks", params=params)
 
         if response.status_code == 200:
             completed_tasks_data = response.json()  # Get the JSON response
@@ -106,19 +97,12 @@ def completed_tasks():
         return jsonify({"message": "Completed tasks not found"}), 400  # Return a 400 error response
 
 
-STATS_FILE = app_config["datastore"]["filename"]
-PERIODIC_INTERVAL = app_config['scheduler']['period_sec']  
-
-
-
-import pytz  # Ensure you have pytz imported
-
 def populate_stats():
     """Periodically update stats with incremental processing"""
     logger.info("Start Periodic Processing")
 
-    # Set timezone to PDT
-    pdt_tz = pytz.timezone('America/Los_Angeles')
+    # Set timezone to UTC
+    utc_tz = pytz.utc
 
     # Initialize default stats structure
     stats = {
@@ -126,7 +110,7 @@ def populate_stats():
         "completed_tasks": 0,
         "max_task_difficulty": 0,
         "avg_task_difficulty": 0,
-        "last_updated": datetime.now(pdt_tz).strftime('%Y-%m-%dT%H:%M:%SZ')
+        "last_updated": datetime.now(utc_tz).strftime('%Y-%m-%dT%H:%M:%SZ')
     }
 
     # Load existing stats
@@ -136,17 +120,17 @@ def populate_stats():
 
     # Update timestamps
     start_timestamp = stats["last_updated"]
-    end_timestamp = datetime.now(pdt_tz).strftime('%Y-%m-%dT%H:%M:%SZ')
+    end_timestamp = datetime.now(utc_tz).strftime('%Y-%m-%dT%H:%M:%SZ')
 
     logger.debug(f"Fetching tasks from {start_timestamp} to {end_timestamp}")
 
     # Fetch new events data
     try:
         new_task_events = requests.get(
-            f"http://{app_config['eventstore']['url']}/tasks?start_timestamp={start_timestamp}&end_timestamp={end_timestamp}"
+            f"http://ec2-44-229-192-171.us-west-2.compute.amazonaws.com:8090/tasks?start_timestamp={start_timestamp}&end_timestamp={end_timestamp}"
         )
         new_completed_events = requests.get(
-            f"http://{app_config['eventstore']['url']}/completed_tasks?start_timestamp={start_timestamp}&end_timestamp={end_timestamp}"
+            f"http://ec2-44-229-192-171.us-west-2.compute.amazonaws.com:8090/completed_tasks?start_timestamp={start_timestamp}&end_timestamp={end_timestamp}"
         )
 
         # Log response statuses
@@ -223,17 +207,17 @@ def get_stats():
 def init_scheduler():
     """Initialize and start the scheduler for periodic processing"""
     sched = BackgroundScheduler(daemon=True)
-    sched.add_job(populate_stats, 'interval', seconds=PERIODIC_INTERVAL)
+    sched.add_job(populate_stats, 'interval', seconds=PERIODIC_INTERVAL, timezone='UTC')
     sched.start()
     logger.info("Scheduler initialized and started")
-
-
 
 
 # Initialize Connexion app
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
+CORS(app.app)
 
 if __name__ == "__main__":
     init_scheduler()
-    app.run(port=8100)
+    app.run(host="0.0.0.0", port=8100)
+
