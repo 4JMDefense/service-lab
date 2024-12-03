@@ -1,18 +1,22 @@
 pipeline {
-    agent any
+    agent { label 'python_agent' }
+
+    parameters {
+        string(name: 'SSH_CREDENTIALS', defaultValue: 'jenkins-ssh-credential-id', description: 'SSH credentials ID for VM access')
+        string(name: 'VM_HOST', defaultValue: 'your-3855-vm-ip', description: 'IP address of the 3855 VM')
+        string(name: 'COMPOSE_PATH', defaultValue: '/path/to/docker-compose', description: 'Path to your docker-compose directory')
+    }
+
     stages {
-        stage('Build') {
+        stage('Lint') {
             steps {
-                echo 'Running Build Stage'
-                // Add any build steps here
+                script {
+                    echo 'Running Lint Stage'
+                    sh 'pylint receiver/*.py --fail-under=5'
+                }
             }
         }
-        stage('Test') {
-            steps {
-                echo 'Running Test Stage'
-                // Add test steps here
-            }
-        }
+
         stage('Security') {
             steps {
                 script {
@@ -32,29 +36,35 @@ pipeline {
                 }
             }
         }
+
         stage('Package') {
             when {
                 expression { env.GIT_BRANCH == 'origin/main' }
             }
             steps {
                 withCredentials([string(credentialsId: 'DockerHub', variable: 'TOKEN')]) {
-                    sh '''
-                    # Log in to Docker Hub
-                    sudo docker login -u jmdizon5 -p "$TOKEN" docker.io
-                    
-                    # Build Docker image
-                    sudo docker build -t jmdizon5/receiver:latest -f receiver/dockerfile receiver
-                    
-                    # Push Docker image to Docker Hub
-                    sudo docker push jmdizon5/receiver:latest
-                    '''
+                    echo 'Logging in to Docker Hub'
+                    sh 'echo "$TOKEN" | docker login -u "jmdizon5" --password-stdin docker.io'
+                    echo 'Building Docker image'
+                    sh 'sudo docker build -t jmdizon5/receiver:latest -f receiver/dockerfile receiver'
+                    echo 'Pushing Docker image to Docker Hub'
+                    sh 'sudo docker push jmdizon5/receiver:latest'
                 }
             }
         }
+
         stage('Deploy') {
             steps {
-                echo 'Running Deploy Stage'
-                // Add deployment steps here
+                script {
+                    echo 'Running Deploy Stage'
+                    sshagent([params.SSH_CREDENTIALS]) {
+                        sh '''
+                        ssh -o StrictHostKeyChecking=no ubuntu@${params.VM_HOST} '
+                            cd ${params.COMPOSE_PATH};
+                            docker-compose pull && docker-compose up -d'
+                        '''
+                    }
+                }
             }
         }
     }
