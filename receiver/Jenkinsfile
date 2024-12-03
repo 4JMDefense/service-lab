@@ -22,16 +22,14 @@ pipeline {
                 script {
                     echo 'Running Security Stage'
                     sh '''
-                    # Create a virtual environment for Python dependencies
-                    python3 -m venv venv
-                    source venv/bin/activate
-
-                    # Install and run safety
-                    pip install safety
-                    safety check
-
-                    # Deactivate virtual environment
-                    deactivate
+                    # Use Bash for the environment setup and command execution
+                    bash -c "
+                        python3 -m venv venv &&
+                        source venv/bin/activate &&
+                        pip install safety &&
+                        safety check &&
+                        deactivate
+                    "
                     '''
                 }
             }
@@ -41,6 +39,7 @@ pipeline {
                 script {
                     echo 'Running Package Stage'
                     sh '''
+                    # Build and push Docker image
                     docker build -t ${params.DOCKER_IMAGE} .
                     docker push ${params.DOCKER_IMAGE}
                     '''
@@ -53,9 +52,10 @@ pipeline {
                     echo 'Running Deploy Stage'
                     sshagent([params.SSH_CREDENTIALS]) {
                         sh '''
-                        ssh -o StrictHostKeyChecking=no ubuntu@${params.VM_HOST} '
+                        ssh -o StrictHostKeyChecking=no ubuntu@${params.VM_HOST} "
                             cd ${params.COMPOSE_PATH};
-                            docker-compose pull && docker-compose up -d'
+                            docker-compose pull && docker-compose up -d
+                        "
                         '''
                     }
                 }
