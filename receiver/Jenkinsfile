@@ -17,45 +17,48 @@ pipeline {
                 }
             }
         }
+
         stage('Security') {
             steps {
                 script {
-                    echo 'Running Security Stage'
+                    echo 'Running Security Stage (Vulnerability Scan)'
                     sh '''
-                    # Use Bash for the environment setup and command execution
-                    bash -c "
-                        python3 -m venv venv &&
-                        source venv/bin/activate &&
-                        pip install safety &&
-                        safety check &&
-                        deactivate
-                    "
+                    # Create and activate a virtual environment
+                    python3 -m venv venv
+                    source venv/bin/activate
+                    
+                    # Upgrade pip and setuptools to address vulnerabilities
+                    pip install --upgrade pip setuptools
+                    
+                    # Install and run Safety for vulnerability scanning
+                    pip install safety
+                    safety check
                     '''
                 }
             }
         }
+
         stage('Package') {
             steps {
                 script {
                     echo 'Running Package Stage'
                     sh '''
-                    # Build and push Docker image
                     docker build -t ${params.DOCKER_IMAGE} .
                     docker push ${params.DOCKER_IMAGE}
                     '''
                 }
             }
         }
+
         stage('Deploy') {
             steps {
                 script {
                     echo 'Running Deploy Stage'
                     sshagent([params.SSH_CREDENTIALS]) {
                         sh '''
-                        ssh -o StrictHostKeyChecking=no ubuntu@${params.VM_HOST} "
+                        ssh -o StrictHostKeyChecking=no ubuntu@${params.VM_HOST} '
                             cd ${params.COMPOSE_PATH};
-                            docker-compose pull && docker-compose up -d
-                        "
+                            docker-compose pull && docker-compose up -d'
                         '''
                     }
                 }
