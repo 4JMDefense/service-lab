@@ -1,0 +1,58 @@
+pipeline {
+    agent any
+
+    parameters {
+        string(name: 'DOCKER_IMAGE', defaultValue: 'your-dockerhub-username/receiver:latest', description: 'Docker image name')
+        string(name: 'SSH_CREDENTIALS', defaultValue: 'jenkins-ssh-credential-id', description: 'SSH credentials ID for VM access')
+        string(name: 'VM_HOST', defaultValue: 'your-3855-vm-ip', description: 'IP address of the 3855 VM')
+        string(name: 'COMPOSE_PATH', defaultValue: '/path/to/docker-compose', description: 'Path to your docker-compose directory')
+    }
+
+    stages {
+        stage('Lint') {
+            steps {
+                script {
+                    echo 'Running Lint Stage'
+                    sh 'pylint *.py --fail-under=5'
+                }
+            }
+        }
+        stage('Security') {
+            steps {
+                script {
+                    echo 'Running Security Stage'
+                    // Run a simple security check, e.g., Python package vulnerability scan
+                    sh 'pip install safety && safety check'
+                }
+            }
+        }
+        stage('Package') {
+            steps {
+                script {
+                    echo 'Running Package Stage'
+                    // Build and push Docker image
+                    sh '''
+                    docker build -t ${params.DOCKER_IMAGE} .
+                    docker push ${params.DOCKER_IMAGE}
+                    '''
+                }
+            }
+        }
+        stage('Deploy') {
+            steps {
+                script {
+                    echo 'Running Deploy Stage'
+                    // Deploy using SSH
+                    sshagent([params.SSH_CREDENTIALS]) {
+                        sh '''
+                        ssh -o StrictHostKeyChecking=no ubuntu@${params.VM_HOST} '
+                            cd ${params.COMPOSE_PATH};
+                            docker-compose pull && docker-compose up -d'
+                        '''
+                    }
+                }
+            }
+        }
+    }
+}
+

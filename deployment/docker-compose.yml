@@ -57,7 +57,7 @@ services:
       - my-network
 
   receiver:
-    image: receiver
+    image: jmdizon5/receiver:latest
     ports:
       - "8080:8080"
     depends_on:
