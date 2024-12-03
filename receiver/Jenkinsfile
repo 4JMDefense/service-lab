@@ -13,7 +13,7 @@ pipeline {
             steps {
                 script {
                     echo 'Running Lint Stage'
-                    sh 'pylint *.py --fail-under=5'
+                    sh 'pylint receiver/*.py --fail-under=5'
                 }
             }
         }
