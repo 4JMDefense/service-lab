@@ -6,7 +6,7 @@ from datetime import datetime
 import os
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from create import Create 
+from create import Create
 from complete import Complete
 import uuid
 import yaml
@@ -16,16 +16,14 @@ import threading
 from pykafka import KafkaClient
 from pykafka.common import OffsetType
 
-
+# Configure logging
 with open('log_conf.yml', 'r') as f:
     log_config = yaml.safe_load(f.read())
     logging.config.dictConfig(log_config)
 
-
 logger = logging.getLogger('basicLogger')
 
-
-# MySQL info
+# Load configuration
 with open('app_conf.yml', 'r') as f:
     app_config = yaml.safe_load(f.read())
 
@@ -33,18 +31,22 @@ with open('app_conf.yml', 'r') as f:
 TASK_FILE = 'tasks.json'
 MAX_EVENTS = 5
 
+# Database configuration
 db_config = app_config['datastore']
 logger.info(f"Connecting to MySQL database on host '{db_config['hostname']}' and port '{db_config['port']}'.")
 DATABASE_URL = f"mysql+pymysql://{db_config['user']}:{db_config['password']}@{db_config['hostname']}:{db_config['port']}/{db_config['db']}"
 engine = create_engine(DATABASE_URL)
 Session = sessionmaker(bind=engine)
 
-
+# Kafka configuration
 KAFKA_HOST = f"{app_config['events']['hostname']}:{app_config['events']['port']}"
 KAFKA_TOPIC = app_config['events']['topic']
 
-# API TASKS
+# API tasks
 def tasks():
+    """
+    Retrieve tasks from the database with optional timestamp filtering.
+    """
     session = Session()
     try:
         start_timestamp = request.args.get('start_timestamp')
@@ -56,13 +58,13 @@ def tasks():
         if start_timestamp:
             if 'Z' in start_timestamp:
                 start_timestamp = start_timestamp.replace('Z', '+00:00')
-            start_dt = datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%S%z")  # Changed to strptime
+            start_dt = datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%S%z")
             query = query.filter(Create.date_created >= start_dt)
 
         if end_timestamp:
             if 'Z' in end_timestamp:
                 end_timestamp = end_timestamp.replace('Z', '+00:00')
-            end_dt = datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S%z")  # Changed to strptime
+            end_dt = datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S%z")
             query = query.filter(Create.date_created < end_dt)
 
         tasks_list = query.all()
@@ -87,33 +89,32 @@ def tasks():
     finally:
         session.close()
 
-
 def create(body):
-
+    """
+    Create a new task in the database.
+    """
     trace_id = body.get('trace_id')
-
     session = Session()
 
     task_name = body.get('task_name')
-    due_date = body.get('due_date')  
-    task_description = body.get('task_description')  
-    task_difficulty = body.get('task_difficulty')  
-    provided_uuid = body.get('uuid') 
+    due_date = body.get('due_date')
+    task_description = body.get('task_description')
+    task_difficulty = body.get('task_difficulty')
+    provided_uuid = body.get('uuid')
 
-    # Check if we have the required values 
+    # Check if we have the required values
     if not task_name or not due_date or not task_description:
         return "Error: 'task_name', 'due_date', and 'task_description' are required.", 400
 
-    if not provided_uuid:  
+    if not provided_uuid:
         return "Error: 'uuid' is required in the body.", 400
 
-    
     new_task = Create(
         trace_id=trace_id,
         task_name=task_name,
         due_date=due_date,
         task_description=task_description,
-        task_difficulty=task_difficulty, 
+        task_difficulty=task_difficulty,
         uuid=provided_uuid
     )
 
@@ -123,13 +124,14 @@ def create(body):
     # Log the trace ID
     logger.info(f"Task created with trace ID: {trace_id}")
 
-    session.close()   
+    session.close()
     return "Task created", 201
 
 def complete(body):
-    
-    trace_id = body.get('trace_id') 
-
+    """
+    Complete a task and move it to the completed tasks table.
+    """
+    trace_id = body.get('trace_id')
     task_name_to_complete = body.get('task_name')
 
     if not task_name_to_complete:
@@ -140,7 +142,7 @@ def complete(body):
         return "Error: 'uuid' is required in the body.", 400
 
     # Get the name of the user completing the task
-    completed_by = body.get('completed_by', "Unknown") 
+    completed_by = body.get('completed_by', "Unknown")
 
     session = Session()
     # Find the task name in the task table
@@ -150,22 +152,21 @@ def complete(body):
         completed_task = Complete(
             trace_id=trace_id,
             task_name=task_name_to_complete,
-            task_difficulty=task_found.task_difficulty,  
-            uuid=provided_uuid,  
+            task_difficulty=task_found.task_difficulty,
+            uuid=provided_uuid,
             completed_by=completed_by
         )
-        
+
         session.add(completed_task)
-        
-        session.delete(task_found)  
+        session.delete(task_found)
         response_message = f"Task '{task_name_to_complete}' updated and completed"
     else:
         # If it doesn't find an existing task name, create a new task in the completed table
         completed_task = Complete(
             trace_id=trace_id,
             task_name=task_name_to_complete,
-            uuid=provided_uuid,  
-            task_difficulty=None, 
+            uuid=provided_uuid,
+            task_difficulty=None,
             completed_by=completed_by
         )
         session.add(completed_task)
@@ -180,8 +181,10 @@ def complete(body):
 
     return response_message, 200 if task_found else 201
 
-
 def completed_tasks():
+    """
+    Retrieve completed tasks from the database with optional timestamp filtering.
+    """
     session = Session()
     try:
         start_timestamp = request.args.get('start_timestamp')
@@ -193,13 +196,13 @@ def completed_tasks():
         if start_timestamp:
             if 'Z' in start_timestamp:
                 start_timestamp = start_timestamp.replace('Z', '+00:00')
-            start_dt = datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%S%z")  # Changed to strptime
+            start_dt = datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%S%z")
             query = query.filter(Complete.date_created >= start_dt)
 
         if end_timestamp:
             if 'Z' in end_timestamp:
                 end_timestamp = end_timestamp.replace('Z', '+00:00')
-            end_dt = datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S%z")  # Changed to strptime
+            end_dt = datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S%z")
             query = query.filter(Complete.date_created < end_dt)
 
         completed_tasks_list = query.all()
@@ -210,8 +213,7 @@ def completed_tasks():
                 'task_difficulty': task.task_difficulty,
                 'uuid': task.uuid,
                 'completed_by': task.completed_by,
-                'date_created': task.date_created.strftime("%Y-%m-%d %H:%M:%S")  # Custom format
-
+                'date_created': task.date_created.strftime("%Y-%m-%d %H:%M:%S")
             }
             for task in completed_tasks_list
         ]
@@ -224,12 +226,12 @@ def completed_tasks():
     finally:
         session.close()
 
-
 def process_messages():
-    """Process incoming messages from Kafka and store them in the database."""
+    """
+    Process incoming messages from Kafka and store them in the database.
+    """
     logger.info("Initializing Kafka consumer...")
     try:
-        # Initialize Kafka client and topic subscription
         client = KafkaClient(hosts=KAFKA_HOST)
         topic = client.topics[KAFKA_TOPIC.encode('utf-8')]
         consumer = topic.get_simple_consumer(
@@ -256,9 +258,10 @@ def process_messages():
     except Exception as e:
         logger.error(f"Error in Kafka consumer: {str(e)}")
 
-
 def store_event1(payload):
-    """Store Event1 in the database."""
+    """
+    Store an event of type 'create' in the database.
+    """
     session = Session()
     try:
         new_event = Create(
@@ -279,7 +282,9 @@ def store_event1(payload):
         session.close()
 
 def store_event2(payload):
-    """Store Event2 in the database."""
+    """
+    Store an event of type 'complete' in the database.
+    """
     session = Session()
     try:
         new_event = Complete(
@@ -310,3 +315,4 @@ if __name__ == "__main__":
 
     # Start the Flask application
     app.run(host="0.0.0.0", port=8090)
+

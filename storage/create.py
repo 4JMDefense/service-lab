@@ -6,7 +6,7 @@ from datetime import datetime
 from sqlalchemy import Column, Integer, String, DateTime
 from base import Base
 
-class Task(Base):
+class Create(Base):
     """
     Represents a task in the database.
     """
