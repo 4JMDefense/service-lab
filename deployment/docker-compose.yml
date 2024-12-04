@@ -78,7 +78,7 @@ services:
       - my-network
 
   processing:
-    image: processing
+    image: jmdizon5/processing:latest
     ports:
       - "8100:8100"
     network_mode: "host"
