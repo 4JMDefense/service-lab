@@ -117,7 +117,7 @@ def completed_tasks():
 def populate_stats():
     """Periodically update stats with incremental processing."""
     logger.info("Start Periodic Processing")
-    logger.info("ASSIGNMENT 3.")
+    logger.info("ASSIGNMENT 3!!")
 
     # Set timezone to UTC
     utc_tz = pytz.utc
