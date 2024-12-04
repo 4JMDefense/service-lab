@@ -1,3 +1,8 @@
+"""
+This script connects to an SQLite database and creates two tables: 'tasks' and 'completed_tasks'.
+The tables include columns for task details and timestamps.
+"""
+
 import sqlite3
 
 conn = sqlite3.connect('storage.db')  
@@ -26,5 +31,3 @@ c.execute('''
            date_created TIMESTAMP DEFAULT CURRENT_TIMESTAMP)
           ''')
 
-conn.commit()
-conn.close()

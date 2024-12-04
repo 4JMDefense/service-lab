@@ -1,3 +1,8 @@
+"""
+This script connects to a MySQL database to create a new user and grant privileges,
+and then creates the 'tasks' and 'completed_tasks' tables if they do not already exist.
+"""
+
 import mysql.connector
 
 # Connect as root to manage the database and users
@@ -5,10 +10,10 @@ try:
     db_conn = mysql.connector.connect(
         host="ec2-35-91-72-209.us-west-2.compute.amazonaws.com",
         user="root",
-        password="passpass",  
-        database="storage"           
+        password="passpass",
+        database="storage"
     )
-    
+
     db_cursor = db_conn.cursor()
 
     # Create the new user and grant privileges
@@ -33,8 +38,8 @@ try:
     db_conn = mysql.connector.connect(
         host="ec2-35-91-72-209.us-west-2.compute.amazonaws.com",
         user="suser",
-        password="passpass",  
-        database="storage",           
+        password="passpass",
+        database="storage",
         port=3306
     )
 
@@ -82,3 +87,4 @@ finally:
         db_cursor.close()  # Close the cursor if it exists
     if 'db_conn' in locals() and db_conn.is_connected():
         db_conn.close()  # Close the connection if it exists
+
