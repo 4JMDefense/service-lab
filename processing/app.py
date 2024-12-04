@@ -40,8 +40,8 @@ MAX_EVENTS = 5
 
 db_config = app_config['datastore']
 DATABASE_URL = (
-    f"mysql+pymysql://{db_config['user']}:{db_config['password']}@{db_config['hostname']}:"
-    f"{db_config['port']}/{db_config['db']}"
+    f"mysql+pymysql://{db_config['user']}:{db_config['password']}@"
+    f"{db_config['hostname']}:{db_config['port']}/{db_config['db']}"
 )
 engine = create_engine(DATABASE_URL)
 Session = sessionmaker(bind=engine)
@@ -144,10 +144,12 @@ def populate_stats():
     # Fetch new events data
     try:
         new_task_events = requests.get(
-            f"http://ec2-44-229-192-171.us-west-2.compute.amazonaws.com:8090/tasks?start_timestamp={start_timestamp}&end_timestamp={end_timestamp}"
+            f"http://ec2-44-229-192-171.us-west-2.compute.amazonaws.com:8090/tasks"
+            f"?start_timestamp={start_timestamp}&end_timestamp={end_timestamp}"
         )
         new_completed_events = requests.get(
-            f"http://ec2-44-229-192-171.us-west-2.compute.amazonaws.com:8090/completed_tasks?start_timestamp={start_timestamp}&end_timestamp={end_timestamp}"
+            f"http://ec2-44-229-192-171.us-west-2.compute.amazonaws.com:8090/completed_tasks"
+            f"?start_timestamp={start_timestamp}&end_timestamp={end_timestamp}"
         )
 
         # Log response statuses
