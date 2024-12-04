@@ -1,5 +1,13 @@
+"""
+This module defines the `Stats` class for interacting with the database.
+
+The `Stats` class represents an entry in the statistics table, including attributes for 
+task details and traceability.
+"""
+
 from sqlalchemy import Column, Integer, String, DateTime
 from base import Base  # Import your declarative base
+
 
 class Stats(Base):
     """
@@ -23,4 +31,21 @@ class Stats(Base):
     task_description = Column(String(255))
     task_difficulty = Column(String(50))
     uuid = Column(String(36))  # Adjust based on your UUID format
+
+    def to_dict(self):
+        """
+        Converts the `Stats` instance into a dictionary.
+
+        Returns:
+            dict: A dictionary representation of the stats entry.
+        """
+        return {
+            'id': self.id,
+            'trace_id': self.trace_id,
+            'task_name': self.task_name,
+            'due_date': self.due_date,
+            'task_description': self.task_description,
+            'task_difficulty': self.task_difficulty,
+            'uuid': self.uuid,
+        }
 
