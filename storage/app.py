@@ -47,6 +47,7 @@ def tasks():
     """
     Retrieve tasks from the database with optional timestamp filtering.
     """
+    logger.info("assignment 3")
     session = Session()
     try:
         start_timestamp = request.args.get('start_timestamp')
