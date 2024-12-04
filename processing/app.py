@@ -1,3 +1,11 @@
+"""
+This module provides an API for managing tasks and statistics.
+
+It includes endpoints for retrieving tasks, completed tasks, and statistics.
+Additionally, it periodically fetches new task data and updates statistics stored in a JSON file.
+The module uses Flask for the API and APScheduler for periodic processing.
+"""
+
 import json
 import logging
 import logging.config
