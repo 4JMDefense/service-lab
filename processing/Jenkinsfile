@@ -1,4 +1,6 @@
-@Library('shared-library') _
+@Library('shared-library@main') _
 
-pipeline('John-processing')
+
+ci_services('processing', 'latest', 'processing')
+
 
