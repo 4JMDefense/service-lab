@@ -8,7 +8,7 @@ from sqlalchemy.orm import sessionmaker
 from base import Base
 
 # Ensure that the DATABASE_URL is correct for your environment
-DATABASE_URL = 'mysql+pymysql://suser:passpass@localhost:3306/events'  
+DATABASE_URL = 'mysql+pymysql://suser:passpass@localhost:3306/events'
 engine = create_engine(DATABASE_URL)
 Session = sessionmaker(bind=engine)
 
@@ -56,3 +56,4 @@ class Complete(Base):
             'date_created': self.date_created,
             'trace_id': self.trace_id
         }
+
