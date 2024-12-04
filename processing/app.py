@@ -1,82 +1,119 @@
-"""
-App module for task processing and statistics management.
-
-This module defines endpoints for task retrieval, statistics computation,
-and scheduler initialization. It also configures logging and database connections.
-"""
-
-import os
 import json
-import yaml
 import logging
-import requests
-import pytz
 import logging.config
+import os
 from datetime import datetime
+
+import connexion
+import pytz
+import requests
+import yaml
+from apscheduler.schedulers.background import BackgroundScheduler
 from flask import jsonify, request
+from flask_cors import CORS
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from apscheduler.schedulers.background import BackgroundScheduler
-from flask_cors import CORS
-import connexion
 
 # Load logging configuration
-with open('log_conf.yml', 'r', encoding='utf-8') as f:
-    log_config = yaml.safe_load(f)
+with open('log_conf.yml', 'r') as f:
+    log_config = yaml.safe_load(f.read())
     logging.config.dictConfig(log_config)
 
 # Create a logger instance
 logger = logging.getLogger('basicLogger')
 
-# Load application configuration
-with open('app_conf.yml', 'r', encoding='utf-8') as f:
-    app_config = yaml.safe_load(f)
+# MySQL info
+with open('app_conf.yml', 'r') as f:
+    app_config = yaml.safe_load(f.read())
 
 # Constants
 TASK_FILE = 'tasks.json'
 MAX_EVENTS = 5
+
 db_config = app_config['datastore']
 DATABASE_URL = (
-    f"mysql+pymysql://{db_config['user']}:{db_config['password']}@"
-    f"{db_config['hostname']}:{db_config['port']}/{db_config['db']}"
+    f"mysql+pymysql://{db_config['user']}:{db_config['password']}@{db_config['hostname']}:"
+    f"{db_config['port']}/{db_config['db']}"
 )
 engine = create_engine(DATABASE_URL)
 Session = sessionmaker(bind=engine)
+
 STATS_FILE = app_config['datastore']['filename']
 PERIODIC_INTERVAL = app_config['scheduler']['period_sec']
 
 
 def tasks():
-    """Retrieve tasks from the external service based on optional timestamp filters."""
+    """Fetch and return tasks from an external service based on provided timestamps."""
     try:
+        # Get timestamp parameters from the query string
         start_timestamp = request.args.get('start_timestamp')
         end_timestamp = request.args.get('end_timestamp')
 
+        # Prepare the query parameters
         params = {}
         if start_timestamp:
             params['start_timestamp'] = start_timestamp
         if end_timestamp:
             params['end_timestamp'] = end_timestamp
 
-        response = requests.get("http://external_service_url/tasks", params=params)
+        # Query the external service (Updated API URL)
+        response = requests.get(
+            "http://ec2-44-229-192-171.us-west-2.compute.amazonaws.com:8090/tasks",
+            params=params,
+        )
 
         if response.status_code == 200:
             tasks_data = response.json()
-            logger.info("Retrieved %d tasks", len(tasks_data))
+            logger.info("Tasks retrieved: %d tasks", len(tasks_data))
             return jsonify(tasks_data), 200
-
-        logger.error("Error retrieving tasks: %s", response.text)
+        else:
+            logger.error("Error retrieving tasks: %s", response.text)
+            return jsonify({"message": "Tasks not found"}), 400
+    except Exception as e:
+        logger.error("Exception in tasks: %s", str(e))
         return jsonify({"message": "Tasks not found"}), 400
 
-    except requests.RequestException as req_error:
-        logger.error("Request error in tasks: %s", str(req_error))
-        return jsonify({"message": "Tasks not found"}), 400
+
+def completed_tasks():
+    """Fetch and return completed tasks from an external service based on provided timestamps."""
+    try:
+        # Get timestamp parameters from the query string
+        start_timestamp = request.args.get('start_timestamp')
+        end_timestamp = request.args.get('end_timestamp')
+
+        # Prepare the query parameters
+        params = {}
+        if start_timestamp:
+            params['start_timestamp'] = start_timestamp
+        if end_timestamp:
+            params['end_timestamp'] = end_timestamp
+
+        # Query the external service (Updated API URL)
+        response = requests.get(
+            "http://ec2-44-229-192-171.us-west-2.compute.amazonaws.com:8090/completed_tasks",
+            params=params,
+        )
+
+        if response.status_code == 200:
+            completed_tasks_data = response.json()
+            logger.info("Completed tasks retrieved: %d tasks", len(completed_tasks_data))
+            return jsonify(completed_tasks_data), 200
+        else:
+            logger.error("Error retrieving completed tasks: %s", response.text)
+            return jsonify({"message": "Completed tasks not found"}), 400
+    except Exception as e:
+        logger.error("Exception in completed_tasks: %s", str(e))
+        return jsonify({"message": "Completed tasks not found"}), 400
 
 
 def populate_stats():
     """Periodically update stats with incremental processing."""
-    logger.info("Start periodic processing")
+    logger.info("Start Periodic Processing")
+
+    # Set timezone to UTC
     utc_tz = pytz.utc
+
+    # Initialize default stats structure
     stats = {
         "num_tasks": 0,
         "completed_tasks": 0,
@@ -85,23 +122,39 @@ def populate_stats():
         "last_updated": datetime.now(utc_tz).strftime('%Y-%m-%dT%H:%M:%SZ')
     }
 
+    # Load existing stats
     if os.path.exists(STATS_FILE):
-        with open(STATS_FILE, 'r', encoding='utf-8') as file:
+        with open(STATS_FILE, 'r') as file:
             stats = json.load(file)
 
+    # Update timestamps
     start_timestamp = stats["last_updated"]
     end_timestamp = datetime.now(utc_tz).strftime('%Y-%m-%dT%H:%M:%SZ')
 
+    logger.debug("Fetching tasks from %s to %s", start_timestamp, end_timestamp)
+
+    # Fetch new events data
     try:
-        task_resp = requests.get(
-            f"http://external_service_url/tasks?start_timestamp={start_timestamp}&end_timestamp={end_timestamp}")
-        completed_resp = requests.get(
-            f"http://external_service_url/completed_tasks?start_timestamp={start_timestamp}&end_timestamp={end_timestamp}")
+        new_task_events = requests.get(
+            f"http://ec2-44-229-192-171.us-west-2.compute.amazonaws.com:8090/tasks?start_timestamp={start_timestamp}&end_timestamp={end_timestamp}"
+        )
+        new_completed_events = requests.get(
+            f"http://ec2-44-229-192-171.us-west-2.compute.amazonaws.com:8090/completed_tasks?start_timestamp={start_timestamp}&end_timestamp={end_timestamp}"
+        )
 
-        if task_resp.status_code == 200 and completed_resp.status_code == 200:
-            task_data = task_resp.json()
-            completed_data = completed_resp.json()
+        # Log response statuses
+        logger.debug("Task Events Status: %d", new_task_events.status_code)
+        logger.debug("Completed Events Status: %d", new_completed_events.status_code)
 
+        # Check for successful responses
+        if new_task_events.status_code == 200 and new_completed_events.status_code == 200:
+            task_data = new_task_events.json()
+            completed_data = new_completed_events.json()
+
+            logger.debug("Task Data: %s", task_data)
+            logger.debug("Completed Data: %s", completed_data)
+
+            # Increment counts based on the fetched data
             stats["num_tasks"] += len(task_data)
             stats["completed_tasks"] += len(completed_data)
 
@@ -109,44 +162,55 @@ def populate_stats():
                 max_difficulty = max(task["task_difficulty"] for task in task_data)
                 stats["max_task_difficulty"] = max(stats["max_task_difficulty"], max_difficulty)
 
+                # Update average based on the new tasks
                 total_difficulty = (
-                    (stats["avg_task_difficulty"] * (stats["num_tasks"] - len(task_data))) +
-                    sum(task["task_difficulty"] for task in task_data)
+                    (stats["avg_task_difficulty"] * (stats["num_tasks"] - len(task_data)))
+                    + sum(task["task_difficulty"] for task in task_data)
                 )
-                stats["avg_task_difficulty"] = total_difficulty / max(stats["num_tasks"], 1)
+                stats["avg_task_difficulty"] = total_difficulty / (stats["num_tasks"] or 1)  # Avoid division by zero
 
+            # Update last_updated timestamp
             stats["last_updated"] = end_timestamp
 
-            with open(STATS_FILE, 'w', encoding='utf-8') as file:
-                json.dump(stats, file)
+            # Ensure the directory exists
+            stats_dir = os.path.dirname(STATS_FILE)
+            if not os.path.exists(stats_dir):
+                os.makedirs(stats_dir)
 
+            # Write updated stats to file
+            with open(STATS_FILE, 'w') as file:
+                json.dump(stats, file)
             logger.info("Statistics updated successfully")
+            logger.debug("Updated statistics: %s", stats)
         else:
             logger.error("Failed to fetch data")
-            logger.error("Task events error: %s", task_resp.text)
-            logger.error("Completed events error: %s", completed_resp.text)
+            if new_task_events.status_code != 200:
+                logger.error("Task Events Error: %s", new_task_events.text)
+            if new_completed_events.status_code != 200:
+                logger.error("Completed Events Error: %s", new_completed_events.text)
 
-    except requests.RequestException as req_error:
-        logger.error("Exception occurred: %s", str(req_error))
+    except Exception as e:
+        logger.error("Exception occurred: %s", str(e))
 
-    logger.info("End periodic processing")
+    logger.info("End Periodic Processing")
 
 
 def get_stats():
     """Retrieve statistics from the stats JSON file."""
     try:
+        # Check if the stats file exists
         if not os.path.exists(STATS_FILE):
             logger.error("Stats file not found")
             return jsonify({"message": "Stats file not found"}), 404
 
-        with open(STATS_FILE, 'r', encoding='utf-8') as file:
+        # Read the stats from the file
+        with open(STATS_FILE, 'r') as file:
             stats = json.load(file)
 
         logger.info("Statistics retrieved successfully")
         return jsonify(stats), 200
-
-    except Exception as gen_error:
-        logger.error("Exception in get_stats: %s", str(gen_error))
+    except Exception as e:
+        logger.error("Exception in get_stats: %s", str(e))
         return jsonify({"message": "Failed to retrieve stats"}), 500
 
 
