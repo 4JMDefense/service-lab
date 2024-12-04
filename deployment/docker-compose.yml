@@ -66,7 +66,7 @@ services:
       - my-network
 
   storage:
-    image: storage
+    image: jmdizon5/storage:latest
     ports:
       - "8090:8090"
     depends_on:
