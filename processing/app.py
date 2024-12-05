@@ -1,17 +1,8 @@
-"""
-This module provides an API for managing tasks and statistics.
-
-It includes endpoints for retrieving tasks, completed tasks, and statistics.
-Additionally, it periodically fetches new task data and updates statistics stored in a JSON file.
-The module uses Flask for the API and APScheduler for periodic processing.
-"""
-
+import os
 import json
 import logging
 import logging.config
-import os
 from datetime import datetime
-
 import connexion
 import pytz
 import requests
@@ -22,22 +13,39 @@ from flask_cors import CORS
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-# Load logging configuration
-with open('log_conf.yml', 'r') as f:
+# Check for the environment and set config file paths accordingly
+if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
+    print("In Test Environment")
+    app_conf_file = "/config/app_conf.yml"
+    log_conf_file = "/config/log_conf.yml"
+else:
+    print("In Dev Environment")
+    app_conf_file = "app_conf.yml"
+    log_conf_file = "log_conf.yml"
+
+# Load application and logging configurations
+with open(app_conf_file, 'r') as f:
+    app_config = yaml.safe_load(f.read())
+
+with open(log_conf_file, 'r') as f:
     log_config = yaml.safe_load(f.read())
     logging.config.dictConfig(log_config)
 
+if "TARGET_ENV" not in os.environ or os.environ["TARGET_ENV"] != "test":
+    CORS(app.app)
+app.app.config['CORS_HEADERS'] = 'Content-Type'
+
+
 # Create a logger instance
 logger = logging.getLogger('basicLogger')
-
-# MySQL info
-with open('app_conf.yml', 'r') as f:
-    app_config = yaml.safe_load(f.read())
+logger.info("App Conf File: %s", app_conf_file)
+logger.info("Log Conf File: %s", log_conf_file)
 
 # Constants
 TASK_FILE = 'tasks.json'
 MAX_EVENTS = 5
 
+# Database configuration
 db_config = app_config['datastore']
 DATABASE_URL = (
     f"mysql+pymysql://{db_config['user']}:{db_config['password']}@"
@@ -46,27 +54,24 @@ DATABASE_URL = (
 engine = create_engine(DATABASE_URL)
 Session = sessionmaker(bind=engine)
 
+# Stats file and scheduler interval
 STATS_FILE = app_config['datastore']['filename']
 PERIODIC_INTERVAL = app_config['scheduler']['period_sec']
-
 
 def tasks():
     """Fetch and return tasks from an external service based on provided timestamps."""
     try:
-        # Get timestamp parameters from the query string
         start_timestamp = request.args.get('start_timestamp')
         end_timestamp = request.args.get('end_timestamp')
 
-        # Prepare the query parameters
         params = {}
         if start_timestamp:
             params['start_timestamp'] = start_timestamp
         if end_timestamp:
             params['end_timestamp'] = end_timestamp
 
-        # Query the external service (Updated API URL)
         response = requests.get(
-            "http://ec2-44-229-192-171.us-west-2.compute.amazonaws.com:8090/tasks",
+            "http://ec2-44-229-192-171.us-west-2.compute.amazonaws.com/storage/tasks",
             params=params,
         )
 
@@ -81,24 +86,20 @@ def tasks():
         logger.error("Exception in tasks: %s", str(e))
         return jsonify({"message": "Tasks not found"}), 400
 
-
 def completed_tasks():
     """Fetch and return completed tasks from an external service based on provided timestamps."""
     try:
-        # Get timestamp parameters from the query string
         start_timestamp = request.args.get('start_timestamp')
         end_timestamp = request.args.get('end_timestamp')
 
-        # Prepare the query parameters
         params = {}
         if start_timestamp:
             params['start_timestamp'] = start_timestamp
         if end_timestamp:
             params['end_timestamp'] = end_timestamp
 
-        # Query the external service (Updated API URL)
         response = requests.get(
-            "http://ec2-44-229-192-171.us-west-2.compute.amazonaws.com:8090/completed_tasks",
+            "http://ec2-44-229-192-171.us-west-2.compute.amazonaws.com/storage/completed_tasks",
             params=params,
         )
 
@@ -113,15 +114,12 @@ def completed_tasks():
         logger.error("Exception in completed_tasks: %s", str(e))
         return jsonify({"message": "Completed tasks not found"}), 400
 
-
 def populate_stats():
     """Periodically update stats with incremental processing."""
     logger.info("Start Periodic Processing")
+    logger.info("ASSIGNMENT 3!")
 
-    # Set timezone to UTC
     utc_tz = pytz.utc
-
-    # Initialize default stats structure
     stats = {
         "num_tasks": 0,
         "completed_tasks": 0,
@@ -130,33 +128,28 @@ def populate_stats():
         "last_updated": datetime.now(utc_tz).strftime('%Y-%m-%dT%H:%M:%SZ')
     }
 
-    # Load existing stats
     if os.path.exists(STATS_FILE):
         with open(STATS_FILE, 'r') as file:
             stats = json.load(file)
 
-    # Update timestamps
     start_timestamp = stats["last_updated"]
     end_timestamp = datetime.now(utc_tz).strftime('%Y-%m-%dT%H:%M:%SZ')
 
     logger.debug("Fetching tasks from %s to %s", start_timestamp, end_timestamp)
 
-    # Fetch new events data
     try:
         new_task_events = requests.get(
-            f"http://ec2-44-229-192-171.us-west-2.compute.amazonaws.com:8090/tasks"
+            f"http://ec2-44-229-192-171.us-west-2.compute.amazonaws.com/storage/tasks"
             f"?start_timestamp={start_timestamp}&end_timestamp={end_timestamp}"
         )
         new_completed_events = requests.get(
-            f"http://ec2-44-229-192-171.us-west-2.compute.amazonaws.com:8090/completed_tasks"
+            f"http://ec2-44-229-192-171.us-west-2.compute.amazonaws.com/storage/completed_tasks"
             f"?start_timestamp={start_timestamp}&end_timestamp={end_timestamp}"
         )
 
-        # Log response statuses
         logger.debug("Task Events Status: %d", new_task_events.status_code)
         logger.debug("Completed Events Status: %d", new_completed_events.status_code)
 
-        # Check for successful responses
         if new_task_events.status_code == 200 and new_completed_events.status_code == 200:
             task_data = new_task_events.json()
             completed_data = new_completed_events.json()
@@ -164,7 +157,6 @@ def populate_stats():
             logger.debug("Task Data: %s", task_data)
             logger.debug("Completed Data: %s", completed_data)
 
-            # Increment counts based on the fetched data
             stats["num_tasks"] += len(task_data)
             stats["completed_tasks"] += len(completed_data)
 
@@ -172,22 +164,18 @@ def populate_stats():
                 max_difficulty = max(task["task_difficulty"] for task in task_data)
                 stats["max_task_difficulty"] = max(stats["max_task_difficulty"], max_difficulty)
 
-                # Update average based on the new tasks
                 total_difficulty = (
                     (stats["avg_task_difficulty"] * (stats["num_tasks"] - len(task_data)))
                     + sum(task["task_difficulty"] for task in task_data)
                 )
-                stats["avg_task_difficulty"] = total_difficulty / (stats["num_tasks"] or 1)  # Avoid division by zero
+                stats["avg_task_difficulty"] = total_difficulty / (stats["num_tasks"] or 1)
 
-            # Update last_updated timestamp
             stats["last_updated"] = end_timestamp
 
-            # Ensure the directory exists
             stats_dir = os.path.dirname(STATS_FILE)
             if not os.path.exists(stats_dir):
                 os.makedirs(stats_dir)
 
-            # Write updated stats to file
             with open(STATS_FILE, 'w') as file:
                 json.dump(stats, file)
             logger.info("Statistics updated successfully")
@@ -204,16 +192,13 @@ def populate_stats():
 
     logger.info("End Periodic Processing")
 
-
 def get_stats():
     """Retrieve statistics from the stats JSON file."""
     try:
-        # Check if the stats file exists
         if not os.path.exists(STATS_FILE):
             logger.error("Stats file not found")
             return jsonify({"message": "Stats file not found"}), 404
 
-        # Read the stats from the file
         with open(STATS_FILE, 'r') as file:
             stats = json.load(file)
 
@@ -223,7 +208,6 @@ def get_stats():
         logger.error("Exception in get_stats: %s", str(e))
         return jsonify({"message": "Failed to retrieve stats"}), 500
 
-
 def init_scheduler():
     """Initialize and start the scheduler for periodic processing."""
     sched = BackgroundScheduler(daemon=True)
@@ -231,10 +215,10 @@ def init_scheduler():
     sched.start()
     logger.info("Scheduler initialized and started")
 
-
 # Initialize Connexion app
 app = connexion.FlaskApp(__name__, specification_dir='')
-app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
+#app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
+app.add_api("openapi.yaml", base_path="/processing", strict_validation=True, validate_responses=True)
 CORS(app.app)
 
 if __name__ == "__main__":

@@ -16,16 +16,29 @@ import threading
 from pykafka import KafkaClient
 from pykafka.common import OffsetType
 
+# Determine configuration file paths based on environment
+if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
+    print("In Test Environment")
+    app_conf_file = "/config/app_conf.yml"
+    log_conf_file = "/config/log_conf.yml"
+else:
+    print("In Dev Environment")
+    app_conf_file = "app_conf.yml"
+    log_conf_file = "log_conf.yml"
+
 # Configure logging
-with open('log_conf.yml', 'r') as f:
+with open(log_conf_file, 'r') as f:
     log_config = yaml.safe_load(f.read())
     logging.config.dictConfig(log_config)
 
 logger = logging.getLogger('basicLogger')
+logger.info("Log Conf File: %s" % log_conf_file)
 
-# Load configuration
-with open('app_conf.yml', 'r') as f:
+# Load application configuration
+with open(app_conf_file, 'r') as f:
     app_config = yaml.safe_load(f.read())
+
+logger.info("App Conf File: %s" % app_conf_file)
 
 # Constants
 TASK_FILE = 'tasks.json'
@@ -47,6 +60,7 @@ def tasks():
     """
     Retrieve tasks from the database with optional timestamp filtering.
     """
+    logger.info("assignment 3.")
     session = Session()
     try:
         start_timestamp = request.args.get('start_timestamp')
@@ -305,7 +319,9 @@ def store_event2(payload):
 
 # Initialize Connexion app
 app = connexion.FlaskApp(__name__, specification_dir='')
-app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
+#app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
+app.add_api("openapi.yaml", base_path="/storage", strict_validation=True, validate_responses=True)
+
 
 if __name__ == "__main__":
     # Start the Kafka consumer in a separate thread

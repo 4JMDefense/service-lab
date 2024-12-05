@@ -9,6 +9,7 @@ services:
       - my-network
     volumes:
       - /home/ubuntu/zookeeper/data:/opt/zookeeper-3.4.13/data
+      - /home/ubuntu/logs:/logs  # Mount the logs directory
 
   kafka:
     image: wurstmeister/kafka
@@ -29,6 +30,7 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - /home/ubuntu/kafka:/kafka/kafka-logs
+      - /home/ubuntu/logs:/logs  # Mount the logs directory
     depends_on:
       - zookeeper
     networks:
@@ -53,56 +55,94 @@ services:
       - '3306'
     volumes:
       - my-db:/var/lib/mysql
+      - /home/ubuntu/logs:/logs  # Mount the logs directory
     networks:
       - my-network
 
   receiver:
     image: jmdizon5/receiver:latest
     ports:
-      - "8080:8080"
+      - "8080"
     depends_on:
       - kafka
     networks:
-      - my-network
+      - api.network
+    environment:
+      - TARGET_ENV=test
+    volumes:
+      - /home/ubuntu/config/receiver:/config
+      - /home/ubuntu/logs:/logs  # Mount the logs directory
 
   storage:
     image: jmdizon5/storage:latest
     ports:
-      - "8090:8090"
+      - "8090"
     depends_on:
       kafka:
         condition: service_healthy
       db:
         condition: service_started
     networks:
-      - my-network
+      - api.network
+    environment:
+      - TARGET_ENV=test
+    volumes:
+      - /home/ubuntu/config/storage:/config
+      - /home/ubuntu/logs:/logs  # Mount the logs directory
 
   processing:
     image: jmdizon5/processing:latest
     ports:
-      - "8100:8100"
-    network_mode: "host"
+      - "8100"
     depends_on:
       - storage
+    networks:
+      - api.network
+    environment:
+      - TARGET_ENV=test
+    volumes:
+      - /home/ubuntu/config/processing:/config
+      - /home/ubuntu/logs:/logs  # Mount the logs directory
 
   analyzer:
     image: analyzer
     ports:
-      - "8110:8110"
+      - "8110"
     depends_on:
       - kafka
     networks:
-      - my-network
+      - api.network
+    environment:
+      - TARGET_ENV=test
+    volumes:
+      - /home/ubuntu/config/analyzer:/config
+      - /home/ubuntu/logs:/logs  # Mount the logs directory
 
   dashboard: 
     image: dashboard
     ports:
-      - "8888:8888"
+      - "8888"
     networks:
-      - my-network
+      - api.network
+
+  nginx:
+    image: nginx:latest
+    volumes:
+      - /home/ubuntu/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - "receiver"
+      - "storage"
+      - "processing"
+      - "analyzer"
+      - "dashboard"
+    networks:
+      - api.network
+    ports:
+      - "80:80"
 
 networks:
   my-network:
+  api.network:
 
 volumes:
   my-db:
