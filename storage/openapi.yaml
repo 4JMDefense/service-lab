@@ -159,7 +159,21 @@ paths:
         '400':
           description: Error has occurred, task completion unsuccessful
 
+  /stats: 
+   get:
+     summary: gets the event stats
+     operationId: app.get_event_stats
+     description: Gets the stats of the history events 
+     responses:
+       '200':
+         description: Successfully returned a heart rate event 
+         content:
+           application/json: 
+             schema:
+               $ref: '#/components/schemas/Stats'  
+
  
+
 components:
   schemas:
     Task:
@@ -177,5 +191,20 @@ components:
         status:
           type: string
           example: 'incomplete'
+    
+    Stats:
+      required:
+        - num_tasks
+        - num_complete
+      properties:
+        num_tasks:
+          type: integer
+          example: 100
+        num_complete:
+          type: integer
+          example: 100
+
+
+
 
  

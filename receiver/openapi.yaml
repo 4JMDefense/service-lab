@@ -4,6 +4,7 @@ info:
   title: 'Calendar Task Manager'
   description: Calendar task creation, viewing, and completion
 paths:
+
   /tasks:
     get:
       description: Returns a list of tasks 
@@ -93,3 +94,12 @@ paths:
           description: Task successfully completed 
         '400':
           description: Error has occurred, task completion unsuccessful
+
+  /check:
+   get:
+     summary: Checks the health of the Receiver
+     operationId: app.get_check
+     description: Service is healthy if this service returns a response
+     responses:
+       '200':
+         description: OK

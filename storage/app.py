@@ -317,6 +317,19 @@ def store_event2(payload):
     finally:
         session.close()
 
+def get_event_stats():
+    session = Session()
+    
+    num_tasks = session.query(storage.tasks).count()
+    num_complete = session.query(storage.completed_tasks).count()
+    
+    temp = { 
+            "num_tasks": num_tasks,
+            "num_complete": num_complete
+            }
+    return jsonify(temp), 200
+    session.close()
+
 # Initialize Connexion app
 app = connexion.FlaskApp(__name__, specification_dir='')
 #app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
