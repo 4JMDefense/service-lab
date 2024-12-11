@@ -1,0 +1,11 @@
+version: 1
+events:
+  hostname: ec2-44-229-192-171.us-west-2.compute.amazonaws.com  # Use the service name defined in Docker Compose or the hostname of your Kafka broker
+  port: 9092       # Kafka port (default is 9092)
+  topic: events    # Topic to be used for event streaming
+data_store:
+  filepath: /data/anomalies.json  # Path for storing anomalies in the container
+thresholds:
+  create: 140  # Example threshold for blood pressure
+  complete: 40   # Example threshold for heart rate
+
